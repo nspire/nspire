@@ -2,11 +2,15 @@ body {
 	padding-top: 70px;
 }
 
-.navbar-brand {
+.navbar-logo, .navbar-nav>li>a.navbar-logo {
 	padding-top: 0;
 	padding-bottom: 0;
 }
+.navbar-nav>li>a.navbar-social {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
-.navbar-brand img {
-	width: 6em;
+.navbar-logo img {
+	height: 50px;
 }
