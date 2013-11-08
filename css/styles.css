@@ -1,5 +1,9 @@
 ---
 ---
+.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+}
+
 .navbar-logo, .navbar-nav > li > a.navbar-logo {
 	padding: 0;
 }
