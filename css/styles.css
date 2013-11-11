@@ -89,3 +89,33 @@
 	border: 1px solid #662288;
 	color: #662288;
 }
+
+.row.newsletter {
+	height: 20em;
+	background: #3388cc;
+}
+
+.row.about {
+	background: #ddd;
+}
+
+.row.about h1, .row.about .jumbotron h2 {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.about .jumbotron {
+	border-radius: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.row.about .jumbotron img {
+	width: 4em;
+}
+
+.row.about .jumbotron p {
+	margin: 2em;
+	margin-left: 20%;
+	margin-right: 20%;
+}
