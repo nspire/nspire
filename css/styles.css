@@ -1,5 +1,14 @@
 ---
 ---
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+	font-family: 'Caecilia LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: light;
+}
+
 .navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 }
@@ -32,9 +41,206 @@
 .row.intro img {
 	position: absolute;
 	width: 50vw;
-	height: 20vw;
 	left: 50%;
 	margin-left: -25vw;
 	top: 50%;
 	margin-top: -10vw;
+}
+
+.row.what-is-nspire h1 {
+	text-transform: uppercase;
+}
+
+.row.what-is-nspire .what-is-nspire-logo {
+	height: 2em;
+	position: relative;
+	top: -0.2em;
+}
+
+.row.what-is-nspire p {
+	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
+
+.row.what-is-nspire .pillar h2 {
+	text-transform: uppercase;
+}
+
+.row.what-is-nspire .pillar-logo {
+	width: 40%;
+}
+
+.row.what-is-nspire .pillar p {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.row.what-is-nspire .pillar a {
+	background: white;
+	text-transform: uppercase;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 3em;
+}
+
+.row.what-is-nspire .pillar.connect a {
+	border: 1px solid #3388cc;
+	color: #3388cc;
+}
+
+.row.what-is-nspire .pillar.empower a {
+	border: 1px solid #ff9922;
+	color: #ff9922;
+}
+
+.row.what-is-nspire .pillar.inspire a {
+	border: 1px solid #662288;
+	color: #662288;
+}
+
+.row.newsletter {
+	height: 20em;
+	background: #3388cc;
+	color: white;
+}
+
+.row.about {
+	background: #ddd;
+}
+
+.row.about h1, .row.about .jumbotron h2 {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.about .jumbotron {
+	border-radius: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.row.about .jumbotron img {
+	width: 4em;
+}
+
+.row.about .jumbotron p {
+	margin: 2em;
+}
+
+.row.initiatives {
+	background: #3388cc;
+	color: white;
+}
+
+.row.initiatives h1 {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.initiatives p {
+	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
+
+@media only screen and (max-width: 767px) {
+	.row.initiatives .initiative  {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 2em;
+	}
+}
+
+.row.initiatives .initiative .initiative-logo {
+	width: 80%;
+}
+
+.row.initiatives .initiative p {
+	margin-top: 2em;
+	margin-right: 0;
+	margin-bottom: 2em;
+	margin-left: 0;
+}
+
+.row.team h1 {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.team p {
+	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
+
+.row.join {
+	background: #ddd;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.row.join h2 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+
+.row.join a {
+	width: 20%;
+	text-transform: uppercase;
+	color: white;
+	background: #ff9922;
+	border-radius: 0;
+	font-size: 1.2em;
+	padding: 0.6em;
+	margin: 1em;
+}
+
+.row.events {
+	background: #3388cc;
+	color: white;
+}
+
+.row.events h1 {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.events p {
+	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
+
+.row.media h1 {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.media p {
+	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
+
+.row.media .media-logo {
+	height: 2em;
+	position: relative;
+	top: -0.2em;
+}
+
+.row.footer {
+	background: rgb(65, 65, 65);
+	height: 15em;
+}
+
+.row.footer h2 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 1em;
+	margin-top: 5em;
+}
+
+.row.footer .social a {
+	color: rgb(65, 65, 65);
 }
