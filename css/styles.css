@@ -177,10 +177,13 @@
 }
 
 .row.join a {
-	width: 15%;
+	width: 20%;
 	text-transform: uppercase;
 	color: white;
 	background: #ff9922;
+	border-radius: 0;
+	font-size: 1.2em;
+	padding: 0.6em;
 	margin: 1em;
 }
 
