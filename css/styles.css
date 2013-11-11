@@ -199,3 +199,20 @@
 	margin-bottom: 2em;
 	margin-left: 20%;
 }
+
+.row.media h1 {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.media p {
+	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
+
+.row.media .media-logo {
+	height: 2em;
+	position: relative;
+	top: -0.2em;
+}
