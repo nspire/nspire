@@ -164,3 +164,22 @@
 	margin-bottom: 2em;
 	margin-left: 20%;
 }
+
+.row.join {
+	background: #ddd;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.row.join h2 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+
+.row.join a {
+	width: 15%;
+	text-transform: uppercase;
+	color: white;
+	background: #ff9922;
+	margin: 1em;
+}
