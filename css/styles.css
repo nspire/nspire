@@ -183,3 +183,19 @@
 	background: #ff9922;
 	margin: 1em;
 }
+
+.row.events {
+	background: #3388cc;
+	color: white;
+}
+
+.row.events h1 {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.events p {
+	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
