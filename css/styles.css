@@ -1,5 +1,14 @@
 ---
 ---
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+	font-family: 'Caecilia LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: light;
+}
+
 .navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 }

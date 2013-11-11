@@ -1,0 +1,12 @@
+---
+---
+@font-face {
+	font-family: 'Caecilia LT Std';
+	src: url('{{ site.baseurl }}/font/caecilialtstd-light.eot');
+	src: url('{{ site.baseurl }}/font/caecilialtstd-light.eot?#iefix') format('embedded-opentype'),
+	url('{{ site.baseurl }}/font/caecilialtstd-light.woff') format('woff'),
+	url('{{ site.baseurl }}/font/caecilialtstd-light.ttf') format('truetype'),
+	url('{{ site.baseurl }}/font/caecilialtstd-light.svg#caecilia_lt_std45_light') format('svg');
+	font-weight: light;
+	font-style: normal;
+}
