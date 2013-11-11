@@ -93,6 +93,7 @@
 .row.newsletter {
 	height: 20em;
 	background: #3388cc;
+	color: white;
 }
 
 .row.about {
@@ -116,6 +117,39 @@
 
 .row.about .jumbotron p {
 	margin: 2em;
-	margin-left: 20%;
+}
+
+.row.initiatives {
+	background: #3388cc;
+	color: white;
+}
+
+.row.initiatives h1 {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.initiatives p {
 	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
+
+@media only screen and (max-width: 767px) {
+	.row.initiatives .initiative  {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 2em;
+	}
+}
+
+.row.initiatives .initiative .initiative-logo {
+	width: 80%;
+}
+
+.row.initiatives .initiative p {
+	margin-top: 2em;
+	margin-right: 0;
+	margin-bottom: 2em;
+	margin-left: 0;
 }
