@@ -37,3 +37,55 @@
 	top: 50%;
 	margin-top: -10vw;
 }
+
+.row.what-is-nspire h1 {
+	text-transform: uppercase;
+}
+
+.row.what-is-nspire .what-is-nspire-logo {
+	height: 2em;
+	position: relative;
+	top: -0.2em;
+}
+
+.row.what-is-nspire p {
+	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
+
+.row.what-is-nspire .pillar h2 {
+	text-transform: uppercase;
+}
+
+.row.what-is-nspire .pillar-logo {
+	width: 40%;
+}
+
+.row.what-is-nspire .pillar p {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.row.what-is-nspire .pillar a {
+	background: white;
+	text-transform: uppercase;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 3em;
+}
+
+.row.what-is-nspire .pillar.connect a {
+	border: 1px solid #3388cc;
+	color: #3388cc;
+}
+
+.row.what-is-nspire .pillar.empower a {
+	border: 1px solid #ff9922;
+	color: #ff9922;
+}
+
+.row.what-is-nspire .pillar.inspire a {
+	border: 1px solid #662288;
+	color: #662288;
+}
