@@ -198,12 +198,12 @@ p {
 }
 
 .row.initiatives {
-	background: #3388cc;
-	color: white;
+	background: #5599cc;
+	padding-top: 4em;
+	padding-bottom: 4em;
 }
 
 .row.initiatives h1 {
-	margin: 1em;
 	text-transform: uppercase;
 }
 
@@ -213,23 +213,18 @@ p {
 	margin-left: 20%;
 }
 
-@media only screen and (max-width: 767px) {
-	.row.initiatives .initiative  {
-		width: 80%;
-		margin: auto;
-		margin-bottom: 2em;
-	}
+.row.initiatives .pillar-info {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
 }
 
-.row.initiatives .initiative .initiative-logo {
-	width: 80%;
+.row.initiatives .pillar-logo {
+	width: 100%;
 }
 
-.row.initiatives .initiative p {
+.row.initiatives .pillar p {
+	margin: 0;
 	margin-top: 2em;
-	margin-right: 0;
-	margin-bottom: 2em;
-	margin-left: 0;
 }
 
 .row.team h1 {
