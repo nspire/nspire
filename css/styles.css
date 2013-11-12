@@ -107,8 +107,7 @@ p {
 }
 
 .row.what-is-nspire .pillar p {
-	margin-left: 0;
-	margin-right: 0;
+	margin: 0;
 }
 
 .row.newsletter {
@@ -164,26 +163,38 @@ p {
 }
 
 .row.about {
-	background: #ddd;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	background: #77aadd;
 }
 
-.row.about h1, .row.about .jumbotron h2 {
-	margin: 1em;
+.row.about h1 {
 	text-transform: uppercase;
+	color: white;
+	margin-bottom: 1em;
 }
 
-.row.about .jumbotron {
-	border-radius: 0;
-	margin-left: 10%;
-	margin-right: 10%;
+.row.about .pillar-info {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
 }
 
-.row.about .jumbotron img {
-	width: 4em;
+.row.about .pillar-logo {
+	width: 60%;
 }
 
-.row.about .jumbotron p {
-	margin: 2em;
+.row.about .pillar h2 {
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: white;
+}
+
+.row.about .pillar p, .row.about .pillar button {
+	color: white;
+}
+
+.row.about .pillar button {
+	background: #99ccee;
 }
 
 .row.initiatives {
