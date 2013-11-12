@@ -98,29 +98,6 @@ p {
 	margin-right: 15%;
 }
 
-.row.what-is-nspire .pillar a {
-	background: white;
-	text-transform: uppercase;
-	width: 60%;
-	margin: auto;
-	margin-bottom: 3em;
-}
-
-.row.what-is-nspire .pillar.connect a {
-	border: 1px solid #3388cc;
-	color: #3388cc;
-}
-
-.row.what-is-nspire .pillar.empower a {
-	border: 1px solid #ff9922;
-	color: #ff9922;
-}
-
-.row.what-is-nspire .pillar.inspire a {
-	border: 1px solid #662288;
-	color: #662288;
-}
-
 .row.newsletter {
 	min-height: 20em;
 	background: #3388cc;
