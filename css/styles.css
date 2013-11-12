@@ -9,8 +9,18 @@ p {
 	font-weight: light;
 }
 
+.navbar-default {
+	background-color: rgba(248, 248, 248, 0.8);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8) 0px, rgba(248, 248, 248, 0.8) 100%);
+}
+
 .navbar-default .navbar-nav > li > a {
+	color: rgb(65, 65, 65);
 	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #3388cc;
 }
 
 .navbar-logo, .navbar-nav > li > a.navbar-logo {
@@ -18,10 +28,9 @@ p {
 }
 
 .navbar-nav > li > a.navbar-social {
-	padding-top: 10px;
-	padding-right: 0px;
-	padding-bottom: 10px;
-	padding-left: 0px;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 10px;
 }
 
 .navbar-logo img {
