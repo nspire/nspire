@@ -240,7 +240,7 @@ p {
 
 .row.join {
 	height: 20em;
-	background: #ddd;
+	background: #99ccee;
 	padding-top: 4em;
 	padding-bottom: 4em;
 }
@@ -262,8 +262,7 @@ p {
 }
 
 .row.events {
-	background: #3388cc;
-	color: white;
+	background: #77aadd;
 }
 
 .row.events h1 {
@@ -277,18 +276,22 @@ p {
 	margin-left: 20%;
 }
 
-.row.media h1 {
+.row.in-the-media {
+	background: #5599cc;
+}
+
+.row.in-the-media h1 {
 	margin: 1em;
 	text-transform: uppercase;
 }
 
-.row.media p {
+.row.in-the-media p {
 	margin-right: 20%;
 	margin-bottom: 2em;
 	margin-left: 20%;
 }
 
-.row.media .media-logo {
+.row.in-the-media .in-the-media-logo {
 	height: 2em;
 	position: relative;
 	top: -0.2em;
