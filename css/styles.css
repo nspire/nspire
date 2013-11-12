@@ -248,6 +248,7 @@ p {
 .row.join h2 {
 	text-transform: uppercase;
 	font-size: 1.6em;
+	font-weight: lighter;
 }
 
 .row.join a {
@@ -258,7 +259,7 @@ p {
 	border-radius: 0;
 	font-size: 1.2em;
 	padding: 0.6em;
-	margin: 1em;
+	margin: 2em;
 }
 
 .row.events {
@@ -268,9 +269,11 @@ p {
 .row.events h1 {
 	margin: 1em;
 	text-transform: uppercase;
+	color: white;
 }
 
 .row.events p {
+	color: white;
 	margin-right: 20%;
 	margin-bottom: 2em;
 	margin-left: 20%;
@@ -283,9 +286,11 @@ p {
 .row.in-the-media h1 {
 	margin: 1em;
 	text-transform: uppercase;
+	color: white;
 }
 
 .row.in-the-media p {
+	color: white;
 	margin-right: 20%;
 	margin-bottom: 2em;
 	margin-left: 20%;
