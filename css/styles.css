@@ -72,8 +72,8 @@ p {
 }
 
 .row.what-is-nspire {
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 
 .row.what-is-nspire h1 {
@@ -108,13 +108,14 @@ p {
 
 .row.what-is-nspire .pillar p {
 	margin: 0;
+	margin-bottom: 4em;
 }
 
 .row.newsletter {
 	min-height: 20em;
 	background: #99ccee;
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 
 .row.newsletter .follow {
@@ -148,6 +149,7 @@ p {
 
 @media only screen and (max-width: 767px) {
 	.row.newsletter .sign-up {
+		padding: 0;
 		text-align: center;
 	}
 	.row.newsletter .sign-up .email {
@@ -163,8 +165,8 @@ p {
 }
 
 .row.about {
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 6em;
+	padding-bottom: 6em;
 	background: #77aadd;
 }
 
@@ -199,8 +201,8 @@ p {
 
 .row.initiatives {
 	background: #5599cc;
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 
 .row.initiatives h1 {
@@ -220,15 +222,19 @@ p {
 
 .row.initiatives .pillar-logo {
 	width: 100%;
+	margin-bottom: 2em;
 }
 
 .row.initiatives .pillar p {
 	margin: 0;
-	margin-top: 2em;
+}
+
+.row.team {
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 
 .row.team h1 {
-	margin: 1em;
 	text-transform: uppercase;
 }
 
@@ -239,10 +245,10 @@ p {
 }
 
 .row.join {
-	height: 20em;
+	min-height: 20em;
 	background: #99ccee;
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 
 .row.join h2 {
@@ -264,10 +270,11 @@ p {
 
 .row.events {
 	background: #77aadd;
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 
 .row.events h1 {
-	margin: 1em;
 	text-transform: uppercase;
 	color: white;
 }
@@ -281,12 +288,19 @@ p {
 
 .row.in-the-media {
 	background: #5599cc;
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 
 .row.in-the-media h1 {
-	margin: 1em;
 	text-transform: uppercase;
 	color: white;
+}
+
+.row.in-the-media .in-the-media-logo {
+	height: 2em;
+	position: relative;
+	top: -0.2em;
 }
 
 .row.in-the-media p {
@@ -296,22 +310,17 @@ p {
 	margin-left: 20%;
 }
 
-.row.in-the-media .in-the-media-logo {
-	height: 2em;
-	position: relative;
-	top: -0.2em;
-}
-
 .row.footer {
+	min-height: 20em;
 	background: rgb(65, 65, 65);
-	height: 15em;
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 
 .row.footer h2 {
 	color: white;
 	text-transform: uppercase;
 	font-size: 1em;
-	margin-top: 5em;
 }
 
 .row.footer .social a {
