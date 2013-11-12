@@ -189,8 +189,12 @@ p {
 	color: white;
 }
 
-.row.about .pillar p {
+.row.about .pillar p, .row.about .pillar button {
 	color: white;
+}
+
+.row.about .pillar button {
+	background: #99ccee;
 }
 
 .row.initiatives {
