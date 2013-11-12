@@ -2,11 +2,13 @@
 ---
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: rgb(75, 75, 75);
 }
 
 p {
 	font-family: 'Caecilia LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: light;
+	color: rgb(62, 62, 62);
 }
 
 .navbar-default {
@@ -69,6 +71,11 @@ p {
 	margin-top: -10vw;
 }
 
+.row.what-is-nspire {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
 .row.what-is-nspire h1 {
 	text-transform: uppercase;
 }
@@ -85,40 +92,23 @@ p {
 	margin-left: 20%;
 }
 
-.row.what-is-nspire .pillar h2 {
-	text-transform: uppercase;
+.row.what-is-nspire .pillar-info {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
 }
 
 .row.what-is-nspire .pillar-logo {
-	width: 40%;
+	width: 60%;
+}
+
+.row.what-is-nspire .pillar h2 {
+	text-transform: uppercase;
+	font-weight: lighter;
 }
 
 .row.what-is-nspire .pillar p {
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-.row.what-is-nspire .pillar a {
-	background: white;
-	text-transform: uppercase;
-	width: 60%;
-	margin: auto;
-	margin-bottom: 3em;
-}
-
-.row.what-is-nspire .pillar.connect a {
-	border: 1px solid #3388cc;
-	color: #3388cc;
-}
-
-.row.what-is-nspire .pillar.empower a {
-	border: 1px solid #ff9922;
-	color: #ff9922;
-}
-
-.row.what-is-nspire .pillar.inspire a {
-	border: 1px solid #662288;
-	color: #662288;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .row.newsletter {
