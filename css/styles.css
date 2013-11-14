@@ -19,6 +19,7 @@ p {
 .navbar-default .navbar-nav > li > a {
 	color: rgb(65, 65, 65);
 	text-transform: uppercase;
+	font-weight: 500;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
