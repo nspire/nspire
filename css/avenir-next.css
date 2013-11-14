@@ -1,8 +1,0 @@
----
----
-@font-face {
-	font-family: 'Avenir Next';
-	src: url('{{ site.baseurl }}/font/avenir-next.ttc');
-	font-weight: normal;
-	font-style: normal;
-}
