@@ -274,9 +274,8 @@ p {
 	color: white;
 	background: #ff9922;
 	border-radius: 0;
-	font-size: 1.2em;
-	padding: 0.6em;
-	margin: 2em;
+	padding: 0.8em;
+	margin-top: 2em;
 }
 
 .row.events {
