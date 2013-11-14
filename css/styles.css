@@ -34,10 +34,11 @@ p {
 }
 
 .navbar-nav > li > a.navbar-social img {
-	height: 40px;
-	padding-left: 15px;
+	height: 50px;
+	padding-top: 10px;
 	padding-right: 15px;
-	margin-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 15px;
 }
 
 .navbar-nav > li > a.navbar-social.facebook img:hover {
