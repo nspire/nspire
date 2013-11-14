@@ -25,18 +25,27 @@ p {
 	color: #3388cc;
 }
 
-.navbar-logo, .navbar-nav > li > a.navbar-logo {
+.navbar-logo, .navbar-nav > li > a.navbar-social {
 	padding: 0;
-}
-
-.navbar-nav > li > a.navbar-social {
-	padding: 0px;
-	margin-top: 5px;
-	margin-right: 10px;
 }
 
 .navbar-logo img {
 	height: 50px;
+}
+
+.navbar-nav > li > a.navbar-social img {
+	height: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 5px;
+}
+
+.navbar-nav > li > a.navbar-social.facebook img:hover {
+	content: url('{{ site.baseurl }}/img/facebook_blue.svg');
+}
+
+.navbar-nav > li > a.navbar-social.twitter img:hover {
+	content: url('{{ site.baseurl }}/img/twitter_blue.svg');
 }
 
 .container {
@@ -130,10 +139,9 @@ p {
 	font-weight: lighter;
 }
 
-.row.newsletter .follow a {
+.row.newsletter .follow img {
 	margin-left: 0.5em;
-	font-size: 1.4em;
-	color: #99ccee;
+	width: 3em;
 }
 
 .row.newsletter .sign-up {
@@ -325,6 +333,6 @@ p {
 	font-size: 1em;
 }
 
-.row.footer .social a {
-	color: rgb(65, 65, 65);
+.row.footer .social img {
+	width: 4em;
 }
