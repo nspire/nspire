@@ -130,10 +130,9 @@ p {
 	font-weight: lighter;
 }
 
-.row.newsletter .follow a {
+.row.newsletter .follow img {
 	margin-left: 0.5em;
-	font-size: 1.4em;
-	color: #99ccee;
+	width: 3em;
 }
 
 .row.newsletter .sign-up {
