@@ -325,6 +325,6 @@ p {
 	font-size: 1em;
 }
 
-.row.footer .social a {
-	color: rgb(65, 65, 65);
+.row.footer .social img {
+	width: 4em;
 }
