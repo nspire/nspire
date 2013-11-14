@@ -207,12 +207,14 @@ p {
 
 .row.initiatives h1 {
 	text-transform: uppercase;
+	color: white;
 }
 
 .row.initiatives p {
 	margin-right: 20%;
 	margin-bottom: 2em;
 	margin-left: 20%;
+	color: white;
 }
 
 .row.initiatives .pillar-info {
