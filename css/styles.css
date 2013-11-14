@@ -112,7 +112,7 @@ p {
 
 .row.what-is-nspire .pillar h2 {
 	text-transform: uppercase;
-	font-weight: lighter;
+	font-weight: 400;
 }
 
 .row.what-is-nspire .pillar p {
@@ -136,7 +136,7 @@ p {
 .row.newsletter .follow h2, .row.newsletter .sign-up h2 {
 	text-transform: uppercase;
 	font-size: 1.6em;
-	font-weight: lighter;
+	font-weight: 400;
 }
 
 .row.newsletter .follow img {
@@ -195,7 +195,7 @@ p {
 
 .row.about .pillar h2 {
 	text-transform: uppercase;
-	font-weight: lighter;
+	font-weight: 400;
 	color: white;
 }
 
@@ -264,7 +264,7 @@ p {
 .row.join h2 {
 	text-transform: uppercase;
 	font-size: 1.6em;
-	font-weight: lighter;
+	font-weight: 400;
 }
 
 .row.join a {
