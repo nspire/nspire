@@ -5,6 +5,10 @@ body, h1, h2, h3, h4, h5, h6 {
 	color: rgb(75, 75, 75);
 }
 
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
 p {
 	font-family: 'Caecilia LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: light;
@@ -87,10 +91,6 @@ p {
 	padding-bottom: 6em;
 }
 
-.row.what-is-nspire h1 {
-	text-transform: uppercase;
-}
-
 .row.what-is-nspire .what-is-nspire-logo {
 	height: 2em;
 	position: relative;
@@ -113,7 +113,6 @@ p {
 }
 
 .row.what-is-nspire .pillar h2 {
-	text-transform: uppercase;
 	font-weight: 400;
 }
 
@@ -136,7 +135,6 @@ p {
 }
 
 .row.newsletter .follow h2, .row.newsletter .sign-up h2 {
-	text-transform: uppercase;
 	font-size: 1.6em;
 	font-weight: 400;
 }
@@ -181,7 +179,6 @@ p {
 }
 
 .row.about h1 {
-	text-transform: uppercase;
 	color: white;
 	margin-bottom: 1em;
 }
@@ -196,7 +193,6 @@ p {
 }
 
 .row.about .pillar h2 {
-	text-transform: uppercase;
 	font-weight: 400;
 	color: white;
 }
@@ -216,7 +212,6 @@ p {
 }
 
 .row.initiatives h1 {
-	text-transform: uppercase;
 	color: white;
 }
 
@@ -246,10 +241,6 @@ p {
 	padding-bottom: 6em;
 }
 
-.row.team h1 {
-	text-transform: uppercase;
-}
-
 .row.team p {
 	margin-right: 20%;
 	margin-bottom: 2em;
@@ -264,7 +255,6 @@ p {
 }
 
 .row.join h2 {
-	text-transform: uppercase;
 	font-size: 1.6em;
 	font-weight: 400;
 }
@@ -286,7 +276,6 @@ p {
 }
 
 .row.events h1 {
-	text-transform: uppercase;
 	color: white;
 }
 
@@ -304,7 +293,6 @@ p {
 }
 
 .row.in-the-media h1 {
-	text-transform: uppercase;
 	color: white;
 }
 
@@ -330,7 +318,6 @@ p {
 
 .row.footer h2 {
 	color: white;
-	text-transform: uppercase;
 	font-size: 1em;
 }
 
