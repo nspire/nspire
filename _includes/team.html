@@ -2,3 +2,12 @@
 <p class="lead text-center">
 	We are a dynamic group of young leaders with a unified passion for business &amp; technology. We hustle to achieve our vision and mission.
 </p>
+<div class="members">
+{% for member in site.data.team %}
+	{% cycle '<div class="col-sm-2"></div>', nil, nil, nil, nil, nil, nil, nil %}
+	<div class="col-sm-1">
+		<img src="holder.js/40x40" class="img-responsive">
+	</div>
+	{% cycle nil, nil, nil, nil, nil, nil, nil, '<div class="clearfix"></div><br>' %}
+{% endfor %}
+</div>
