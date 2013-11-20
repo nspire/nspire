@@ -5,12 +5,13 @@
 <div class="col-sm-2"></div>
 <div class="col-sm-8 members">
 {% for member in site.data.team %}
-	<img src="holder.js/128x128" width="128" height="128" class="member">
+<img src="holder.js/128x128" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="popover" data-placement="auto" data-html="true" data-trigger="hover" data-title="<strong>{{ member.firstname }} {{member.lastname}}</strong>, {{ member.position }}" data-content="{{ member.department }}" data-container=".team" width="128" height="128" class="member">
 {% endfor %}
 </div>
 <script>
 	$('.members').isotope({
 		itemSelector: '.member',
 	});
+	$('.member').popover();
 </script>
 <div class="clearfix"></div>
