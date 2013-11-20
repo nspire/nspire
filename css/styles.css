@@ -150,6 +150,7 @@ p {
 
 .row.newsletter .sign-up .email {
 	width: 15em;
+	border: none;
 	border-radius: 0;
 	background: rgb(214, 233, 246);
 	font-style: italic;
@@ -203,6 +204,8 @@ p {
 
 .row.about .pillar button {
 	background: #99ccee;
+	text-transform: uppercase;
+	border-radius: 0;
 }
 
 .row.initiatives {
