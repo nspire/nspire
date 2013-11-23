@@ -2,11 +2,11 @@
 <p class="lead text-center">
 	We are a dynamic group of young leaders with a unified passion for business &amp; technology. We hustle to achieve our vision and mission.
 </p>
-<div class="col-sm-2"></div>
-<div class="col-sm-8 members">
-{% for member in site.data.team %}
-<img src="holder.js/128x128" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="popover" data-placement="auto" data-html="true" data-trigger="hover" data-title="<strong>{{ member.firstname }} {{member.lastname}}</strong>, {{ member.position }}" data-content="{{ member.department }}" data-container=".team" width="128" height="128" class="member">
-{% endfor %}
+<div class="col-sm-1"></div>
+<div class="col-sm-10 members">
+	{% for member in site.data.team %}
+	<img src="holder.js/150x150" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="popover" data-placement="auto" data-html="true" data-trigger="hover" data-title="<strong>{{ member.firstname }} {{member.lastname}}</strong>, {{ member.position }}" data-content="{{ member.department }}" data-container=".team" width="150" height="150" class="member">
+	{% endfor %}
 </div>
 <script>
 	$('.members').isotope({
