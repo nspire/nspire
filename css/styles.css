@@ -348,3 +348,28 @@ p {
 .row.discovery-series .events {
 	margin-bottom: 2em;
 }
+
+.row.nspiretv {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #662288;
+}
+
+.row.nspiretv p {
+	color: white;
+	margin-bottom: 2em;
+}
+
+.row.nspiretv .nspiretv-logo {
+	display: block;
+	width: 40vw;
+	margin: auto;
+}
+
+.row.nspiretv .videos {
+	margin-bottom: 2em;
+}
+
+.row.nspiretv .video {
+	width: 100%;
+}
