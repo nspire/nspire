@@ -327,3 +327,24 @@ p {
 .row.footer .social img {
 	width: 4em;
 }
+
+.row.discovery-series {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #ff9922;
+}
+
+.row.discovery-series p {
+	color: white;
+	margin-bottom: 2em;
+}
+
+.row.discovery-series .discovery-series-logo {
+	display: block;
+	width: 40vw;
+	margin: auto;
+}
+
+.row.discovery-series .events {
+	margin-bottom: 2em;
+}
