@@ -19,6 +19,7 @@ development:
   encoding: unicode
   database: nspire_development
   pool: 5
+  username:
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -47,11 +48,5 @@ test:
   encoding: unicode
   database: nspire_test
   pool: 5
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: nspire_production
-  pool: 5
+  username:
   password:
