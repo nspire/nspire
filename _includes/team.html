@@ -2,3 +2,39 @@
 <p class="lead text-center">
 	We are a dynamic group of young leaders with a unified passion for business &amp; technology. We hustle to achieve our vision and mission.
 </p>
+<div class="col-sm-2"></div>
+<div class="col-sm-8">
+	<ul class="nav nav-pills filters">
+		<li><a href="#" data-filter="*">All</a></li>
+		<li><a href="#" data-filter=".Nspire.Strategic">Nspire Strategic</a></li>
+		<li><a href="#" data-filter=".National.Business.Technology.Conference">NBTC</a></li>
+		<li><a href="#" data-filter=".NspireTV">NspireTV</a></li>
+		<li><a href="#" data-filter=".Discovery.Series">Discovery Series</a></li>
+		<li><a href="#" data-filter=".Nteract">Nteract</a></li>
+		<li><a href="#" data-filter=".Design.Graphics">Design and Graphics</a></li>
+		<li><a href="#" data-filter=".Web.Development">Web Development</a></li>
+		<li><a href="#" data-filter=".Campus.Ambassador">Campus Ambassador</a></li>
+	</ul>
+</div>
+<div class="clearfix"></div>
+<br>
+<div class="col-sm-2"></div>
+<div class="col-sm-8 members">
+	{% for member in site.data.team %}
+	<img src="{% if member.photo %}{{ member.photo }}{% else %}holder.js/90x90{% endif %}" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="popover" data-placement="auto" data-html="true" data-trigger="hover" data-title="<strong>{{ member.firstname }} {{member.lastname}}</strong>, {{ member.position }}" data-content="{{ member.department }}" data-container=".team" width="90" height="90" class="member {{ member.department }}">
+	{% endfor %}
+</div>
+<script>
+	var $container = $('.members');
+	$container.isotope({
+		itemSelector: '.member',
+	});
+
+	$('.filters a').click(function(){
+		var selector = $(this).attr('data-filter');
+		$container.isotope({ filter: selector });
+		return false;
+	});
+	$('.member').popover();
+</script>
+<div class="clearfix"></div>
