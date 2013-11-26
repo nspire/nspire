@@ -10,26 +10,32 @@
   lastname: Yiu
   position: Graphic Designer
   department: Design and Graphics
+  photo: http://i.imgur.com/9itECCEs.jpg
 - firstname: Darin
   lastname: Kutob
   position: Director of Operations
   department: Discovery Series UofT
+  photo: http://i.imgur.com/ZA3IE4ts.jpg
 - firstname: Alice
   lastname: Han
   position: Student Ambassador
   department: Campus Ambassador
+  photo: http://i.imgur.com/Ejme53rs.jpg
 - firstname: Fiorella
   lastname: Martinez
   position: VP Branding and Graphics
   department: Design and Graphics
+  photo: http://i.imgur.com/CnAB52Ts.jpg
 - firstname: Shriyah
   lastname: Sadana
   position: Campus Ambassador for York University
   department: Campus Ambassador
+  photo: http://i.imgur.com/e69SwxZs.jpg
 - firstname: Chanakya
   lastname: Sinha
   position: Campus Ambassador
   department: Campus Ambassador
+  photo: http://i.imgur.com/puo4coys.jpg
 - firstname: Shaiyan
   lastname: Khan
   position: Campus Ambassador
@@ -38,22 +44,27 @@
   lastname: Kanji
   position: VP Web Development
   department: Web Development
+  photo: http://i.imgur.com/LbfC4Tzs.jpg
 - firstname: Cameron
   lastname: Arksey
   position: Brand Consultant
   department: Design and Graphics
+  photo: http://i.imgur.com/MWZRMN2s.jpg
 - firstname: Youssef
   lastname: Ibrahim
   position: Campus Ambassador
   department: Campus Ambassador
+  photo: http://i.imgur.com/bxAbkLss.jpg
 - firstname: Ribhu
   lastname: Rampersad
   position: Campus Ambassador - UTSG
   department: Campus Ambassador
+  photo: http://i.imgur.com/H5HoCZds.jpg
 - firstname: Vernon
   lastname: Tam
   position: Campus Ambassador - Waterloo
   department: Campus Ambassador
+  photo: http://i.imgur.com/u2C1qfMs.jpg
 - firstname: Richard
   lastname: Cerezo
   position: Executive Producer and Director
@@ -62,62 +73,72 @@
   lastname: Luo
   position: VP Business Development
   department: Nspire Strategic
+  photo: http://i.imgur.com/JKdXcNCs.jpg
 - firstname: Massimo
   lastname: Gordillo
   position: Director of Marketing
   department: Discovery Series UofT
+  photo: http://i.imgur.com/rKhlKucs.jpg
 - firstname: Harsh
   lastname: Patel
   position: Ryerson Ambassador
   department: Campus Ambassador
+  photo: http://i.imgur.com/fKUAmXjs.png
 - firstname: Julie
   lastname: Nguyen
   position: Director of Operations
   department: Discovery Series Waterloo/Laurier
+  photo: http://i.imgur.com/KD6rLHLs.jpg
 - firstname: Karolina
   lastname: Deoniziak
   position: Director of Marketing
   department: Discovery Series Waterloo/Laurier
+  photo: http://i.imgur.com/uJAWvYWs.jpg
 - firstname: Michael
   lastname: Pawly
   position: Campus Ambassador
   department: Campus Ambassador
-- firstname: Annie
-  lastname: Zhang
-  position: Managing Director
-  department: Discovery Series Western
+  photo: http://i.imgur.com/Lk9k3xPs.png
 - firstname: Sofia
   lastname: Remtulla
   position: Campus Ambassador
   department: Campus Ambassador
+  photo: http://i.imgur.com/XCK8zD3s.jpg
 - firstname: Elizabeth
   lastname: de Roode
   position: Managing Director
   department: Discovery Series UofT
+  photo: http://i.imgur.com/z7Z6EXLs.jpg
 - firstname: Arshdeep
   lastname: Sidhu
   position: Director of Business Development
   department: National Business and Technology Conference
+  photo: http://i.imgur.com/Bmus4ALs.jpg
 - firstname: Erika
   lastname: Tsang
   position: Director of Operations
   department: National Business and Technology Conference
+  photo: http://i.imgur.com/rPN1YWls.jpg
 - firstname: Sucheta
   lastname: Shankar
   position: VP of Marketing and Communications
   department: Nspire Strategic
+  photo: http://i.imgur.com/ddXivyRs.jpg
 - firstname: Mantas
   lastname: Matelis
   position: Lead Web Developer
   department: Nteract
+  photo: http://i.imgur.com/LuEea91s.jpg
 - firstname: Soha
   lastname: Yasrebi
   position: Director of Events
   department: National Business and Technology Conference
+  photo: http://i.imgur.com/kV3SQQ7s.jpg
 - firstname: Jonah
   lastname: Hetherington
   position: VP Finance
   department: Nspire Strategic
+  photo: http://i.imgur.com/jTKmonHs.jpg
 - firstname: Alberto
   lastname: Picard-Ami
   position: Board Member
@@ -126,6 +147,7 @@
   lastname: King
   position: Nteract Co-Lead
   department: Nteract
+  photo: http://i.imgur.com/TpK663is.jpg
 - firstname: Leanne
   lastname: King
   position: Campus Ambassador
@@ -138,19 +160,24 @@
   lastname: Magdales
   position: Co-Managing Director
   department: Discovery Series Waterloo/Laurier
+  photo: http://i.imgur.com/ssfN3ZWs.png
 - firstname: Annie
   lastname: Zhang
   position: Managing Director
   department: Discovery Series Western
+  photo: http://i.imgur.com/Gu6OSqps.jpg
 - firstname: Singyu
   lastname: Chan
   position: Account Manager
   department: Nspire Strategic
+  photo: http://i.imgur.com/SXIKcJJs.jpg
 - firstname: Daniela
   lastname: Trivanovic
   position: Producer/Host
   department: NspireTV
+  photo: http://i.imgur.com/dTXuQxus.jpg
 - firstname: Angela
   lastname: Wong
   position: Co-Managing Director
   department: Discovery Series Waterloo/Laurier
+  photo: http://i.imgur.com/F5kxmTis.jpg
