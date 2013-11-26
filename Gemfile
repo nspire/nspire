@@ -43,3 +43,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Use Rails 12factor for Heroku integration
+gem 'rails_12factor', group: :production
