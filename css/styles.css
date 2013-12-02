@@ -60,7 +60,7 @@ p {
 
 .row.intro {
 	height: 100vh;
-	background: url('{{ site.baseurl }}/img/podium.jpg') no-repeat center center;
+	background: url('{{ site.baseurl }}/img/skyline.png') no-repeat center center;
 	background-size: 100%;
 	background-size: cover;
 }
