@@ -316,6 +316,22 @@ p {
 	margin-left: 20%;
 }
 
+.row.in-the-media .networks {
+	background: white;
+}
+
+.row.in-the-media .network {
+	margin: 1em;
+	width: 20em;
+}
+
+.row.in-the-media .network p {
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	color: #428bca;
+}
+
 .row.footer {
 	min-height: 20em;
 	background: rgb(65, 65, 65);
