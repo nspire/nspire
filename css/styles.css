@@ -390,3 +390,33 @@ p {
 	width: 40vw;
 	margin: auto;
 }
+
+.row.nbtc .what-is-nbtc {
+	padding: 2em;
+	background: rgb(100, 100, 100);
+	color: white;
+}
+
+.row.nbtc .what-is-nbtc h2 {
+	margin: 1em;
+	color: white;
+}
+
+.row.nbtc .pillar-info {
+	margin-top: 6em;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.row.nbtc .pillar-logo {
+	width: 50%;
+}
+
+.row.nbtc .pillar h2 {
+	color: white;
+	font-weight: 400;
+}
+
+.row.nbtc .nbtc-popover {
+	cursor: pointer;
+}
