@@ -289,6 +289,10 @@ p {
 	margin-left: 20%;
 }
 
+.row.events .upcoming {
+	margin-bottom: 2em;
+}
+
 .row.in-the-media {
 	background: #5599cc;
 	padding-top: 6em;
@@ -345,7 +349,7 @@ p {
 	margin: auto;
 }
 
-.row.discovery-series .events {
+.row.discovery-series .upcoming {
 	margin-bottom: 2em;
 }
 
