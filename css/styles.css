@@ -373,3 +373,20 @@ p {
 .row.nspiretv .video {
 	width: 100%;
 }
+
+.row.nbtc {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: rgb(65, 65, 65);
+}
+
+.row.nbtc p {
+	color: white;
+	margin-bottom: 2em;
+}
+
+.row.nbtc .nbtc-logo {
+	display: block;
+	width: 40vw;
+	margin: auto;
+}
