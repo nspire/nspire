@@ -137,7 +137,7 @@ p {
 .row.newsletter .follow {
 	padding-top: 2em;
 	text-align: right;
-	padding-right: 4em;
+	padding-right: 2em;
 }
 
 .row.newsletter .follow h2, .row.newsletter .sign-up h2 {
@@ -159,7 +159,7 @@ p {
 }
 
 .row.newsletter .sign-up {
-	padding-left: 4em;
+	padding-left: 2em;
 }
 
 .row.newsletter .sign-up .email {
