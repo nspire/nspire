@@ -18,11 +18,12 @@
 </div>
 <div class="clearfix"></div>
 <br>
-<div class="col-sm-2"></div>
-<div class="col-sm-8 members">
-	{% for member in site.data.team %}
-	<img src="{% if member.photo %}{{ member.photo }}{% else %}holder.js/90x90{% endif %}" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="popover" data-placement="auto" data-html="true" data-trigger="hover" data-title="<strong>{{ member.firstname }} {{member.lastname}}</strong>, {{ member.position }}" data-content="{{ member.department }}" data-container=".team" width="90" height="90" class="member {{ member.department }}">
-	{% endfor %}
+<div class="col-sm-8 col-sm-offset-2">
+	<div class="members">
+		{% for member in site.data.team %}
+		<img src="{% if member.photo %}{{ member.photo }}{% else %}holder.js/90x90{% endif %}" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="popover" data-placement="auto" data-html="true" data-trigger="hover" data-title="<strong>{{ member.firstname }} {{member.lastname}}</strong>, {{ member.position }}" data-content="{{ member.department }}" data-container=".team" width="90" height="90" class="member {{ member.department }}">
+		{% endfor %}
+	</div>
 </div>
 <script>
 	var $container = $('.members');

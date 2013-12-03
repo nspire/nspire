@@ -250,6 +250,10 @@ p {
 	margin-left: 20%;
 }
 
+.row.team .members {
+	margin: 0 auto;
+}
+
 .row.join {
 	min-height: 20em;
 	background: #99ccee;
@@ -317,7 +321,7 @@ p {
 }
 
 .row.in-the-media .networks {
-	background: white;
+	margin: 0 auto;
 }
 
 .row.in-the-media .network {
