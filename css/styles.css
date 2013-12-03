@@ -38,20 +38,13 @@ p {
 	height: 50px;
 }
 
-.navbar-nav > li > a.navbar-social img {
+.navbar-nav > li > a.navbar-social {
+	color: rgb(75, 75, 75);
 	height: 50px;
-	padding-top: 10px;
-	padding-right: 15px;
-	padding-bottom: 10px;
-	padding-left: 15px;
-}
-
-.navbar-nav > li > a.navbar-social.facebook img:hover {
-	content: url('{{ site.baseurl }}/img/facebook_blue.svg');
-}
-
-.navbar-nav > li > a.navbar-social.twitter img:hover {
-	content: url('{{ site.baseurl }}/img/twitter_blue.svg');
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 10px;
 }
 
 .container {
@@ -139,9 +132,17 @@ p {
 	font-weight: 400;
 }
 
-.row.newsletter .follow img {
+.row.newsletter .newsletter-social {
 	margin-left: 0.5em;
-	width: 3em;
+	color: #99ccee;
+}
+
+.row.newsletter .newsletter-social:hover {
+	color: white;
+}
+
+.row.newsletter .newsletter-social:hover .fa-circle {
+	color: #5599cc;
 }
 
 .row.newsletter .sign-up {
