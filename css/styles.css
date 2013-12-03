@@ -52,22 +52,9 @@ p {
 }
 
 .row.intro {
-	height: 100vh;
 	background: url('{{ site.baseurl }}/img/skyline.png') no-repeat center center;
 	background-size: 100%;
 	background-size: cover;
-}
-
-@media only screen and (max-width: 479px) {
-	.row.intro {
-		height: 35em;
-	}
-}
-
-@media only screen and (min-width: 480px) and (max-width: 991px) {
-	.row.intro {
-		height: 70em;
-	}
 }
 
 .row.intro img {
