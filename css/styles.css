@@ -114,6 +114,19 @@ p {
 	margin-bottom: 4em;
 }
 
+.row.mantra {
+	background: url('{{ site.baseurl }}/img/mantra.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.mantra h1 {
+	color: white;
+	font-weight: bolder;
+}
+
 .row.newsletter {
 	min-height: 20em;
 	background: #99ccee;
