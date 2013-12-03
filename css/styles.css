@@ -158,6 +158,7 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
+	.row.newsletter .follow,
 	.row.newsletter .sign-up {
 		padding: 0;
 		text-align: center;
