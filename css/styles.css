@@ -337,10 +337,9 @@ p {
 }
 
 .row.footer {
-	min-height: 20em;
-	background: rgb(65, 65, 65);
-	padding-top: 6em;
-	padding-bottom: 6em;
+	background: rgb(61,64,67);
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .row.footer h2 {
@@ -348,8 +347,37 @@ p {
 	font-size: 1em;
 }
 
-.row.footer .social img {
-	width: 4em;
+.row.footer p,
+.row.footer ul {
+	color: white;
+	font-family: 'Caecilia LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: light;
+}
+
+.row.footer a {
+	color: white;
+	padding: 0;
+}
+
+.row.footer .nav>li>a:hover, .nav>li>a:focus {
+	cursor: pointer;
+	text-decoration: underline;
+	background: none;
+}
+
+.row.footer .footer-logo {
+	width: 15em;
+}
+
+@media only screen and (max-width: 767px) {
+	.row.footer .footer-logo {
+		float: none !important;
+		display: block;
+		margin: auto;
+	}
+	.row.footer p {
+		text-align: center;
+	}
 }
 
 .row.discovery-series {
