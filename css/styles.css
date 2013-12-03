@@ -294,13 +294,13 @@ p {
 }
 
 .row.in-the-media {
-	background: #5599cc;
+	background: white;
 	padding-top: 6em;
 	padding-bottom: 6em;
 }
 
 .row.in-the-media h1 {
-	color: white;
+	color: #3388cc;
 }
 
 .row.in-the-media .in-the-media-logo {
@@ -310,7 +310,7 @@ p {
 }
 
 .row.in-the-media p {
-	color: white;
+	color: #3388cc;
 	margin-right: 20%;
 	margin-bottom: 2em;
 	margin-left: 20%;
@@ -329,7 +329,7 @@ p {
 	margin: 0;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-	color: #428bca;
+	color: #3388cc;
 }
 
 .row.footer {
