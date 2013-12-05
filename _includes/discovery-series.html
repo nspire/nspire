@@ -4,10 +4,10 @@
 	<br>
 	While we work our magic, please check out our recent events.
 </p>
-<div class="col-md-5 col-md-offset-1 upcoming">
-	<img src="http://i.imgur.com/aCGFyTxl.jpg" alt="How to Differentiate as Top Talent" class="img-responsive center-block">
-</div>
+<div class="col-md-1"></div>
+{% for event in site.data.events %}
 <div class="col-md-5 upcoming">
-	<img src="http://i.imgur.com/aCGFyTxl.jpg" alt="How to Differentiate as Top Talent" class="img-responsive center-block">
+	<img src="{{ event.poster }}" alt="{{ event.name }}" class="img-responsive center-block">
 </div>
+{% endfor %}
 <div class="clearfix"></div>
