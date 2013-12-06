@@ -2,7 +2,7 @@
 ---
 body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color: rgb(75, 75, 75);
+	color: rgb(62, 62, 62);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,7 +38,7 @@ p {
 }
 
 .navbar-nav > li > a.navbar-social {
-	color: rgb(75, 75, 75);
+	color: rgb(62, 62, 62);
 	height: 50px;
 	padding-top: 6px;
 	padding-right: 10px;
@@ -470,6 +470,11 @@ p {
 
 .row.nbtc .nbtc-popover {
 	cursor: pointer;
+}
+
+.row.nbtc .pillar-info .popover p {
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: rgb(62, 62, 62);
 }
 
 .row.nbtc .nbtc-2013 {
