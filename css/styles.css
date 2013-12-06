@@ -1,7 +1,7 @@
 ---
 ---
 body, h1, h2, h3, h4, h5, h6 {
-	font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: rgb(75, 75, 75);
 }
 
@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	font-family: 'Caecilia LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: light;
+	font-weight: lighter;
 	color: rgb(62, 62, 62);
 }
 
@@ -23,7 +23,6 @@ p {
 .navbar-default .navbar-nav > li > a {
 	color: rgb(65, 65, 65);
 	text-transform: uppercase;
-	font-weight: 500;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -92,10 +91,6 @@ p {
 	width: 60%;
 }
 
-.row.what-is-nspire .pillar h2 {
-	font-weight: 400;
-}
-
 .row.what-is-nspire .pillar p {
 	margin: 0;
 	margin-bottom: 4em;
@@ -111,7 +106,7 @@ p {
 
 .row.mantra h1 {
 	color: white;
-	font-weight: bolder;
+	font-weight: bold;
 }
 
 .row.newsletter {
@@ -129,7 +124,6 @@ p {
 
 .row.newsletter .follow h2, .row.newsletter .sign-up h2 {
 	font-size: 1.6em;
-	font-weight: 400;
 }
 
 .row.newsletter .newsletter-social {
@@ -196,7 +190,6 @@ p {
 }
 
 .row.about .pillar h2 {
-	font-weight: 400;
 	color: white;
 }
 
@@ -265,7 +258,6 @@ p {
 
 .row.join h2 {
 	font-size: 1.6em;
-	font-weight: 400;
 }
 
 .row.join a {
@@ -353,7 +345,7 @@ p {
 .row.footer ul {
 	color: white;
 	font-family: 'Caecilia LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: light;
+	font-weight: lighter;
 }
 
 .row.footer a {
@@ -474,7 +466,6 @@ p {
 
 .row.nbtc .pillar h2 {
 	color: white;
-	font-weight: 400;
 }
 
 .row.nbtc .nbtc-popover {
