@@ -5,10 +5,11 @@
 </head>
 <body>
 	{% include navbar.html %}
-	<div class="container">
+	<div id="skrollr-body" class="container">
 		{{ content }}
 	</div>
 	{% include centered-masonry.html %}
 	{% include localscroll.html %}
+	{% include skrollr.html %}
 </body>
 </html>
