@@ -338,18 +338,19 @@ p {
 
 .row.footer h2 {
 	color: white;
+	font-weight: bold;
 	font-size: 1em;
 }
 
 .row.footer p,
 .row.footer ul {
-	color: white;
+	color: #ddd;
 	font-family: 'Caecilia LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: lighter;
 }
 
 .row.footer a {
-	color: white;
+	color: #ddd;
 	padding: 0;
 }
 
@@ -360,7 +361,7 @@ p {
 }
 
 .row.footer .footer-logo {
-	width: 15em;
+	width: 17.5em;
 }
 
 @media only screen and (max-width: 767px) {
