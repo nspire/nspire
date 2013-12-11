@@ -2,7 +2,7 @@
 ---
 body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color: rgb(62, 62, 62);
+	color: rgb(61,64,67);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	font-family: 'Caecilia LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: lighter;
-	color: rgb(62, 62, 62);
+	color: rgb(61,64,67);
 }
 
 .navbar-default {
@@ -21,7 +21,7 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: rgb(65, 65, 65);
+	color: rgb(61,64,67);
 	text-transform: uppercase;
 }
 
@@ -38,7 +38,7 @@ p {
 }
 
 .navbar-nav > li > a.navbar-social {
-	color: rgb(62, 62, 62);
+	color: rgb(61,64,67);
 	height: 50px;
 	padding-top: 6px;
 	padding-right: 10px;
@@ -475,7 +475,7 @@ p {
 
 .row.nbtc .pillar-info .popover p {
 	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color: rgb(62, 62, 62);
+	color: rgb(61,64,67);
 }
 
 .row.nbtc .nbtc-2013 {
