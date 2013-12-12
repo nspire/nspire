@@ -204,20 +204,15 @@ p {
 }
 
 .row.initiatives {
-	background: #5599cc;
+	background: white;
 	padding-top: 6em;
 	padding-bottom: 6em;
-}
-
-.row.initiatives h1 {
-	color: white;
 }
 
 .row.initiatives p {
 	margin-right: 20%;
 	margin-bottom: 2em;
 	margin-left: 20%;
-	color: white;
 }
 
 .row.initiatives .pillar-info {
@@ -298,7 +293,7 @@ p {
 }
 
 .row.in-the-media h1 {
-	color: #3388cc;
+	color: rgb(61,64,67);
 }
 
 .row.in-the-media .in-the-media-logo {
@@ -308,7 +303,7 @@ p {
 }
 
 .row.in-the-media p {
-	color: #3388cc;
+	color: rgb(61,64,67);
 	margin-right: 20%;
 	margin-bottom: 2em;
 	margin-left: 20%;
