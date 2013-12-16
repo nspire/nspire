@@ -482,3 +482,19 @@ p {
 	padding: 0.8em;
 	margin-top: 2em;
 }
+
+.row.partners {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #77aadd;
+}
+
+.row.partners h1 {
+	color: white;
+	margin-bottom: 1em;
+}
+
+.row.partners .sponsor-logo {
+	margin: 1em;
+	padding: 2em;
+}
