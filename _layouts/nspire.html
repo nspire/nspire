@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% include head.html %}
+</head>
+<body>
+	<div class="container">
+		<div id="intro" class="row intro">
+			<img src="{{ site.baseurl }}/img/nspire_logo_white.svg" alt="Nspire Innovation Network">
+		</div>
+	</div>
+	<script>
+		$("#intro").height($(window).height() - 50);
+	</script>
+	{% include navbar-affix.html %}
+	<div class="container">
+		{{ content }}
+	</div>
+	{% include centered-masonry.html %}
+	{% include localscroll.html %}
+</body>
+</html>
