@@ -23,13 +23,13 @@
 	<div class="members">
 		{% for member in site.data.team %}
 			{% if member.photo %}
-			<img src="{{ member.photo }}" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="modal" data-target="#{{ member.firstname }}{{ member.lastname }}Modal" width="90" height="90" class="member {{ member.department }}">
-			<div class="modal fade" id="{{ member.firstname }}{{ member.lastname }}Modal" tabindex="-1" role="dialog" aria-labelledby="{{ member.firstname }}{{ member.lastname }}ModalLabel" aria-hidden="true">
+			<img src="{{ member.photo }}" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="modal" data-target="#{{ forloop.index }}Modal" width="90" height="90" class="member {{ member.department }}">
+			<div class="modal fade" id="{{ forloop.index }}Modal" tabindex="-1" role="dialog" aria-labelledby="{{ forloop.index }}ModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-							<h4 class="modal-title" id="{{ member.firstname }}{{ member.lastname }}ModalLabel">{{ member.firstname }} {{ member.lastname }}</h4>
+							<h4 class="modal-title" id="{{ forloop.index }}ModalLabel">{{ member.firstname }} {{ member.lastname }}</h4>
 						</div>
 						<div class="modal-body text-center">
 							<img src="{{ member.photo }}" alt="{{ member.firstname }} {{member.lastname}}" width="90" height="90" class="img-circle center-block">
@@ -50,19 +50,30 @@
 								<strong>Can’t give up:</strong> {{ member.need }}
 								<br>
 								<strong>Excited by:</strong> {{ member.excitement }}
-								<br>
+								<br><br>
+								<div class="row">
+								<div class="col-sm-2"></div>
 								{% if member.twitter %}
-								|<a href="{{ member.twitter }}">Twitter</a>|
+								<div class="col-sm-2">
+								<a href="{{ member.twitter }}"><i class="fa fa-2x fa-twitter"></i></a>
+								</div>
 								{% endif %}
 								{% if member.facebook %}
-								|<a href="{{ member.facebook }}">Facebook</a>|
+								<div class="col-sm-2">
+								<a href="{{ member.facebook }}"><i class="fa fa-2x fa-facebook"></i></a>
+								</div>
 								{% endif %}
 								{% if member.linkedin %}
-								|<a href="{{ member.linkedin }}">LinkedIn</a>|
+								<div class="col-sm-2">
+								<a href="{{ member.linkedin }}"><i class="fa fa-2x fa-linkedin"></i></a>
+								</div>
 								{% endif %}
 								{% if member.website %}
-								|<a href="{{ member.website }}">Website</a>|
+								<div class="col-sm-2">
+								<a href="{{ member.website }}"><i class="fa fa-2x fa-globe"></i></a>
+								</div>
 								{% endif %}
+								</div>
 							</p>
 						</div>
 					</div><!-- /.modal-content -->
