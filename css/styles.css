@@ -496,11 +496,13 @@ p {
 	margin-bottom: 1em;
 }
 
-.row.partners .sponsors {
+.row.partners .sponsors,
+.row.partners .affiliates {
 	margin: 0 auto;
 }
 
-.row.partners .sponsor-logo {
+.row.partners .sponsor-logo,
+.row.partners .affiliate-logo {
 	margin: 1em;
 	padding: 2em;
 }
