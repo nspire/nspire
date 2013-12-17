@@ -60,6 +60,11 @@ p {
 	width: 100%;
 }
 
+.row.not-found {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
 .row.intro {
 	background: url('{{ site.baseurl }}/img/skyline.png') no-repeat center center;
 	background-size: 100%;
