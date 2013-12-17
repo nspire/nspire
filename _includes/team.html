@@ -22,7 +22,53 @@
 <div class="col-sm-8 col-sm-offset-2">
 	<div class="members">
 		{% for member in site.data.team %}
-		<img src="{% if member.photo %}{{ member.photo }}{% else %}holder.js/90x90{% endif %}" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="popover" data-placement="auto" data-html="true" data-trigger="hover" data-title="<strong>{{ member.firstname }} {{member.lastname}}</strong>, {{ member.position }}" data-content="{{ member.department }}" data-container=".team" width="90" height="90" class="member {{ member.department }}">
+			{% if member.photo %}
+			<img src="{{ member.photo }}" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="modal" data-target="#{{ member.firstname }}{{ member.lastname }}Modal" width="90" height="90" class="member {{ member.department }}">
+			<div class="modal fade" id="{{ member.firstname }}{{ member.lastname }}Modal" tabindex="-1" role="dialog" aria-labelledby="{{ member.firstname }}{{ member.lastname }}ModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title" id="{{ member.firstname }}{{ member.lastname }}ModalLabel">{{ member.firstname }} {{ member.lastname }}</h4>
+						</div>
+						<div class="modal-body text-center">
+							<img src="{{ member.photo }}" alt="{{ member.firstname }} {{member.lastname}}" width="90" height="90" class="img-circle center-block">
+							<br>
+							<p>
+								<span class="lead">
+									<strong>{{ member.firstname }} {{ member.lastname }}</strong>
+									<br>
+									{{ member.position }}
+								</span>
+								<br><br>
+								<strong>Department:</strong> {{ member.department }}
+								<br><br>
+								{{ member.bio }}
+								<br><br>
+								<strong>Grew up in:</strong> {{ member.hometown }}
+								<br>
+								<strong>Can’t give up:</strong> {{ member.need }}
+								<br>
+								<strong>Excited by:</strong> {{ member.excitement }}
+								<br>
+								{% if member.twitter %}
+								|<a href="{{ member.twitter }}">Twitter</a>|
+								{% endif %}
+								{% if member.facebook %}
+								|<a href="{{ member.facebook }}">Facebook</a>|
+								{% endif %}
+								{% if member.linkedin %}
+								|<a href="{{ member.linkedin }}">LinkedIn</a>|
+								{% endif %}
+								{% if member.website %}
+								|<a href="{{ member.website }}">Website</a>|
+								{% endif %}
+							</p>
+						</div>
+					</div><!-- /.modal-content -->
+				</div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+			{% endif %}
 		{% endfor %}
 	</div>
 </div>
