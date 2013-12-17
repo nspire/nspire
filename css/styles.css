@@ -494,6 +494,10 @@ p {
 	margin-bottom: 1em;
 }
 
+.row.partners .sponsors {
+	margin: 0 auto;
+}
+
 .row.partners .sponsor-logo {
 	margin: 1em;
 	padding: 2em;

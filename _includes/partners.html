@@ -4,7 +4,7 @@
 		{% for s in site.data.sponsors %}
 		<div class="sponsor">
 			{% if s.logo %}
-			<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="img-thumbnail sponsor-logo">
+			<img src="{{ s.logo }}" alt="{{ s.name }}" width="150" class="img-thumbnail sponsor-logo">
 			{% else %}
 			<h2>{{ s.name }}</h2>
 			{% endif %}
@@ -17,7 +17,6 @@
 		var $container = $('.sponsors');
 		$container.isotope({
 			itemSelector: '.sponsor',
-			gutterWidth: 40,
 		});
 	});
 </script>
