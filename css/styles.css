@@ -127,6 +127,7 @@ p {
 }
 
 .row.newsletter .newsletter-social {
+	text-decoration: none;
 	margin-left: 0.5em;
 	color: #99ccee;
 }
@@ -198,6 +199,7 @@ p {
 }
 
 .row.about .pillar button {
+	width: 10em;
 	background: #99ccee;
 	text-transform: uppercase;
 	border-radius: 0;
@@ -231,7 +233,7 @@ p {
 
 .row.team {
 	padding-top: 6em;
-	padding-bottom: 6em;
+	padding-bottom: 10em;
 }
 
 .row.team p {
