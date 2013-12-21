@@ -46,16 +46,6 @@ p {
 	padding-left: 10px;
 }
 
-.navbar.affix-top {
-	position: absolute;
-	width: 100%;
-}
-
-.navbar.affix {
-	top: 0;
-	width: 100%;
-}
-
 .container {
 	width: 100%;
 }
