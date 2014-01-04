@@ -5,10 +5,10 @@
 The website of Nspire Innovation Network.
 
 # Getting Started
-You need these installed locally to run this app :
-- Ruby 2.0.0
+You need these installed locally to run this app:
+- Ruby 2.0.0-p353
 - Rails 4.0.1
-- Postgres
+- [Postgres 93](http://postgresapp.com)
 
   ### Install Dependent Gems
   ```
@@ -29,3 +29,5 @@ You need these installed locally to run this app :
   ```
   rails server
   ```
+
+More details and troubleshooting available at the [Heroku Dev Center](https://devcenter.heroku.com/articles/getting-started-with-rails4)
