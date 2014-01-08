@@ -6,8 +6,10 @@
 </p>
 <div class="col-md-1"></div>
 {% for event in site.data.events %}
-<div class="col-md-5 upcoming">
+{% if event.upcoming %}
+<div class="col-md-10 upcoming">
 	<img src="{{ event.poster }}" alt="{{ event.name }}" class="img-responsive center-block">
 </div>
+{% endif %}
 {% endfor %}
 <div class="clearfix"></div>

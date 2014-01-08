@@ -1,4 +1,9 @@
+- name: "Accelerator Weekend"
+  poster: http://i.imgur.com/xqv4Xaq.jpg
+  upcoming: true
 - name: "How to Make it Work"
   poster: http://i.imgur.com/3sxVio0.png
+  upcoming: false
 - name: "How to Differentiate as Top Talent"
   poster: http://i.imgur.com/E81PbC8.jpg
+  upcoming: false

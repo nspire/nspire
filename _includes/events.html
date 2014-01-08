@@ -4,8 +4,12 @@
 </p>
 <div class="col-md-1"></div>
 {% for event in site.data.events %}
-<div class="col-md-5 upcoming">
-	<img src="{{ event.poster }}" alt="{{ event.name }}" class="img-responsive center-block">
+{% if event.upcoming %}
+<div class="col-md-10 upcoming">
+	<a href="/ds/">
+		<img src="{{ event.poster }}" alt="{{ event.name }}" class="img-responsive center-block">
+	</a>
 </div>
+{% endif %}
 {% endfor %}
 <div class="clearfix"></div>
