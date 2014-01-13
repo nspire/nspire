@@ -700,3 +700,25 @@ p {
 	margin-bottom: 2em;
 	margin-left: 10%;
 }
+
+.row.nbtc-quote {
+	min-height: 20em;
+	background: url('{{ site.baseurl }}/img/nbtc-quote_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-quote p {
+	color: white;
+}
+
+.row.nbtc-quote p.lead {
+	font-size: 2em;
+	margin: 5% 20% 0 20%;
+}
+
+.row.nbtc-quote p.citation {
+	font-size: 1.8em;
+	font-style: italic;
+	margin: 0 20% 5% 20%;
+}
