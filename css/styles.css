@@ -536,3 +536,167 @@ p {
 	margin: 1em;
 	padding: 2em;
 }
+
+.row.what-is-nbtc {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.what-is-nbtc p {
+	margin-right: 10%;
+	margin-bottom: 2em;
+	margin-left: 10%;
+}
+
+.row.nbtc-intro {
+	background: url('{{ site.baseurl }}/img/nbtc-landing_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-intro img {
+	position: absolute;
+	width: 30vw;
+	left: 50%;
+	margin-left: -15vw;
+	top: 15%;
+}
+
+.nbtc-banner {
+	padding: 0.4em;
+	position: relative;
+	top: 50%;
+	margin-top: -10vh;
+	color: white;
+	background: rgba(54,136,200,0.4);
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 4vw;
+	text-transform: uppercase;
+}
+
+.nbtc-banner-role {
+	font-weight: bolder;
+	color: #77aadd;
+}
+
+.row.nbtc-intro .pillar-info {
+	position: relative;
+	top: 55%;
+	padding: 1em;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.row.nbtc-intro .pillar-logo {
+	position: static;
+	width: 10vw;
+	margin: auto;
+}
+
+.row.nbtc-intro .pillar h2 {
+	color: white;
+	font-size: 2vw;
+}
+
+.row.nbtc-team {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #eee;
+}
+
+.row.nbtc-team .sponsors {
+	margin: 0 auto;
+}
+
+.row.nbtc-team .sponsor-logo {
+	margin: 1em;
+	padding: 2em;
+}
+
+.row.nbtc-program {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.nbtc-program p {
+	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
+
+.row.nbtc-program .pillar-info {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.row.nbtc-program .pillar-logo {
+	width: 60%;
+}
+
+.row.nbtc-program .pillar p.lead {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.nbtc-program .pillar p {
+	margin: 0;
+	margin-bottom: 4em;
+}
+
+.row.nbtc-highlights {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #999;
+}
+
+.row.nbtc-highlights .sponsors {
+	margin: 0 auto;
+}
+
+.row.nbtc-highlights .sponsor-logo {
+	margin: 1em;
+	padding: 2em;
+}
+
+.row.nbtc-stats {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #666;
+}
+
+.row.nbtc-stats h1 {
+	color: white;
+}
+
+.row.nbtc-stats .pillar-info {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.row.nbtc-stats .pillar h2 {
+	color: #77aadd;
+	font-weight: bolder;
+	font-size: 5vw;
+}
+
+.row.nbtc-stats .pillar h3 {
+	color: white;
+	font-size: 1.3vw;
+}
+
+.row.nbtc-about {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.nbtc-about h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.row.nbtc-about p {
+	margin-right: 10%;
+	margin-bottom: 2em;
+	margin-left: 10%;
+}
