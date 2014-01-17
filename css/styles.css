@@ -377,18 +377,18 @@ p {
 	}
 }
 
-.row.discovery-series {
+.row.discovery-series-header {
 	padding-top: 6em;
 	padding-bottom: 6em;
 	background: #ff9922;
 }
 
-.row.discovery-series p {
+.row.discovery-series-header p {
 	color: white;
 	margin-bottom: 2em;
 }
 
-.row.discovery-series .discovery-series-logo {
+.row.discovery-series-header .discovery-series-logo {
 	display: block;
 	width: 40vw;
 	margin: auto;
@@ -396,8 +396,8 @@ p {
 	margin-bottom: 4em;
 }
 
-.row.discovery-series .upcoming {
-	margin-bottom: 2em;
+.row.discovery-series-events .upcoming {
+	margin: 6em 0 6em 0;
 }
 
 .row.nspiretv {

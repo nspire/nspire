@@ -1,0 +1,15 @@
+<div class="col-md-1"></div>
+{% for event in site.data.events %}
+{% if event.upcoming %}
+<div class="col-md-10 upcoming">
+	{% if event.facebook %}
+	<a href="{{ event.facebook }}" target="_blank">
+	{% endif %}
+		<img src="{{ event.poster }}" alt="{{ event.name }}" class="img-responsive center-block">
+	{% if event.facebook %}
+	</a>
+	{% endif %}
+</div>
+{% endif %}
+{% endfor %}
+<div class="clearfix"></div>
