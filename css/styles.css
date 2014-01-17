@@ -400,6 +400,31 @@ p {
 	margin: 6em 0 6em 0;
 }
 
+.row.discovery-series-events .tickets {
+	background: #3388cc;
+	margin-bottom: 4em;
+}
+
+.row.discovery-series-events .tickets a {
+	text-transform: uppercase;
+	color: white;
+}
+
+.row.discovery-series-events .pillar-info {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.row.discovery-series-events .pillar-logo {
+	width: 60%;
+}
+
+.row.discovery-series-events .pillar p {
+	margin: 0;
+	margin-bottom: 4em;
+	text-align: left;
+}
+
 .row.nspiretv {
 	padding-top: 6em;
 	padding-bottom: 6em;
