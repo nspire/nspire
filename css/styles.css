@@ -722,3 +722,94 @@ p {
 	font-style: italic;
 	margin: 0 20% 5% 20%;
 }
+
+.row.nbtc-speakers {
+	background: #ddd;
+	padding: 6em 0 6em 0;
+}
+
+.row.nbtc-speakers .speakers {
+	margin: 0 auto;
+}
+
+.row.nbtc-speakers .speaker {
+	position: relative;
+}
+
+.row.nbtc-speakers .content {
+	position: absolute;
+	top: 175px;
+	left: 2em;
+	width: 200px;
+	height: 30px;
+	background: #3388cc;
+}
+
+.row.nbtc-speakers .content p {
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.4em;
+}
+
+.row.nbtc-speakers .speaker-photo {
+	margin: 0 2em 0 2em;
+}
+
+.row.nbtc-sponsors {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin: auto;
+}
+
+.row.nbtc-sponsors .sponsor-button {
+	background: #3388cc;
+	height: 4em;
+	color: white;
+	line-height: 3em;
+}
+
+.row.nbtc-sponsors .sponsor-button:hover {
+	background: #6ab0e1;
+}
+
+.row.nbtc-media {
+	padding: 6em 0 6em 0;
+	background: #ddd;
+}
+
+.row.nbtc-countdown {
+	text-align: center;
+	background: #333;
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 4em;
+}
+
+.row.nbtc-countdown .countdown-header {
+	font-size: 1.5em;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	margin-top: 4em;
+}
+
+.row.nbtc-countdown .countdown-date {
+	font-size: 5em;
+	color: #333;
+}
+
+.row.nbtc-countdown .countdown-date .legend {
+	font-size: 0.3em;
+	color: white;
+}
+
+.row.nbtc-countdown .countdown-number {
+	background: #ddd;
+	border-radius: 3px;
+}
+
+.row.nbtc-countdown .countdown-tickets {
+	font-size: 1.5em;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	margin-top: 4em;
+}
