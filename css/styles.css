@@ -878,3 +878,87 @@ p {
 	margin-bottom: 0.5em;
 	color: #3388cc;
 }
+
+.row.nbtc-community-header {
+	background: url('{{ site.baseurl }}/img/nbtc-media_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-community-header h1 {
+	margin: 1.5em 0 0 4em;
+	font-size: 8em;
+	font-weight: lighter;
+	color: white;
+	border-left: 2px solid white;
+	padding-left: 0.4em;
+}
+
+.row.nbtc-community-header img {
+	position: absolute;
+	width: 20em;
+	left: 10%;
+	top: 24%;
+}
+
+.row.nbtc-community-body {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.nbtc-community-body h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.row.nbtc-community-body p {
+	margin-right: 10%;
+	margin-bottom: 2em;
+	margin-left: 10%;
+}
+
+.row.nbtc-community-body .nav {
+	padding: 0 20% 0 20%;
+}
+
+.row.nbtc-community-body .nav a {
+	height: 2em;
+	text-transform: uppercase;
+	color: white;
+	font-size: 2em;
+	font-weight: bolder;
+	background: #3388cc;
+	margin: 1em 0.2em 2em 0.2em;
+}
+
+.row.nbtc-community-body .nav a:hover {
+	background: #6ab0e1;
+}
+
+.row.nbtc-community-speakers .speakers {
+	margin: 0 auto;
+}
+
+.row.nbtc-community-speakers .speaker {
+	position: relative;
+}
+
+.row.nbtc-community-speakers .content {
+	position: absolute;
+	top: 175px;
+	left: 3em;
+	width: 200px;
+	height: 30px;
+	background: #3388cc;
+}
+
+.row.nbtc-community-speakers .content p {
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.4em;
+}
+
+.row.nbtc-community-speakers .speaker-photo {
+	margin: 0 2em 0 2em;
+}
