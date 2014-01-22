@@ -836,3 +836,45 @@ p {
 	left: 10%;
 	top: 24%;
 }
+
+.row.nbtc-media-header {
+	background: url('{{ site.baseurl }}/img/nbtc-media_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-media-header h1 {
+	margin: 1.5em 0 0 4em;
+	font-size: 8em;
+	font-weight: lighter;
+	color: white;
+	border-left: 2px solid white;
+	padding-left: 0.4em;
+}
+
+.row.nbtc-media-header img {
+	position: absolute;
+	width: 20em;
+	left: 10%;
+	top: 24%;
+}
+
+.row.nbtc-media-articles {
+	padding: 6em 0 6em 0;
+}
+
+.row.nbtc-media-articles .networks {
+	margin: 0 auto;
+}
+
+.row.nbtc-media-articles .network {
+	margin: 1em;
+	width: 20em;
+}
+
+.row.nbtc-media-articles .network p {
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	color: #3388cc;
+}
