@@ -2,20 +2,19 @@
 layout: default
 title: About NBTC’14
 ---
-<div id="intro" class="row intro">
+<div id="nbtc-about-header" class="row nbtc-about-header">
+	<img src="{{ site.baseurl }}/img/nbtc_logo_white.svg" alt="NBTC’14">
+	<h1>About Us</h1>
 </div>
 <script>
-	$("#intro").height($(window).height() / 2);
+	$("#nbtc-about-header").height($(window).height() / 2);
 </script>
 <div id="what-is-nbtc" class="row what-is-nbtc">
 	{% include what-is-nbtc.html %}
 </div>
-<div id="nbtc-team" class="row nbtc-team">
-	{% include nbtc-team.html %}
-</div>
 <div id="nbtc-program" class="row nbtc-program">
 	{% include nbtc-program.html %}
 </div>
-<div id="nbtc-highlights" class="row nbtc-highlights">
-	{% include nbtc-highlights.html %}
-</div>
+<!-- <div id="nbtc-highlights" class="row nbtc-highlights"> -->
+<!-- 	{% include nbtc-highlights.html %} -->
+<!-- </div> -->
