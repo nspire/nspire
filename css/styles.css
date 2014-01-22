@@ -962,3 +962,102 @@ p {
 .row.nbtc-community-speakers .speaker-photo {
 	margin: 0 2em 0 2em;
 }
+
+.row.nbtc-competitions-header {
+	background: url('{{ site.baseurl }}/img/nbtc-competitions_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-competitions-header h1 {
+	margin: 1.5em 0 0 4em;
+	font-size: 8em;
+	font-weight: lighter;
+	color: white;
+	border-left: 2px solid white;
+	padding-left: 0.4em;
+}
+
+.row.nbtc-competitions-header img {
+	position: absolute;
+	width: 20em;
+	left: 10%;
+	top: 24%;
+}
+
+.row.nbtc-competitions-body {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.nbtc-competitions-body h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.row.nbtc-competitions-body p {
+	margin-right: 10%;
+	margin-bottom: 2em;
+	margin-left: 10%;
+}
+
+.row.nbtc-competitions-idea {
+	background: #3388cc;
+}
+
+.row.nbtc-competitions-idea h2 {
+	padding: 2em 20% 2em 20%;
+	color: white;
+	font-weight: bolder;
+}
+
+.row.nbtc-competitions-eligible {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.nbtc-competitions-eligible h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.row.nbtc-competitions-eligible p {
+	margin-right: 10%;
+	margin-bottom: 2em;
+	margin-left: 10%;
+}
+
+.row.nbtc-competitions-qualify {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #3388cc;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.row.nbtc-competitions-qualify h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+	color: white;
+}
+
+.row.nbtc-competitions-qualify h2 {
+	color: black;
+}
+
+.row.nbtc-competitions-qualify p {
+	color: white;
+}
+
+.row.nbtc-competitions-qualify .nbtc-competitions-apply {
+	width: 20em;
+	display: block;
+	margin: 2em auto 2em auto;
+	background: #ff9922;
+	text-transform: uppercase;
+	color: black;
+	border-radius: 0;
+}
