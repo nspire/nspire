@@ -759,6 +759,21 @@ p {
 	margin-left: 10%;
 }
 
+.row .nbtc-landing-more {
+	background: #3388cc;
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	border-radius: 0;
+	width: 15em;
+	display: block;
+	margin: auto;
+}
+
+.row .nbtc-landing-more:hover {
+	background: #2277bb;
+}
+
 .row.nbtc-quote {
 	min-height: 20em;
 	background: url('{{ site.baseurl }}/img/nbtc-quote_bg.jpg') no-repeat center center;
