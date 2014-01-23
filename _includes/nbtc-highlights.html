@@ -3,7 +3,13 @@
 	<div class="speakers">
 		{% for speaker in site.data.nbtc-highlights %}
 		<div class="speaker">
-			<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" width="200" class="img-responsive speaker-photo">
+			{% if speaker.youtube %}
+			<a href="{{ speaker.youtube }}" target="_blank">
+				<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" width="200" class="img-responsive speaker-photo">
+			</a>
+			{% else %}
+				<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" width="200" class="img-responsive speaker-photo">
+			{% endif %}
 			<div class="content">
 				<p class="text-center">{{ speaker.name }}</p>
 			</div>

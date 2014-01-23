@@ -1073,7 +1073,13 @@ p {
 	color: white;
 }
 
-.nbtc-schools-logo {
+.row.nbtc-community-body .video {
+	width: 60%;
+	margin-top: 6em;
+	margin-bottom: 6em;
+}
+
+.row.nbtc-community-body .nbtc-schools-logo {
 	margin: 1em;
 }
 
