@@ -1024,22 +1024,35 @@ p {
 	margin-left: 10%;
 }
 
-.row.nbtc-community-body .nav {
-	padding: 0 20% 0 20%;
+.row.nbtc-community-body .pillar {
+	background: #3388cc;
+	padding-top: 1em;
+	margin-bottom: 2em;
+	border: 2em solid white;
 }
 
-.row.nbtc-community-body .nav a {
-	height: 2em;
+.row.nbtc-community-body .pillar.active {
+	background: #005699;
+}
+
+.row.nbtc-community-body .pillar:hover {
+	background: #2277bb;
+}
+
+.row.nbtc-community-body .pillar-info {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.row.nbtc-community-body .pillar-logo {
+	width: 60%;
+}
+
+.row.nbtc-community-body .pillar h2 {
+	margin-top: 0;
+	margin-bottom: 1em;
 	text-transform: uppercase;
 	color: white;
-	font-size: 2em;
-	font-weight: bolder;
-	background: #3388cc;
-	margin: 1em 0.2em 2em 0.2em;
-}
-
-.row.nbtc-community-body .nav a:hover {
-	background: #6ab0e1;
 }
 
 .row.nbtc-community-speakers .speakers {
