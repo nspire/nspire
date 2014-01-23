@@ -39,8 +39,8 @@ title: NBTC’14 Community
 		</p>
 		<h1 class="text-center">Partner Schools</h1>
 		{% for s in site.data.nbtc-schools %}
-		<div class="col-sm-3 text-center">
-			<h2>{{ s.name }}</h2>
+		{% cycle '<div class="clearfix"></div><div class="col-sm-2 col-sm-offset-2">', '<div class="col-sm-2">', '<div class="col-sm-2">', '<div class="col-sm-2">' %}
+			<img src="{{ s.photo }}" alt="{{ s.name }}" width="200" class="img-thumbnail nbtc-schools-logo">
 		</div>
 		{% endfor %}
 	</div>

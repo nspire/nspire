@@ -1,14 +1,28 @@
-- name: Queen’s
-- name: Ivey
-- name: UofT
-- name: Waterloo
-- name: McMaster
-- name: York
-- name: McGill
-- name: Carleton
-- name: OttawaU
-- name: Ryerson
-- name: UTSG
-- name: UTM
-- name: Laurier
+- name: York University
+  photo: http://i.imgur.com/bXSQgrc.jpg
+- name: University of Waterloo
+  photo: http://i.imgur.com/Yxjf2pE.jpg
+- name: University of Toronto Scarborough
+  photo: http://i.imgur.com/ccmHcuh.jpg
+- name: University of Toronto Mississauga
+  photo: http://i.imgur.com/wIT6Wmz.jpg
+- name: University of Toronto
+  photo: http://i.imgur.com/Fhr2lGI.jpg
+- name: University of Ottawa
+  photo: http://i.imgur.com/DtnNLie.jpg
+- name: Ryerson University
+  photo: http://i.imgur.com/bUDhPws.jpg
+- name: Queen's University
+  photo: http://i.imgur.com/9G5KiVT.jpg
 - name: OCAD
+  photo: http://i.imgur.com/mx18rR2.jpg
+- name: McGill University
+  photo: http://i.imgur.com/qrIqe9c.jpg
+- name: McMaster University
+  photo: http://i.imgur.com/iDAxzye.jpg
+- name: Wilfred Laurier University
+  photo: http://i.imgur.com/u3WTlZ7.jpg
+- name: University of Western Ontario
+  photo: http://i.imgur.com/R5ZxLCj.jpg
+- name: Carleton University
+  photo: http://i.imgur.com/8N3dRpE.jpg
