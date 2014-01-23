@@ -23,7 +23,16 @@
 	<div class="members">
 		{% for member in site.data.team %}
 			{% if member.photo %}
-			<img src="{{ member.photo }}" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="modal" data-target="#{{ forloop.index }}Modal" width="90" height="90" class="member {{ member.department }}">
+			<div class="member-container">
+				<img src="{{ member.photo }}" alt="{{ member.firstname }} {{member.lastname}}" data-toggle="modal" data-target="#{{ forloop.index }}Modal" width="90" height="90" class="member {{ member.department }}">
+				<div class="text-center member-info">
+					<p>
+						<span class="member-name">{{ member.firstname }} {{ member.lastname }}</span>
+						<br>
+						<span class="member-position">{{ member.position }}</span>
+					</p>
+				</div>
+			</div>
 			<div class="modal fade" id="{{ forloop.index }}Modal" tabindex="-1" role="dialog" aria-labelledby="{{ forloop.index }}ModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content">
@@ -86,7 +95,7 @@
 <script>
 	var $container = $('.members');
 	$container.isotope({
-		itemSelector: '.member',
+		itemSelector: '.member-container',
 	});
 
 	$('.filters a').click(function(){

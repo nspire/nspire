@@ -255,6 +255,41 @@ p {
 	margin: 0 auto;
 }
 
+.row.team .member-container {
+	margin: 0.5em;
+	position: relative;
+}
+
+.row.team .member-info {
+	display: none;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.row.team .member-info p {
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.row.team .member-info .member-name {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.row.team .member-info .member-position {
+	font-size: 0.8em;
+	display: block;
+	line-height: 1em;
+}
+
+.row.team .member-container:hover .member-info {
+	display: block;
+	background: rgba(54,136,200,0.6);
+}
+
 .row.join {
 	min-height: 20em;
 	background: #99ccee;
