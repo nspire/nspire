@@ -732,18 +732,32 @@ p {
 }
 
 .row.nbtc-highlights .content {
+	display: none;
 	position: absolute;
-	top: 125px;
+	top: 105px;
 	left: 1em;
 	width: 200px;
-	height: 30px;
+	height: 50px;
 	background: #3388cc;
+}
+
+.row.nbtc-highlights .speaker:hover .content {
+	display: block;
 }
 
 .row.nbtc-highlights .content p {
 	color: white;
 	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 1.4em;
+	font-size: 1em;
+	margin-top: .7em;
+}
+
+.row.nbtc-highlights .content p.content-name {
+	line-height: .2em;
+}
+
+.row.nbtc-highlights .content p.content-position {
+	font-size: .8em;
 }
 
 .row.nbtc-highlights .speaker-photo {

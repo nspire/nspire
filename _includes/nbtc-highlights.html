@@ -10,9 +10,12 @@
 			{% else %}
 				<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" width="200" class="img-responsive speaker-photo">
 			{% endif %}
+			{% if speaker.name %}
 			<div class="content">
-				<p class="text-center">{{ speaker.name }}</p>
+				<p class="text-center content-name">{{ speaker.name }}</p>
+				<p class="text-center content-position">{{ speaker.position }}</p>
 			</div>
+			{% endif %}
 		</div>
 		{% endfor %}
 	</div>
