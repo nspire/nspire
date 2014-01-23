@@ -1110,6 +1110,17 @@ p {
 	margin: 0 2em 0 2em;
 }
 
+.row.nbtc-community-body .sponsors,
+.row.nbtc-community-body .affiliates {
+	margin: 0 auto;
+}
+
+.row.nbtc-community-body .sponsor-logo,
+.row.nbtc-community-body .affiliate-logo {
+	margin: 1em;
+	padding: 2em;
+}
+
 .row.nbtc-competitions-header {
 	background: url('{{ site.baseurl }}/img/nbtc-competitions_bg.jpg') no-repeat center center;
 	background-size: 100%;
