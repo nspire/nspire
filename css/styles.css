@@ -109,6 +109,10 @@ p {
 	padding-bottom: 6em;
 }
 
+.row.mantra .mantra-legend {
+	font-weight: lighter;
+}
+
 .row.mantra h1 {
 	color: white;
 	font-weight: bold;
