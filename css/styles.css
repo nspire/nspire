@@ -18,6 +18,7 @@ p {
 .navbar-default {
 	background-color: rgba(248, 248, 248, 0.8);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.8) 0px, rgba(248, 248, 248, 0.8) 100%);
+	border: none;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -574,6 +575,23 @@ p {
 .row.partners .affiliate-logo {
 	margin: 1em;
 	padding: 2em;
+}
+
+.nbtc-navbar-tickets-parent {
+	background: rgb(61,64,67);
+}
+
+.nbtc-navbar-tickets-parent:hover {
+	background: #3388cc;
+}
+
+.nbtc-navbar-tickets {
+	font-weight: bolder;
+	color: #fccc25 !important;
+}
+
+.nbtc-navbar-tickets-parent:hover .nbtc-navbar-tickets {
+	color: white !important;
 }
 
 .row.what-is-nbtc {
