@@ -11,49 +11,21 @@ title: NBTC’14 Community
 </script>
 <div id="nbtc-community-body" class="row nbtc-community-body">
 	<h1 class="text-center">The NBTC Community</h1>
-	<!-- Nav tabs -->
 	<ul class="nav nav-pills nav-justified">
-		<li><a href="#delegates" data-toggle="tab">Delegates</a></li>
-		<li><a href="#speakers" data-toggle="tab">Speakers</a></li>
-		<li><a href="#sponsors" data-toggle="tab">Sponsors</a></li>
+		<li><a href="/nbtc/delegates">Delegates</a></li>
+		<li><a href="/nbtc/speakers">Speakers</a></li>
+		<li><a href="/nbtc/sponsors">Sponsors</a></li>
 	</ul>
 
-	<!-- Tab panes -->
-	<div class="tab-content">
-		<div class="tab-pane fade in active" id="delegates">
-			<p class="lead text-center">
-				NBTC’14 will unite 400 of the brightest students from some of the top institutions, who specialize in everything from engineering to investment banking. However, what remains constant is that they are all passionate about challenging the status quo and strive to shape the future in the business and technology space.
-			</p>
-			<h1 class="text-center">Partner Schools</h1>
-			{% for s in site.data.nbtc-schools %}
-			<div class="col-sm-3 text-center">
-				<h2>{{ s.name }}</h2>
-			</div>
-			{% endfor %}
+	<div id="delegates">
+		<p class="lead text-center">
+			NBTC’14 will unite 400 of the brightest students from some of the top institutions, who specialize in everything from engineering to investment banking. However, what remains constant is that they are all passionate about challenging the status quo and strive to shape the future in the business and technology space.
+		</p>
+		<h1 class="text-center">Partner Schools</h1>
+		{% for s in site.data.nbtc-schools %}
+		<div class="col-sm-3 text-center">
+			<h2>{{ s.name }}</h2>
 		</div>
-		<div class="tab-pane fade" id="speakers">
-			<p class="lead text-center">
-				NBTC’14 will bring together world-class speakers from all facets of the business and technology space. From high-ranking executives to innovative entrepreneurs, their awe-inspiring stories and thought-provoking discussions are sure to keep you on the edge of your seat.
-			</p>
-			<div id="nbtc-community-speakers" class="row nbtc-community-speakers">
-				<div class="col-sm-10 col-sm-offset-1">
-					<div class="speakers">
-						{% for speaker in site.data.nbtc-speakers %}
-						<div class="col-sm-3 speaker">
-							<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" width="200" class="img-responsive speaker-photo">
-							<div class="content">
-								<p class="text-center">{{ speaker.name }}</p>
-							</div>
-						</div>
-						{% endfor %}
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="tab-pane fade" id="sponsors">
-			<p class="lead text-center">
-				Thank you to all of our sponsors for their continued support, without whom we wouldn’t be able to Nspire!
-			</p>
-		</div>
+		{% endfor %}
 	</div>
 </div>
