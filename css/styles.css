@@ -866,18 +866,32 @@ p {
 }
 
 .row.nbtc-speakers .content {
+	display: none;
 	position: absolute;
-	top: 175px;
+	top: 155px;
 	left: 2em;
 	width: 200px;
-	height: 30px;
+	height: 50px;
 	background: #3388cc;
+}
+
+.row.nbtc-speakers .speaker:hover .content {
+	display: block;
 }
 
 .row.nbtc-speakers .content p {
 	color: white;
 	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 1.4em;
+	font-size: 1em;
+	margin-top: .7em;
+}
+
+.row.nbtc-speakers .content p.content-name {
+	line-height: .2em;
+}
+
+.row.nbtc-speakers .content p.content-position {
+	font-size: .8em;
 }
 
 .row.nbtc-speakers .speaker-photo {
@@ -1104,18 +1118,33 @@ p {
 }
 
 .row.nbtc-community-speakers .content {
+	display: none;
 	position: absolute;
-	top: 175px;
-	left: 3em;
+	top: 155px;
+	left: 2em;
 	width: 200px;
-	height: 30px;
+	height: 50px;
 	background: #3388cc;
+}
+
+.row.nbtc-community-speakers .speaker:hover .content {
+	display: block;
 }
 
 .row.nbtc-community-speakers .content p {
 	color: white;
 	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 1.4em;
+	font-size: 1em;
+	margin-top: .7em;
+}
+
+.row.nbtc-community-speakers .content p.content-name {
+	line-height: .2em;
+	margin-bottom: 0;
+}
+
+.row.nbtc-community-speakers .content p.content-position {
+	font-size: .8em;
 }
 
 .row.nbtc-community-speakers .speaker-photo {

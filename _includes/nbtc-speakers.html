@@ -5,7 +5,8 @@
 		<div class="speaker">
 			<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" width="200" class="img-responsive speaker-photo">
 			<div class="content">
-				<p class="text-center">{{ speaker.name }}</p>
+				<p class="text-center content-name">{{ speaker.name }}</p>
+				<p class="text-center content-position">{{ speaker.position }}</p>
 			</div>
 		</div>
 		{% endfor %}
@@ -20,5 +21,7 @@
 	});
 </script>
 <div class="clearfix"></div>
+{% if page.url == '/nbtc/index.html' %}
 <br><br>
 <a href="/nbtc/speakers" class="btn btn-lg nbtc-landing-more">Find Out More</a>
+{% endif %}
