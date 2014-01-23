@@ -801,6 +801,10 @@ p {
 	padding: 6em 0 6em 0;
 }
 
+.row.nbtc-speakers h1 {
+	padding-bottom: 1em;
+}
+
 .row.nbtc-speakers .speakers {
 	margin: 0 auto;
 }
@@ -836,9 +840,13 @@ p {
 
 .row.nbtc-sponsors .sponsor-button {
 	background: #3388cc;
+	max-width: 15em;
+	margin: auto;
 	height: 4em;
 	color: white;
+	text-transform: uppercase;
 	line-height: 3em;
+	border-radius: 0;
 }
 
 .row.nbtc-sponsors .sponsor-button:hover {
