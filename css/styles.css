@@ -636,6 +636,22 @@ p {
 	color: #77aadd;
 }
 
+.row .nbtc-intro-tickets {
+	background: #fccc25;
+	color: rgb(61,64,67);
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	border-radius: 0;
+	width: 15em;
+	display: block;
+	margin: auto;
+	margin-top: 25em;
+}
+
+.row .nbtc-intro-tickets:hover {
+	background: #ebbb14;
+}
+
 .row.nbtc-intro .pillar-info {
 	position: relative;
 	top: 55%;
@@ -646,13 +662,13 @@ p {
 
 .row.nbtc-intro .pillar-logo {
 	position: static;
-	width: 10vw;
+	width: 6vw;
 	margin: auto;
 }
 
 .row.nbtc-intro .pillar h2 {
 	color: white;
-	font-size: 2vw;
+	font-size: 1.5vw;
 }
 
 .row.nbtc-team {
