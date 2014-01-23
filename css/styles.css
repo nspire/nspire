@@ -18,6 +18,7 @@ p {
 .navbar-default {
 	background-color: rgba(248, 248, 248, 0.8);
 	background-image: linear-gradient(rgba(255, 255, 255, 0.8) 0px, rgba(248, 248, 248, 0.8) 100%);
+	border: none;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -107,6 +108,10 @@ p {
 	background-size: cover;
 	padding-top: 6em;
 	padding-bottom: 6em;
+}
+
+.row.mantra .mantra-legend {
+	font-weight: lighter;
 }
 
 .row.mantra h1 {
@@ -249,6 +254,41 @@ p {
 
 .row.team .members {
 	margin: 0 auto;
+}
+
+.row.team .member-container {
+	margin: 0.5em;
+	position: relative;
+}
+
+.row.team .member-info {
+	display: none;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.row.team .member-info p {
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.row.team .member-info .member-name {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.row.team .member-info .member-position {
+	font-size: 0.8em;
+	display: block;
+	line-height: 1em;
+}
+
+.row.team .member-container:hover .member-info {
+	display: block;
+	background: rgba(54,136,200,0.6);
 }
 
 .row.join {
@@ -482,6 +522,10 @@ p {
 	color: white;
 }
 
+.row.what-is-nbtc .video {
+	width: 60%;
+}
+
 .row.nbtc .pillar-info {
 	margin-top: 6em;
 	margin-left: 12.5%;
@@ -535,4 +579,684 @@ p {
 .row.partners .affiliate-logo {
 	margin: 1em;
 	padding: 2em;
+}
+
+.nbtc-navbar-tickets-parent {
+	background: rgb(61,64,67);
+}
+
+.nbtc-navbar-tickets-parent:hover {
+	background: #3388cc;
+}
+
+.nbtc-navbar-tickets {
+	font-weight: bolder;
+	color: #fccc25 !important;
+}
+
+.nbtc-navbar-tickets-parent:hover .nbtc-navbar-tickets {
+	color: white !important;
+}
+
+.row.what-is-nbtc {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.what-is-nbtc p {
+	margin-right: 10%;
+	margin-bottom: 2em;
+	margin-left: 10%;
+}
+
+.row.nbtc-intro {
+	background: url('{{ site.baseurl }}/img/nbtc-landing_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-intro img {
+	position: absolute;
+	width: 30vw;
+	left: 50%;
+	margin-left: -15vw;
+	top: 15%;
+}
+
+.nbtc-banner {
+	padding: 0.4em;
+	position: relative;
+	top: 50%;
+	margin-top: -10vh;
+	color: white;
+	background: rgba(54,136,200,0.4);
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 4vw;
+	text-transform: uppercase;
+}
+
+.nbtc-banner-role {
+	font-weight: bolder;
+	color: #77aadd;
+}
+
+.row .nbtc-intro-tickets {
+	background: #fccc25;
+	color: rgb(61,64,67);
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	border-radius: 0;
+	width: 15em;
+	display: block;
+	margin: auto;
+	margin-top: 25em;
+}
+
+.row .nbtc-intro-tickets:hover {
+	background: #ebbb14;
+}
+
+.row.nbtc-intro .pillar-info {
+	position: relative;
+	top: 55%;
+	padding: 1em;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.row.nbtc-intro .pillar-logo {
+	position: static;
+	width: 6vw;
+	margin: auto;
+}
+
+.row.nbtc-intro .pillar h2 {
+	color: white;
+	font-size: 1.5vw;
+}
+
+.row.nbtc-team {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #eee;
+}
+
+.row.nbtc-team .sponsors {
+	margin: 0 auto;
+}
+
+.row.nbtc-team .sponsor-logo {
+	margin: 1em;
+	padding: 2em;
+}
+
+.row.nbtc-program {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #ddd;
+}
+
+.row.nbtc-program p {
+	margin-right: 20%;
+	margin-bottom: 2em;
+	margin-left: 20%;
+}
+
+.row.nbtc-program .pillar-info {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.row.nbtc-program .pillar-logo {
+	width: 60%;
+}
+
+.row.nbtc-program .pillar p.lead {
+	margin: 1em;
+	text-transform: uppercase;
+}
+
+.row.nbtc-program .pillar p {
+	margin: 0;
+	margin-bottom: 4em;
+}
+
+.row.nbtc-highlights {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #999;
+}
+
+.row.nbtc-highlights .speakers {
+	margin: 0 auto;
+}
+
+.row.nbtc-highlights .speaker {
+	position: relative;
+}
+
+.row.nbtc-highlights .content {
+	display: none;
+	position: absolute;
+	top: 105px;
+	left: 1em;
+	width: 200px;
+	height: 50px;
+	background: #3388cc;
+}
+
+.row.nbtc-highlights .speaker:hover .content {
+	display: block;
+}
+
+.row.nbtc-highlights .content p {
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: .7em;
+}
+
+.row.nbtc-highlights .content p.content-name {
+	line-height: .2em;
+}
+
+.row.nbtc-highlights .content p.content-position {
+	font-size: .8em;
+}
+
+.row.nbtc-highlights .speaker-photo {
+	margin: 1em;
+}
+
+.row.nbtc-stats {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #666;
+}
+
+.row.nbtc-stats h1 {
+	color: white;
+}
+
+.row.nbtc-stats .pillar-info {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.row.nbtc-stats .pillar h2 {
+	color: #77aadd;
+	font-weight: bolder;
+	font-size: 5vw;
+}
+
+.row.nbtc-stats .pillar h3 {
+	color: white;
+	font-size: 1.3vw;
+}
+
+.row.nbtc-about {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.nbtc-about h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.row.nbtc-about p {
+	margin-right: 10%;
+	margin-bottom: 2em;
+	margin-left: 10%;
+}
+
+.row .nbtc-landing-more {
+	background: #3388cc;
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	border-radius: 0;
+	width: 15em;
+	display: block;
+	margin: auto;
+}
+
+.row .nbtc-landing-more:hover {
+	background: #2277bb;
+}
+
+.row.nbtc-quote {
+	min-height: 20em;
+	background: url('{{ site.baseurl }}/img/nbtc-quote_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-quote p {
+	color: white;
+}
+
+.row.nbtc-quote p.lead {
+	font-size: 2em;
+	margin: 5% 20% 0 20%;
+}
+
+.row.nbtc-quote p.citation {
+	font-size: 1.8em;
+	font-style: italic;
+	margin: 0 20% 5% 20%;
+}
+
+.row.nbtc-speakers {
+	background: #ddd;
+	padding: 6em 0 6em 0;
+}
+
+.row.nbtc-speakers h1 {
+	padding-bottom: 1em;
+}
+
+.row.nbtc-speakers .speakers {
+	margin: 0 auto;
+}
+
+.row.nbtc-speakers .speaker {
+	position: relative;
+}
+
+.row.nbtc-speakers .content {
+	display: none;
+	position: absolute;
+	top: 155px;
+	left: 2em;
+	width: 200px;
+	height: 50px;
+	background: #3388cc;
+}
+
+.row.nbtc-speakers .speaker:hover .content {
+	display: block;
+}
+
+.row.nbtc-speakers .content p {
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: .7em;
+}
+
+.row.nbtc-speakers .content p.content-name {
+	line-height: .2em;
+}
+
+.row.nbtc-speakers .content p.content-position {
+	font-size: .8em;
+}
+
+.row.nbtc-speakers .speaker-photo {
+	margin: 0 2em 0 2em;
+}
+
+.row.nbtc-sponsors {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin: auto;
+}
+
+.row.nbtc-sponsors .sponsor-button {
+	background: #3388cc;
+	max-width: 15em;
+	margin: auto;
+	height: 4em;
+	color: white;
+	text-transform: uppercase;
+	line-height: 3em;
+	border-radius: 0;
+}
+
+.row.nbtc-sponsors .sponsor-button:hover {
+	background: #6ab0e1;
+}
+
+.row.nbtc-media {
+	padding: 6em 0 6em 0;
+	background: #ddd;
+}
+
+.row.nbtc-media h1 {
+	padding-bottom: 1em;
+}
+
+.row.nbtc-countdown {
+	text-align: center;
+	background: #333;
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 4em;
+}
+
+.row.nbtc-countdown .countdown-header {
+	font-size: 1.5em;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	margin-top: 4em;
+}
+
+.row.nbtc-countdown .countdown-date {
+	font-size: 5em;
+	color: #333;
+}
+
+.row.nbtc-countdown .countdown-date .legend {
+	font-size: 0.3em;
+	color: white;
+}
+
+.row.nbtc-countdown .countdown-number {
+	background: #ddd;
+	border-radius: 3px;
+}
+
+.row.nbtc-countdown .countdown-tickets {
+	font-size: 1.5em;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	margin-top: 4em;
+	text-decoration: none;
+	color: #fccc25;
+}
+
+.row.nbtc-countdown .countdown-tickets:hover {
+	color: white;
+}
+
+.row.nbtc-about-header {
+	background: url('{{ site.baseurl }}/img/nbtc-about_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-about-header h1 {
+	margin: 1.5em 0 0 4em;
+	font-size: 8em;
+	font-weight: lighter;
+	color: white;
+	border-left: 2px solid white;
+	padding-left: 0.4em;
+}
+
+.row.nbtc-about-header img {
+	position: absolute;
+	width: 20em;
+	left: 10%;
+	top: 24%;
+}
+
+.row.nbtc-media-header {
+	background: url('{{ site.baseurl }}/img/nbtc-media_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-media-header h1 {
+	margin: 1.5em 0 0 4em;
+	font-size: 8em;
+	font-weight: lighter;
+	color: white;
+	border-left: 2px solid white;
+	padding-left: 0.4em;
+}
+
+.row.nbtc-media-header img {
+	position: absolute;
+	width: 20em;
+	left: 10%;
+	top: 24%;
+}
+
+.row.nbtc-media-articles {
+	padding: 6em 0 6em 0;
+}
+
+.row.nbtc-media-articles .networks {
+	margin: 0 auto;
+}
+
+.row.nbtc-media-articles .network {
+	margin: 1em;
+	width: 20em;
+}
+
+.row.nbtc-media-articles .network p {
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	color: #3388cc;
+}
+
+.row.nbtc-community-header {
+	background: url('{{ site.baseurl }}/img/nbtc-media_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-community-header h1 {
+	margin: 1.5em 0 0 4em;
+	font-size: 8em;
+	font-weight: lighter;
+	color: white;
+	border-left: 2px solid white;
+	padding-left: 0.4em;
+}
+
+.row.nbtc-community-header img {
+	position: absolute;
+	width: 20em;
+	left: 10%;
+	top: 24%;
+}
+
+.row.nbtc-community-body {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.nbtc-community-body h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.row.nbtc-community-body p {
+	margin-right: 10%;
+	margin-bottom: 2em;
+	margin-left: 10%;
+}
+
+.row.nbtc-community-body .pillar {
+	background: #3388cc;
+	padding-top: 1em;
+	margin-bottom: 2em;
+	border: 2em solid white;
+}
+
+.row.nbtc-community-body .pillar.active {
+	background: #005699;
+}
+
+.row.nbtc-community-body .pillar:hover {
+	background: #2277bb;
+}
+
+.row.nbtc-community-body .pillar-info {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.row.nbtc-community-body .pillar-logo {
+	width: 60%;
+}
+
+.row.nbtc-community-body .pillar h2 {
+	margin-top: 0;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	color: white;
+}
+
+.row.nbtc-community-body .nbtc-schools-logo {
+	margin: 1em;
+}
+
+.row.nbtc-community-speakers .speakers {
+	margin: 0 auto;
+}
+
+.row.nbtc-community-speakers .speaker {
+	position: relative;
+}
+
+.row.nbtc-community-speakers .content {
+	display: none;
+	position: absolute;
+	top: 155px;
+	left: 2em;
+	width: 200px;
+	height: 50px;
+	background: #3388cc;
+}
+
+.row.nbtc-community-speakers .speaker:hover .content {
+	display: block;
+}
+
+.row.nbtc-community-speakers .content p {
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: .7em;
+}
+
+.row.nbtc-community-speakers .content p.content-name {
+	line-height: .2em;
+	margin-bottom: 0;
+}
+
+.row.nbtc-community-speakers .content p.content-position {
+	font-size: .8em;
+}
+
+.row.nbtc-community-speakers .speaker-photo {
+	margin: 0 2em 0 2em;
+}
+
+.row.nbtc-community-body .sponsors,
+.row.nbtc-community-body .affiliates {
+	margin: 0 auto;
+}
+
+.row.nbtc-community-body .sponsor-logo,
+.row.nbtc-community-body .affiliate-logo {
+	margin: 1em;
+	padding: 2em;
+}
+
+.row.nbtc-competitions-header {
+	background: url('{{ site.baseurl }}/img/nbtc-competitions_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-competitions-header h1 {
+	margin: 1.5em 0 0 4em;
+	font-size: 8em;
+	font-weight: lighter;
+	color: white;
+	border-left: 2px solid white;
+	padding-left: 0.4em;
+}
+
+.row.nbtc-competitions-header img {
+	position: absolute;
+	width: 20em;
+	left: 10%;
+	top: 24%;
+}
+
+.row.nbtc-competitions-body {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.nbtc-competitions-body h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.row.nbtc-competitions-body p {
+	margin-right: 10%;
+	margin-bottom: 2em;
+	margin-left: 10%;
+}
+
+.row.nbtc-competitions-idea {
+	background: #3388cc;
+}
+
+.row.nbtc-competitions-idea h2 {
+	padding: 2em 20% 2em 20%;
+	color: white;
+	font-weight: bolder;
+}
+
+.row.nbtc-competitions-eligible {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.nbtc-competitions-eligible h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.row.nbtc-competitions-eligible p {
+	margin-right: 10%;
+	margin-bottom: 2em;
+	margin-left: 10%;
+}
+
+.row.nbtc-competitions-qualify {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #3388cc;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.row.nbtc-competitions-qualify h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+	color: white;
+}
+
+.row.nbtc-competitions-qualify h2 {
+	color: black;
+}
+
+.row.nbtc-competitions-qualify p {
+	color: white;
+}
+
+.row.nbtc-competitions-qualify .nbtc-competitions-apply {
+	width: 20em;
+	display: block;
+	margin: 2em auto 2em auto;
+	background: #ff9922;
+	text-transform: uppercase;
+	color: black;
+	border-radius: 0;
 }
