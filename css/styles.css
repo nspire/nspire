@@ -522,6 +522,10 @@ p {
 	color: white;
 }
 
+.row.what-is-nbtc .video {
+	width: 60%;
+}
+
 .row.nbtc .pillar-info {
 	margin-top: 6em;
 	margin-left: 12.5%;
@@ -1085,12 +1089,6 @@ p {
 	margin-bottom: 1em;
 	text-transform: uppercase;
 	color: white;
-}
-
-.row.nbtc-community-body .video {
-	width: 60%;
-	margin-top: 6em;
-	margin-bottom: 6em;
 }
 
 .row.nbtc-community-body .nbtc-schools-logo {
