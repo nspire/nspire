@@ -858,6 +858,10 @@ p {
 	background: #ddd;
 }
 
+.row.nbtc-media h1 {
+	padding-bottom: 1em;
+}
+
 .row.nbtc-countdown {
 	text-align: center;
 	background: #333;
