@@ -723,13 +723,31 @@ p {
 	background: #999;
 }
 
-.row.nbtc-highlights .sponsors {
+.row.nbtc-highlights .speakers {
 	margin: 0 auto;
 }
 
-.row.nbtc-highlights .sponsor-logo {
+.row.nbtc-highlights .speaker {
+	position: relative;
+}
+
+.row.nbtc-highlights .content {
+	position: absolute;
+	top: 125px;
+	left: 1em;
+	width: 200px;
+	height: 30px;
+	background: #3388cc;
+}
+
+.row.nbtc-highlights .content p {
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.4em;
+}
+
+.row.nbtc-highlights .speaker-photo {
 	margin: 1em;
-	padding: 2em;
 }
 
 .row.nbtc-stats {
