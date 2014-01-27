@@ -1237,9 +1237,21 @@ p {
 .row.nbtc-competitions-qualify {
 	padding-top: 6em;
 	padding-bottom: 6em;
-	background: #3388cc;
+	background: #666;
 	padding-right: 10%;
 	padding-left: 10%;
+}
+
+.row.nbtc-competitions-qualify > div > h1 {
+	text-align:center;
+	font-weight:bold;
+}
+
+.row.nbtc-competitions-qualify > div > h2 {
+	font-size:130%;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
 }
 
 .row.nbtc-competitions-qualify h1 {
@@ -1257,6 +1269,11 @@ p {
 	color: white;
 }
 
+.nbtc-competitions-apply:before {
+	content:" ";
+	clear:both;
+}
+
 .row.nbtc-competitions-qualify .nbtc-competitions-apply {
 	width: 20em;
 	display: block;
@@ -1265,6 +1282,7 @@ p {
 	text-transform: uppercase;
 	color: black;
 	border-radius: 0;
+	font-weight:bold;
 }
 
 #nbtc-about-video {
