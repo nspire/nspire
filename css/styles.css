@@ -522,10 +522,6 @@ p {
 	color: white;
 }
 
-.row.what-is-nbtc .video {
-	width: 60%;
-}
-
 .row.nbtc .pillar-info {
 	margin-top: 6em;
 	margin-left: 12.5%;
@@ -811,6 +807,13 @@ p {
 	margin-left: 10%;
 }
 
+.row.nbtc-about .video {
+	width: 60%;
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+
+
 .row .nbtc-landing-more {
 	background: #3388cc;
 	color: white;
@@ -868,7 +871,7 @@ p {
 .row.nbtc-speakers .content {
 	display: none;
 	position: absolute;
-	top: 155px;
+	top: 178px;
 	left: 2em;
 	width: 200px;
 	height: 50px;
@@ -895,7 +898,7 @@ p {
 }
 
 .row.nbtc-speakers .speaker-photo {
-	margin: 0 2em 0 2em;
+	margin: 2em 2em 2em 2em;
 }
 
 .row.nbtc-sponsors {
@@ -1120,7 +1123,7 @@ p {
 .row.nbtc-community-speakers .content {
 	display: none;
 	position: absolute;
-	top: 155px;
+	top: 178px;
 	left: 2em;
 	width: 200px;
 	height: 50px;
@@ -1148,7 +1151,7 @@ p {
 }
 
 .row.nbtc-community-speakers .speaker-photo {
-	margin: 0 2em 0 2em;
+	margin: 2em 2em 2em 2em;
 }
 
 .row.nbtc-community-body .sponsors,
@@ -1201,8 +1204,14 @@ p {
 	margin-left: 10%;
 }
 
+.nbtc-competitions-body > div > img {
+	width:100%;
+	max-width:10em;
+}
+
 .row.nbtc-competitions-idea {
-	background: #3388cc;
+	background: url('http://i.imgur.com/2txQ9dW.jpg') center center;
+	background-size: cover;
 }
 
 .row.nbtc-competitions-idea h2 {
@@ -1231,9 +1240,21 @@ p {
 .row.nbtc-competitions-qualify {
 	padding-top: 6em;
 	padding-bottom: 6em;
-	background: #3388cc;
+	background: #666;
 	padding-right: 10%;
 	padding-left: 10%;
+}
+
+.row.nbtc-competitions-qualify > div > h1 {
+	text-align:center;
+	font-weight:bold;
+}
+
+.row.nbtc-competitions-qualify > div > h2 {
+	font-size:130%;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
 }
 
 .row.nbtc-competitions-qualify h1 {
@@ -1251,6 +1272,11 @@ p {
 	color: white;
 }
 
+.nbtc-competitions-apply:before {
+	content:" ";
+	clear:both;
+}
+
 .row.nbtc-competitions-qualify .nbtc-competitions-apply {
 	width: 20em;
 	display: block;
@@ -1259,4 +1285,5 @@ p {
 	text-transform: uppercase;
 	color: black;
 	border-radius: 0;
+	font-weight:bold;
 }
