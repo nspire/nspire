@@ -895,7 +895,7 @@ p {
 }
 
 .row.nbtc-speakers .speaker-photo {
-	margin: 0 2em 0 2em;
+	margin: 2em 2em 2em 2em;
 }
 
 .row.nbtc-sponsors {
@@ -1148,7 +1148,7 @@ p {
 }
 
 .row.nbtc-community-speakers .speaker-photo {
-	margin: 0 2em 0 2em;
+	margin: 2em 2em 2em 2em;
 }
 
 .row.nbtc-community-body .sponsors,
@@ -1259,4 +1259,8 @@ p {
 	text-transform: uppercase;
 	color: black;
 	border-radius: 0;
+}
+
+#nbtc-about-video {
+	margin-top: 2em;
 }
