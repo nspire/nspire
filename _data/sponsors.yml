@@ -13,6 +13,9 @@
 - name: Cream-HR
   website: http://cream.hr/ 
   logo: http://i.imgur.com/0ZCvEaT.jpg
+- name: Ernst & Young
+  website: http://www.ey.com
+  logo: http://i.imgur.com/UcoODfE.jpg
 - name: Grateful for Gratitude
   website:
   logo: http://i.imgur.com/7bjubJf.jpg 
@@ -28,6 +31,12 @@
 - name: sabeta-ip
   website: http://www.sabetaip.com/ 
   logo: http://i.imgur.com/7NWyu1d.jpg 
+- name: shopify
+  website: http://www.shopify.com
+  logo: http://i.imgur.com/JxwWJb4.jpg 
+- name: topi
+  website: http://topi.com
+  logo: http://i.imgur.com/CSY7gw0.jpg 
 - name: Uniiverse
   website: https://www.uniiverse.com/ 
   logo: http://i.imgur.com/b7c0BMu.jpg 
