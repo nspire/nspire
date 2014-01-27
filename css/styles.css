@@ -1201,8 +1201,14 @@ p {
 	margin-left: 10%;
 }
 
+.nbtc-competitions-body > div > img {
+	width:100%;
+	max-width:10em;
+}
+
 .row.nbtc-competitions-idea {
-	background: #3388cc;
+	background: url('http://i.imgur.com/2txQ9dW.jpg') center center;
+	background-size: cover;
 }
 
 .row.nbtc-competitions-idea h2 {
