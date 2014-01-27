@@ -37,11 +37,25 @@ title: NBTC’14 Community
 		<p class="lead text-center">
 			NBTC’14 will unite 400 of the brightest students from some of the top institutions, who specialize in everything from engineering to investment banking. However, what remains constant is that they are all passionate about challenging the status quo and strive to shape the future in the business and technology space.
 		</p>
-		<h1 class="text-center">Partner Schools</h1>
+		<h1 class="text-center">Partner Schools and Subsidies Available</h1>
+		<p class="lead text-center">See how your school is helping to subsidize your ticket to NBTC’14.</p>
 		{% for s in site.data.nbtc-schools %}
 		{% cycle '<div class="clearfix"></div><div class="col-sm-2 col-sm-offset-2">', '<div class="col-sm-2">', '<div class="col-sm-2">', '<div class="col-sm-2">' %}
-			<img src="{{ s.photo }}" alt="{{ s.name }}" width="200" class="img-thumbnail nbtc-schools-logo">
+						<img src="{{ s.photo }}" alt="{{ s.name }}" width="200" class="img-thumbnail nbtc-schools-logo" data-toggle="modal" data-target="#school{{ forloop.index }}">
 		</div>
+		<div class="modal fade" id="school{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">{{ s.name }}</h4>
+					</div>
+					<div class="modal-body">
+						<p>Subsidy information coming soon…</p>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 		{% endfor %}
 	</div>
 </div>
