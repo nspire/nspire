@@ -522,6 +522,25 @@ p {
 	color: white;
 }
 
+.row.why-nbtc {
+	background: #666;
+	text-align: center;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.why-nbtc h1,
+.row.why-nbtc h2 {
+	color: white;
+	padding-top: 1em;
+}
+
+.row.why-nbtc p {
+	color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 .row.nbtc .pillar-info {
 	margin-top: 6em;
 	margin-left: 12.5%;
