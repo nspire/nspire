@@ -1288,6 +1288,11 @@ p {
 	font-weight:bold;
 }
 
+.row.nbtc-competitions-prizes {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
 .row.nbtc-competitions-success {
 	background: #ddd;
 	padding-bottom: 2em;
