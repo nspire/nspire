@@ -1287,3 +1287,23 @@ p {
 	border-radius: 0;
 	font-weight:bold;
 }
+
+.row.nbtc-competitions-success {
+	background: #ddd;
+	padding-bottom: 2em;
+}
+
+.row.nbtc-competitions-success h1 {
+	font-weight: bolder;
+	font-size: 4em;
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+
+.row.nbtc-competitions-success .stories {
+	margin: 0 auto;
+}
+
+.row.nbtc-competitions-success .story {
+	margin: 2em;
+}
