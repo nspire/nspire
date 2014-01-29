@@ -31,12 +31,15 @@
 - name: sabeta-ip
   website: http://www.sabetaip.com/ 
   logo: http://i.imgur.com/7NWyu1d.jpg 
-- name: shopify
+- name: Shopify
   website: http://www.shopify.com
   logo: http://i.imgur.com/JxwWJb4.jpg 
-- name: topi
+- name: Topi
   website: http://topi.com
   logo: http://i.imgur.com/CSY7gw0.jpg 
 - name: Uniiverse
   website: https://www.uniiverse.com/ 
   logo: http://i.imgur.com/b7c0BMu.jpg 
+- name: Xerox
+  website: http://www.xerox.com
+  logo: http://i.imgur.com/XEXu3ky.jpg
