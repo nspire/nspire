@@ -3,12 +3,25 @@
 	<div class="speakers">
 		{% for speaker in site.data.nbtc-speakers %}
 		<div class="speaker">
-			<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" width="200" class="img-responsive speaker-photo">
+			<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" width="200" class="img-responsive speaker-photo" data-toggle="modal" data-target="#speaker{{ forloop.index }}">
 			<div class="content">
 				<p class="text-center content-name">{{ speaker.name }}</p>
 				<p class="text-center content-position">{{ speaker.position }}</p>
 			</div>
 		</div>
+		<div class="modal fade" id="speaker{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">{{ speaker.name }}</h4>
+					</div>
+					<div class="modal-body">
+						{{ speaker.bio }}
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 		{% endfor %}
 	</div>
 </div>
