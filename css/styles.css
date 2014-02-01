@@ -787,6 +787,10 @@ p {
 	margin: 1em;
 }
 
+.row.nbtc-highlights .speaker-photo:hover {
+	cursor: pointer;
+}
+
 .row.nbtc-stats {
 	padding-top: 6em;
 	padding-bottom: 6em;
@@ -922,6 +926,10 @@ p {
 
 .row.nbtc-speakers .speaker-photo {
 	margin: 2em 2em 2em 2em;
+}
+
+.row.nbtc-speakers .speaker-photo:hover {
+	cursor: pointer;
 }
 
 .row.nbtc-sponsors {
@@ -1175,6 +1183,10 @@ p {
 
 .row.nbtc-community-speakers .speaker-photo {
 	margin: 2em 2em 2em 2em;
+}
+
+.row.nbtc-community-speakers .speaker-photo:hover {
+	cursor: pointer;
 }
 
 .row.nbtc-community-body .sponsors,
