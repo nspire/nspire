@@ -597,7 +597,7 @@ p {
 }
 
 .nbtc-navbar-tickets-parent {
-	background: rgb(61,64,67);
+	background: #fccc25;
 }
 
 .nbtc-navbar-tickets-parent:hover {
@@ -606,7 +606,7 @@ p {
 
 .nbtc-navbar-tickets {
 	font-weight: bolder;
-	color: #fccc25 !important;
+	color: rgb(61,64,67);
 }
 
 .nbtc-navbar-tickets-parent:hover .nbtc-navbar-tickets {
