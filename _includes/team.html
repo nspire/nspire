@@ -23,8 +23,8 @@
 	<div class="members">
 		{% for member in site.data.team %}
 			{% if member.photo %}
-			<div class="member-container">
-				<img src="{{ member.photo }}" alt="{{ member.firstname }} {{member.lastname}}" width="90" height="90" class="member {{ member.department }}">
+			<div class="member-container {{ member.department }}">
+				<img src="{{ member.photo }}" alt="{{ member.firstname }} {{member.lastname}}" width="90" height="90" class="member">
 				<div class="text-center member-info" data-toggle="modal" data-target="#{{ forloop.index }}Modal">
 					<p>
 						<span class="member-name">{{ member.firstname }} {{ member.lastname }}</span>
