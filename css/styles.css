@@ -633,6 +633,7 @@ p {
 .row.nbtc-intro img {
 	position: absolute;
 	width: 30vw;
+	max-width: 28em;
 	left: 50%;
 	margin-left: -15vw;
 	top: 15%;
@@ -1015,7 +1016,7 @@ p {
 	position: absolute;
 	width: 20em;
 	left: 10%;
-	top: 24%;
+	top: 20%;
 }
 
 .row.nbtc-media-header {
@@ -1037,7 +1038,7 @@ p {
 	position: absolute;
 	width: 20em;
 	left: 10%;
-	top: 24%;
+	top: 20%;
 }
 
 .row.nbtc-media-articles {
@@ -1079,7 +1080,7 @@ p {
 	position: absolute;
 	width: 20em;
 	left: 10%;
-	top: 24%;
+	top: 20%;
 }
 
 .row.nbtc-community-body {
@@ -1206,7 +1207,7 @@ p {
 	position: absolute;
 	width: 20em;
 	left: 10%;
-	top: 24%;
+	top: 20%;
 }
 
 .row.nbtc-competitions-body {
