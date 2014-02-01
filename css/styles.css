@@ -663,8 +663,10 @@ p {
 	border-radius: 0;
 	width: 15em;
 	display: block;
-	margin: auto;
-	margin-top: 25em;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	margin-left: -7.5em;
 }
 
 .row .nbtc-intro-tickets:hover {
