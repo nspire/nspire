@@ -1143,6 +1143,10 @@ p {
 	margin: 1em;
 }
 
+.row.nbtc-community-body .nbtc-schools-logo:hover {
+	cursor: pointer;
+}
+
 .row.nbtc-community-speakers .speakers {
 	margin: 0 auto;
 }
