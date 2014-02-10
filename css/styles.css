@@ -1005,6 +1005,10 @@ p {
 	color: white;
 }
 
+.row.nbtc-countdown .contact {
+	color: white;
+}
+
 .row.nbtc-about-header {
 	background: url('{{ site.baseurl }}/img/nbtc-about_bg.jpg') no-repeat center center;
 	background-size: 100%;
