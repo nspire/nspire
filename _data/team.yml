@@ -1,16 +1,3 @@
-- firstname: Sisun
-  lastname: Lee
-  photo: http://i.imgur.com/RgRcVKrs.jpg
-  position: Senior Vice President
-  department: Nspire Strategic
-  bio: Sisun is a curious 4th year Systems Design Engineering student at the University of Waterloo that is always trying out new things to find his passion. After two years in Nanotechnology Engineering, he switched out and worked in various new fields, including roles at AMD (software dev), Facebook (data analysis), Deloitte (consulting), and Zynga (mobile product management). He is mostly excited about motivating ideas, building teams of highly passionate people, and working together to turn them into realities. This year, he will be joining Nspire to lead the online platform expansion with a team of rockstars. Look out for big updates from Nspire this year!
-  hometown: Seoul > GTA
-  need: Polyphasic sleep
-  excitement: Change. "Change is not your enemy. It's your opportunity".
-  twitter: https://twitter.com/SisunLee
-  facebook: https://facebook.com/sisun.lee
-  linkedin: https://ca.linkedin.com/in/sisunlee/
-  website: http://sisunlee.com/
 - firstname: Layan
   lastname: Kutob
   position: President
@@ -75,19 +62,6 @@
   facebook: https://facebook.com/martinez.fiorella
   linkedin: http://ca.linkedin.com/pub/fiorella-martinez/41/b7/134
   website: http://be.net/fioremv
-- firstname: Shriyah
-  lastname: Sadana
-  photo: http://i.imgur.com/e69SwxZs.jpg
-  position: Campus Ambassador for York University
-  department: Campus Ambassador
-  bio: My name is Shriyah Sadana and I am going into my second year of studies at the Schulich School of Business. Ever since I was a child, I have been extremely passionate about dancing so I love to dance in my spare time! I love people and networking and am looking forward to a fantastic year! 
-  hometown: Literally all over the place! I came to Canada in 2001 when I was seven years old and have lived in Toronto, Brampton, Mississauga. I currently reside in Oakville.
-  need: On my family. My family's dreams and aspirations are mine and I have always tried to work at my best to make them proud.
-  excitement: Everything and anything! People do fun things to be happy but I do them to be happier!
-  twitter: 
-  facebook: https://www.facebook.com/ssadanaa
-  linkedin: http://www.linkedin.com/pub/shriyah-sadana/61/203/9a
-  website: 
 - firstname: Chanakya
   lastname: Sinha
   photo: http://i.imgur.com/puo4coys.jpg
@@ -122,9 +96,9 @@
   hometown: Brampton, ON
   need: Tools of the trade
   excitement: Gorgeous looking food
-  twitter: http://twitter.com/alykhank
-  facebook: http://facebook.com/alykhankanji
-  linkedin: http://www.linkedin.com/in/alykhankanji
+  twitter: https://twitter.com/alykhank
+  facebook: https://facebook.com/alykhankanji
+  linkedin: https://www.linkedin.com/in/alykhankanji
   website: http://alykhan.com
 - firstname: Cameron
   lastname: Arksey
@@ -397,19 +371,6 @@
   facebook: https://www.facebook.com/alberto.picardami
   linkedin: http://www.linkedin.com/in/albertopicardami
   website: 
-- firstname: Ian
-  lastname: King
-  photo: http://i.imgur.com/TpK663is.jpg
-  position: Nteract Program Manager
-  department: Nteract
-  bio: Graduating from McGill University with a BA in Philosophy and English Literature, Ian went directly into the summer 2013 cohort of Bitmaker Labs' nine week, Full Stack Web Development program. Deeply interested in the intersection of art and technology, as applied through entrepreneurship, Ian has led initiatives with the Impact Entrepreneurship Group and the Canadian Undergraduate Technology Conference Foundation. Moreover, as a student politician at McGill, he chaired his own integrative research conference and organized numerous fundraisers for the Montreal Children's Hospital. Having competed in Startup Weekends in both Montreal and Toronto, Ian works efficiently in Design and Frontend Development roles; nonetheless, his Bitmaker Labs training has made him well-versed in Ruby on Rails as well. A religious conference attendee at events like SociaLIGHT, CUTC, and NBTC, Ian views his recent passion for hackathons as a pragmatic extension of his growing interest in technology. He is looking forward to leveraging his leadership experience in event planning, along with his growing capacities as a web developer, to direct the Nteract team in the exploration of several online projects to expand Nspire’s global reach. Before him the horizon is uncertain and, yet, all he can see are possibilities – he warmly welcomes what the future may bring.
-  hometown: Brampton, Ontario (a.k.a. btown)
-  need: Sports, Spirituality, Poetry, Philosophy, or Entrepreneurship
-  excitement: The future of publishing on the web and how that will affect print media. He is also deeply excited by the future of online education and how that will influence the direction of the currently entrenched education system.
-  twitter: https://twitter.com/IanGeraldKing
-  facebook: https://www.facebook.com/ian.gerald.king
-  linkedin: http://www.linkedin.com/in/iangeraldking
-  website: http://www.iangeraldking.com/
 - firstname: Leanne
   lastname: King
   position: Campus Ambassador
@@ -458,19 +419,6 @@
   twitter: https://twitter.com/AnnieKoOlKAt
   facebook: https://www.facebook.com/annie.zhang.5
   linkedin: http://www.linkedin.com/profile/view?id=258130214&trk=nav_responsive_tab_profile_pic
-  website: 
-- firstname: Singyu
-  lastname: Chan
-  photo: http://i.imgur.com/SXIKcJJs.jpg
-  position: Account Manager
-  department: Nspire Strategic
-  bio: Singyu is a first year iBBA student at York University’s Schulich School of Business. The word “connect” defines him best because he is indefinitely seen interacting and communicating with other individuals. His passion truly lies within the effective use of his interpersonal abilities in order to create value and desirable outcomes. Singyu is also described to be an individual that is devoted to community involvement. Throughout high school, he has contributed to the community by serving pivotal roles in various organizations. In addition, he has accrued significant work experiences as an intern at a tech startup company and also at a more established firm known as BMW. Singyu aspires to secure a CPA designation shortly after graduation to pursue a career in the field of accounting. At Nspire, Singyu is anxious to challenge obstacles with optimism and reach unprecedented heights. 
-  hometown: Toronto & Hong Kong.
-  need: Nutella & Family.
-  excitement: Connecting with others.
-  twitter: https://twitter.com/SingyuChan
-  facebook: https://facebook.com/singyuchan226
-  linkedin: https://ca.linkedin.com/in/singyuchan/
   website: 
 - firstname: Daniela
   lastname: Trivanovic
