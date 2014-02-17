@@ -938,6 +938,15 @@ p {
 	margin: auto;
 }
 
+.row.nbtc-sponsors .sponsors {
+	margin: 0 auto;
+}
+
+.row.nbtc-sponsors .sponsor-logo {
+	margin: 1em;
+	padding: 2em;
+}
+
 .row.nbtc-sponsors .sponsor-button {
 	background: #3388cc;
 	max-width: 15em;
