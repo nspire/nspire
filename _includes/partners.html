@@ -1,18 +1,18 @@
 <h1 class="text-center">Gold Sponsors</h1>
 <div class="col-sm-10 col-sm-offset-1">
+	{% for s in site.data.gold-sponsors %}
 	<div class="sponsors">
-		{% for s in site.data.gold-sponsors %}
 		<div class="sponsor">
 			<a href="{{ s.website }}" target="_blank">
 			{% if s.logo %}
-			<img src="{{ s.logo }}" alt="{{ s.name }}" width="250" class="img-thumbnail sponsor-logo">
+			<img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="img-thumbnail sponsor-logo">
 			{% else %}
 			<h2>{{ s.name }}</h2>
 			{% endif %}
 			</a>
 		</div>
-		{% endfor %}
 	</div>
+	{% endfor %}
 </div>
 <div class="clearfix"></div>
 <h1 class="text-center">Silver Sponsors</h1>
