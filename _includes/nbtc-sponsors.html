@@ -5,29 +5,7 @@
 		<div class="sponsor">
 			<a href="{{ s.website }}" target="_blank">
 			{% if s.logo %}
-			<img src="{{ s.logo }}" alt="{{ s.name }}" width="150" class="img-thumbnail sponsor-logo">
-			{% else %}
-			<h2>{{ s.name }}</h2>
-			{% endif %}
-			</a>
-		</div>
-		{% endfor %}
-		{% for s in site.data.silver-sponsors %}
-		<div class="sponsor">
-			<a href="{{ s.website }}" target="_blank">
-			{% if s.logo %}
-			<img src="{{ s.logo }}" alt="{{ s.name }}" width="150" class="img-thumbnail sponsor-logo">
-			{% else %}
-			<h2>{{ s.name }}</h2>
-			{% endif %}
-			</a>
-		</div>
-		{% endfor %}
-		{% for s in site.data.bronze-sponsors %}
-		<div class="sponsor">
-			<a href="{{ s.website }}" target="_blank">
-			{% if s.logo %}
-			<img src="{{ s.logo }}" alt="{{ s.name }}" width="150" class="img-thumbnail sponsor-logo">
+			<img src="{{ s.logo }}" alt="{{ s.name }}" width="250" class="img-thumbnail sponsor-logo">
 			{% else %}
 			<h2>{{ s.name }}</h2>
 			{% endif %}
