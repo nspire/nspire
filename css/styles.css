@@ -1292,6 +1292,7 @@ p {
 }
 
 .row.nbtc-competitions-prizes .type {
+	font-family: 'Caecilia LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: lowercase;
 	font-weight: lighter;
 	font-size: 0.6em;
