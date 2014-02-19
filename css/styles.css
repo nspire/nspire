@@ -1262,14 +1262,49 @@ p {
 }
 
 .row.nbtc-competitions-idea {
-	background: url('http://i.imgur.com/2txQ9dW.jpg') center center;
-	background-size: cover;
+	background: #3388cc;
 }
 
 .row.nbtc-competitions-idea h2 {
 	padding: 2em 20% 2em 20%;
 	color: white;
 	font-weight: bolder;
+}
+
+.row.nbtc-competitions-consulting-prize,
+.row.nbtc-competitions-prizes {
+	background: url('http://i.imgur.com/2txQ9dW.jpg') center center;
+	background-size: cover;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.row.nbtc-competitions-prizes h1 {
+	color: white;
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.row.nbtc-competitions-prizes h2,
+.row.nbtc-competitions-prizes p {
+	color: white;
+}
+
+.row.nbtc-competitions-prizes .type {
+	text-transform: lowercase;
+	font-weight: lighter;
+	font-size: 0.6em;
+}
+
+.row.nbtc-competitions-consulting-prize h2 {
+	color: white;
+	font-size: 3em;
+}
+
+.row.nbtc-competitions-consulting-prize .attribution {
+	text-transform: lowercase;
+	font-weight: lighter;
 }
 
 .row.nbtc-competitions-eligible {
@@ -1339,11 +1374,6 @@ p {
 	color: black;
 	border-radius: 0;
 	font-weight:bold;
-}
-
-.row.nbtc-competitions-prizes {
-	padding-top: 6em;
-	padding-bottom: 6em;
 }
 
 .row.nbtc-competitions-success {
