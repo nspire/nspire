@@ -1,12 +1,9 @@
-- name: Grateful for Gratitude
-  website: http://alumni.engineering.utoronto.ca/graditude/
-  logo: http://i.imgur.com/7bjubJf.jpg
 - name: Professional Engineers Ontario (PEO)
   website: http://www.peo.on.ca/
   logo: http://i.imgur.com/XXoirLs.jpg
 - name: sabeta-ip
   website: http://www.sabetaip.com/
   logo: http://i.imgur.com/7NWyu1d.jpg
-- name: Topi
-  website: http://topi.com
-  logo: http://i.imgur.com/CSY7gw0.jpg
+- name: University of Toronto Grateful for Gratitude Engineering Alumni
+  website: http://alumni.engineering.utoronto.ca/graditude/
+  logo: http://i.imgur.com/7bjubJf.jpg

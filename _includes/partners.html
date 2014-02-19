@@ -52,7 +52,24 @@
 <h1 class="text-center">Supporting Sponsors</h1>
 <div class="col-sm-10 col-sm-offset-1">
 	<div class="sponsors">
-		{% for s in site.data.other-sponsors %}
+		{% for s in site.data.supporting-sponsors %}
+		<div class="sponsor">
+			<a href="{{ s.website }}" target="_blank">
+			{% if s.logo %}
+			<img src="{{ s.logo }}" alt="{{ s.name }}" width="150" class="img-thumbnail sponsor-logo">
+			{% else %}
+			<h2>{{ s.name }}</h2>
+			{% endif %}
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+<div class="clearfix"></div>
+<h1 class="text-center">In-Kind Sponsors</h1>
+<div class="col-sm-10 col-sm-offset-1">
+	<div class="sponsors">
+		{% for s in site.data.in-kind-sponsors %}
 		<div class="sponsor">
 			<a href="{{ s.website }}" target="_blank">
 			{% if s.logo %}
