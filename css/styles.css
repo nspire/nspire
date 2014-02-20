@@ -740,6 +740,50 @@ p {
 	margin-bottom: 4em;
 }
 
+.row.nbtc-schedule {
+	padding: 6em 0 6em 0;
+}
+
+.row.nbtc-schedule .block {
+	background: #3388cc;
+	border: 2px solid white;
+	padding-top: 1em;
+}
+
+/* .row.nbtc-schedule .block:hover { */
+/* 	cursor: pointer; */
+/* 	background: #99ccee; */
+/* } */
+
+.row.nbtc-schedule .block.workshop {
+	background: #77aadd;
+}
+
+
+.row.nbtc-schedule .block h3,
+.row.nbtc-schedule .block p {
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.row.nbtc-schedule .block .time,
+.row.nbtc-schedule .block .title {
+	font-size: 1em;
+}
+.row.nbtc-schedule .block .hour {
+	font-size: 2em;
+}
+
+.row.nbtc-schedule .block .minute {
+	vertical-align: 50%;
+}
+
+.row.nbtc-schedule .block .duration,
+.row.nbtc-schedule .block .location {
+	font-size: 0.8em;
+	color: #ddd;
+}
+
 .row.nbtc-highlights {
 	padding-top: 6em;
 	padding-bottom: 6em;
