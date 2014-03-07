@@ -1,3 +1,6 @@
+- name: Ecobee
+  website: http://www.ecobee.com
+  logo: http://i.imgur.com/XLlkNfg.png
 - name: Professional Engineers Ontario (PEO)
   website: http://www.peo.on.ca/
   logo: http://i.imgur.com/XXoirLs.jpg
