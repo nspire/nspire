@@ -784,6 +784,57 @@ p {
 	color: #ddd;
 }
 
+.row.nbtc-team {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #999;
+}
+
+.row.nbtc-team .members {
+	margin: 0 auto;
+}
+
+.row.nbtc-team .member {
+	position: relative;
+}
+
+.row.nbtc-team .content {
+	display: none;
+	position: absolute;
+	top: 165px;
+	left: 1em;
+	width: 200px;
+	height: 50px;
+	background: #3388cc;
+}
+
+.row.nbtc-team .member:hover .content {
+	display: block;
+}
+
+.row.nbtc-team .content p {
+	color: white;
+	font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: .7em;
+}
+
+.row.nbtc-team .content p.content-name {
+	line-height: .2em;
+}
+
+.row.nbtc-team .content p.content-position {
+	font-size: .8em;
+}
+
+.row.nbtc-team .member-photo {
+	margin: 1em;
+}
+
+.row.nbtc-team .member-photo:hover {
+	cursor: pointer;
+}
+
 .row.nbtc-highlights {
 	padding-top: 6em;
 	padding-bottom: 6em;
