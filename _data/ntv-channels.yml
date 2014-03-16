@@ -1,0 +1,32 @@
+- name: Events
+  url: events
+  videos:
+  - title: 'NBTC 2014- Where Ideas Take Flight'
+    id: n51MMSL1hP8
+  - title: 'All-night with Nspire'
+    id: wsp3iaEHgnw
+  - title: 'Nspire presents Discovery Series Waterloo & Laurier'
+    id: sraMCPCLSSI
+  - title: 'NBTC’11 Highlights'
+    id: oXDxyyN7DBE
+  - title: 'NBTC’12 Promo'
+    id: 'gobW7-bHpx0'
+  - title: 'NBTC’13 Highlight Reel by SD Entertainment'
+    id: DxfmFyusHPo
+- name: Interviews
+  url: interviews
+  videos:
+  - title: 'NBTC 14-Where Are They Now?- Wriber'
+    id: YDk7wO7710g
+  - title: 'Tunezy takes flight - NBTC’14: Where are they now?'
+    id: '8tF_JO7gRDA'
+  - title: 'NBTC 14-Where Are They Now?- Tunezy'
+    id: 1gmdhWHWXd0
+- name: Documentaries
+  url: documentaries
+  videos:
+- name: Promotions
+  url: promotions
+  videos:
+  - title: 'What is Nspire?'
+    id: Qsf4RHYv8Z8

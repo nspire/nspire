@@ -465,15 +465,15 @@ p {
 	text-align: left;
 }
 
-.row.nspiretv {
+.row.ntv-header {
 	padding-top: 6em;
-	padding-bottom: 6em;
+	padding-bottom: 2em;
 	background: #662288;
 }
 
-.row.nspiretv p {
-	color: white;
-	margin-bottom: 2em;
+.row.nspiretv {
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 
 .row.nspiretv .nspiretv-logo {
@@ -484,12 +484,30 @@ p {
 	margin-bottom: 4em;
 }
 
-.row.nspiretv .videos {
-	margin-bottom: 2em;
-}
-
 .row.nspiretv .video {
 	width: 100%;
+}
+
+.row.ntv-channels {
+	background: #885599;
+}
+
+.row.ntv-channels .header {
+	padding: 1em;
+	padding-left: 6em;
+	background: #662288;
+}
+
+.row.ntv-channels .header h1 {
+	color: white;
+}
+
+.row.ntv-channels .channels {
+	padding: 6em;
+}
+
+.row.ntv-channels .channels h2 {
+	color: white;
 }
 
 .row.nbtc {
