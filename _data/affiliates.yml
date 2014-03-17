@@ -4,6 +4,9 @@
 - name: Communitech
   website: http://www.communitech.ca
   logo:  http://i.imgur.com/TFqXTXL.jpg
+- name: DEM/YEC
+  website: http://demsociety.com/yec/
+  logo: http://i.imgur.com/c5p4xer.png
 - name: Design Our Tomorrow
   website: http://designourtomorrow.com
   logo: http://i.imgur.com/8tecq8u.png
@@ -31,6 +34,9 @@
 - name: Science Expo
   website: http://www.science-expo.org
   logo: http://i.imgur.com/nOzZS8N.png
+- name: SEEDS
+  website: http://www.scienceforlife.org/
+  logo: http://i.imgur.com/b5qNFfN.png
 - name: SocialLIGHT
   website: http://www.socialightconference.com/
   logo: http://i.imgur.com/UndyJ8e.jpg
@@ -49,3 +55,6 @@
 - name: WISE UofT
   website: http://wise.skule.ca/
   logo: http://i.imgur.com/CjbDm3O.png
+- name: YNCN
+  website: http://yourenext.ca/startup/expo
+  logo: http://i.imgur.com/0pxHv8Z.png
