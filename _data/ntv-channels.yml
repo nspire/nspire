@@ -25,6 +25,8 @@
 - name: Documentaries
   url: documentaries
   videos:
+  - title: 'Capital One Case Competition Winners at Nspire’s NBTC’13'
+    id: E3ZP4TO40Kc
 - name: Promotions
   url: promotions
   videos:

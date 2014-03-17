@@ -7,7 +7,7 @@
 		<h2>{{ channel.name }}</h2>
 		{% for video in channel.videos %}
 			<a href="/ntv/{{ channel.url }}">
-				<img src="//img.youtube.com/vi/{{ video.id }}/0.jpg" alt="{{ video.title }}" width="120" height="90">
+				<img src="//img.youtube.com/vi/{{ video.id }}/0.jpg" alt="{{ video.title }}" width="240" height="180" class="img-rounded">
 			</a>
 		{% endfor %}
 		<br><br><br><br>

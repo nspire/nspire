@@ -11,17 +11,20 @@
 <script>
 blueimp.Gallery([
 		{% for channel in site.data.ntv-channels %}
-			{% for video in channel.videos %}
-			{% if video.title and video.id %}
-			{
-				title: '{{ video.title }}',
-				href: '//www.youtube.com/watch?v={{ video.id }}',
-				type: 'text/html',
-				youtube: '{{ video.id }}',
-				poster: '//img.youtube.com/vi/{{ video.id }}/0.jpg'
-			},
+			{% capture channel_url %}/ntv/{{ channel.url }}.html{% endcapture %}
+			{% if page.url == channel_url or page.url == '/ntv/index.html' %}
+				{% for video in channel.videos %}
+				{% if video.title and video.id %}
+				{
+					title: '{{ video.title }}',
+					href: '//www.youtube.com/watch?v={{ video.id }}',
+					type: 'text/html',
+					youtube: '{{ video.id }}',
+					poster: '//img.youtube.com/vi/{{ video.id }}/0.jpg'
+				},
+				{% endif %}
+				{% endfor %}
 			{% endif %}
-			{% endfor %}
 		{% endfor %}
 	],
 	{
