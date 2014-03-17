@@ -768,15 +768,14 @@ p {
 	padding-top: 1em;
 }
 
-/* .row.nbtc-schedule .block:hover { */
-/* 	cursor: pointer; */
-/* 	background: #99ccee; */
-/* } */
-
 .row.nbtc-schedule .block.workshop {
 	background: #77aadd;
 }
 
+.row.nbtc-schedule .block.workshop:hover {
+	cursor: pointer;
+	background: #99ccee;
+}
 
 .row.nbtc-schedule .block h3,
 .row.nbtc-schedule .block p {
