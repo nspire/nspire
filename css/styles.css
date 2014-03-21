@@ -1510,6 +1510,11 @@ p {
 	margin: 2em;
 }
 
+.row.join-us {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
 .row.join-us .sign-up {
 	padding-top: 6em;
 	padding-bottom: 6em;
