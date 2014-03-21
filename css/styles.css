@@ -1509,3 +1509,41 @@ p {
 .row.nbtc-competitions-success .story {
 	margin: 2em;
 }
+
+.row.join-us .sign-up {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.row.join-us .sign-up h2 {
+	font-size: 1.6em;
+}
+
+.row.join-us .sign-up {
+	padding-left: 2em;
+}
+
+.row.join-us .sign-up .email {
+	width: 15em;
+	border: none;
+	border-radius: 0;
+	background: rgb(214, 233, 246);
+	font-style: italic;
+}
+
+@media only screen and (max-width: 767px) {
+	.row.join-us .sign-up {
+		padding: 0;
+		text-align: center;
+	}
+	.row.join-us .sign-up .email {
+		display: inline-block;
+	}
+}
+
+.row.join-us .sign-up button {
+	background: #ff9922;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 0;
+}
