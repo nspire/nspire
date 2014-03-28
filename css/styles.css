@@ -294,7 +294,7 @@ p {
 .row.join {
 	min-height: 20em;
 	background: #99ccee;
-	padding-top: 6em;
+	padding-top: 8em;
 	padding-bottom: 6em;
 }
 
@@ -304,6 +304,7 @@ p {
 
 .row.join a {
 	width: 20%;
+	min-width: 12em;
 	text-transform: uppercase;
 	color: white;
 	background: #ff9922;
@@ -1511,8 +1512,7 @@ p {
 }
 
 .row.join-us {
-	padding-top: 6em;
-	padding-bottom: 2em;
+	padding-bottom: 6em;
 }
 
 .row.join-us .sign-up {
