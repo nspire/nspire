@@ -293,13 +293,14 @@ p {
 
 .row.join {
 	min-height: 20em;
-	background: #99ccee;
-	padding-top: 8em;
-	padding-bottom: 6em;
+	background: #3388cc;
+	padding-top: 4em;
+	padding-bottom: 4em;
 }
 
 .row.join h2 {
 	font-size: 1.6em;
+	color: white;
 }
 
 .row.join a {
@@ -1512,7 +1513,19 @@ p {
 }
 
 .row.join-us {
+	padding-top: 50px;
 	padding-bottom: 6em;
+}
+
+.row.join-us .why-join {
+	background: #3388cc;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	color: white;
+}
+
+.row.join-us .why-join h2 {
+	color: white;
 }
 
 .row.join-us .sign-up {
