@@ -1,6 +1,10 @@
+- name: "TO Tech: Discover Digital"
+  poster: http://i.imgur.com/wiDf0qO.png
+  upcoming: true
+  facebook: http://www.eventbrite.ca/e/to-tech-discover-digital-tickets-9384247537
 - name: "#Growthathon"
   poster: http://i.imgur.com/zHlu4KN.png
-  upcoming: true
+  upcoming: false
   facebook: https://www.facebook.com/events/1378437825762050/
 - name: "Accelerator Weekend"
   poster: http://i.imgur.com/xqv4Xaq.jpg
