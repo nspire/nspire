@@ -247,9 +247,8 @@ p {
 }
 
 .row.team p {
-	margin-right: 20%;
-	margin-bottom: 2em;
-	margin-left: 20%;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 .row.team .members {
@@ -259,12 +258,14 @@ p {
 .row.team .member-container {
 	margin: 0.5em;
 	position: relative;
+	cursor: pointer;
 }
 
 .row.team .member-info {
 	display: none;
 	width: 90px;
 	height: 90px;
+	padding: 8px 0;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -277,6 +278,8 @@ p {
 
 .row.team .member-info .member-name {
 	font-weight: bold;
+	display: block;
+	line-height: 1.2em;
 	text-transform: uppercase;
 }
 
