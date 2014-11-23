@@ -301,7 +301,7 @@
   department: Board of Directors
   position: Board Member
   bio: "Alberto is an Industrial Engineering graduate from the University of Toronto. His passion for working with talented leaders in the business and technology space led him to join Nspire and take on multiple roles within the organization. Previously, he has served as the NBTC ’11 Operations Director, NBTC ’12 Chair, and 2013-‘14 President. Alberto is currently the Vice President of Operations at Ubiqua, an enterprise software development company in Panama City, Panama. In this role he oversees the execution and growth of client related accounts.  In his spare time {when possible}: he enjoys reading, spending times w/ friends and family, and exploring the startup space in Latin America! Feel free to connect! He looks forward to meeting you soon!"
-  hometown: Paradise (actually Panama, but close enough!)
+  hometown: "Paradise (actually Panama, but close enough!)"
   need: Reese’s Peanut Butter Cups!!
   excitement: All you can eat “______”
   twitter: https://twitter.com/apicardami
@@ -314,7 +314,7 @@
   department: External Strategy
   position: Vice President of External Affairs
   bio: "Atul Krishan is an undergraduate student at the Schulich School of Business, pursuing his Bachelors Degree in Business Administration. As the Vice President of External Affairs, Atul will be managing Nspire Innovation Network’s external strategy, leading a team of 20 spanning across 10 universities in Ontario. Atul’s breadth of experience within the fields of Business Operations, Digital Strategy, Start-up, and Non-profit organizations make him an asset to the team. Atul’s most valued experience was when he recently worked on the rebranding and restructuring of a digital start-up along side industry professionals such as the past VP Product Strategy of Adobe, as well a former Principal of the Boston Consulting Group. Atul hopes to leverage his experiences, and apply his knowledge towards solving challenging business problems, and achieving actionable results for Nspire’s 2014 – 2015 year. "
-  hometown: Brampton, ON
+  hometown: "Brampton, ON"
   need: His Dreams
   excitement: Winning
   twitter: https://twitter.com/Krishan416
@@ -346,6 +346,174 @@
   facebook: https://www.facebook.com/ZaidHanania
   linkedin: https://www.linkedin.com/in/zaidhanania
   website: zaid.io
+- firstname: Tina
+  lastname: Chen
+  department: Design and Graphics
+  position: "Graphics Lead, Discovery Series Western"
+  bio: "Tina is a second year undergraduate student currently studying Business Management at the University of Western Ontario. Discovering graphic design and video production a young age, she loves to spend her free time playing around with programs such as Photoshop and Sony Vegas. Tina is hoping to one day bring together her passion for digital art with her business background to make impactful changes to her field. "
+  hometown: "Toronto, ON"
+  need: Eating sweets
+  excitement: Travelling to new places
+  twitter: 
+  facebook: https://www.facebook.com/teenahchen
+  linkedin: ca.linkedin.com/in/tinachen95/
+  website: 
+- firstname: Jennifer
+  lastname: Su
+  department: External
+  position: Campus Ambassador
+  bio: "Currently in second year at the University of Waterloo, studying Accounting and Financial Management. She is passionate about graphic design, travelling, and fashion. She's an extreme animal advocate, and loves giving back to the community and making a difference in the world. Her future endeavour is to be a Chartered Professional Accountant, but she's taking life as it comes and enjoying every bit of it."
+  hometown: "Markham, ON"
+  need: Animals
+  excitement: New opportunities
+  twitter: 
+  facebook: 
+  linkedin: ca.linkedin.com/pub/jennifer-su/6b/666/453/
+  website: 
+- firstname: Jennifer
+  lastname: Krpan
+  department: Discovery Series Toronto
+  position: Design Lead
+  bio: "Jennifer is a senior Media, Information and Technoculture student at the University of Western Ontario. Over the past few years she has worked in radio broadcasting, promotions and corporate communications for one of Canada's largest media companies. From the influence of these experiences, she has taken it upon herself to engage in graphic design to expand her vision of a creative business environment. Even though she is separated by geographical distance, Jennifer serves as the Design Lead for Discovery Series Toronto."
+  hometown: "Burlington, ON"
+  need: Adventure
+  excitement: Travel
+  twitter: https://twitter.com/ilu_jennay
+  facebook: 
+  linkedin: 
+  website: 
+- firstname: Ananya
+  lastname: Tandon-Verma
+  department: Strategic
+  position: President
+  bio: "Ananya is a 4th year industrial engineering student, and this year's President of Nspire Innovation Network. Having grown up across continents, there is nothing that gets her fired up more than meeting new people, lighting the spark of big (and small) ideas, and bringing the two together to create something truly nspiring! She loves all things – you guessed it –biztech, and has only begun to explore them through internships at Microsoft, the IBI Group, Bank of America Merrill Lynch, and McKinsey & Company. Last year, Ananya had the experience of a lifetime as Chair of NBTC'14: Where Ideas (Took) Flight. Now at the helm of Nspire with the most talented team around, she can't wait to continue the journey, connecting motivated students with the concrete learning opportunities that Nspire's national platform provides and helping create a close-knit network of Canadian game-changers to foster next-step engagement."
+  hometown: "Delhi-Baltimore-Melbourne-Toronto"
+  need: "jello, frolicking in parks in the summer, and long Nspire conversations involving both!"
+  excitement: "groups of nspired students armed with huge smiles and a creative itch, lightbulbs hovering over their heads just waiting to go on!!"
+  twitter: https://twitter.com/ananyatv
+  facebook: 
+  linkedin: https://ca.linkedin.com/in/ananyatv
+  website: 
+- firstname: Eric
+  lastname: Chung
+  department: Design and Graphics
+  position: "Graphics Lead, Discovery Series (Waterloo)"
+  bio: "Yo, my name is Eric and this is my first year with Nspire. I have explored areas in business, mathematics, and currently Computer Science and Fine Arts at the University of Waterloo. As a creative, I live to make the world a little less dull with my ideas. My dream job is to be a graphic designer in advertising, so that one day my graphics could influence people from all over the world.  When I'm not busy juggling 5 projects at once, catch me at the gym makin some gainz, or in the studio recording my next mixtape. I'm always down to meet new people, so hit me up, don't be shy!"
+  hometown: "#SAUGA"
+  need: "Makin all kinds of gainzzz"
+  excitement: "House parties and Photoshop"
+  twitter: https://twitter.com/EricChungg
+  facebook: https://www.facebook.com/coolbeanzchung
+  linkedin: ca.linkedin.com/pub/eric-chung/92/527/55b/
+  website: https://www.behance.net/ericchungg
+- firstname: Ziying
+  lastname: Zhang
+  department: Web Development
+  position: "Lead Front End Developer"
+  bio: "Hi there, I'm Zi! Currently in my second year of Systems Design Engineering at the University of Waterloo, I live at the intersection between design, technology, and entrepreneurship. I'm passionate about improving human interaction with technology, and I'm nspired by the likes of Elon Musk to innovate in the technology space. I love to design and build memorable user experiences, and use them to challenge people to view the world differently. When I'm not busy with my day-to-day commitments, I like to take it easy at a local coffee shop or gather friends at a nearby field for some pickup soccer."
+  hometown: "Mississauga, ON"
+  need: "Internet"
+  excitement: "Innovative ideas and products"
+  twitter: https://twitter.com/ziyingz
+  facebook: https://www.facebook.com/amaziying
+  linkedin: http://ca.linkedin.com/in/amaziying
+  website: http://amaziying.me/
+- firstname: Andrei
+  lastname: Lyskov
+  department: External
+  position: "Campus Lead"
+  bio: "I'm currently in my second year at Queens University, where I am majoring in Commerce, with a minor in Computer Science. My past work experience includes working as a McDonalds Swing Manager, where I learned the importance of hard work and leadership. Those early lessons proved invaluable during my first year at Queen's, where I had the opportunity to run my own business with College Pro Painters. During the course of the summer, I led a team of 8 painters to reach sales revenues of $85,000, with a lot of painful lessons learned along the way. I am currently heavily involved in the entrepreneurial ecosystem here at Queens, and have just founded a new club called Innovate Queens. One of my favorite quotes that has had a profound effect on my life is &quot;I am perfect the way I am, but theres always room for improvement&quot;, this quote has definitely helped shape me, and continues to do so. In my free time, I enjoy meditation, writing, self development, fitness, reading, and engaging in interesting conversations. Feel free to reach out to me if you'd like to chat, I'm always happy to talk! https://andreilyskov.youcanbook.me/"
+  hometown: "Richmond Hill, ON"
+  need: "Meditation"
+  excitement: "Wearable Technology"
+  twitter: 
+  facebook: https://www.facebook.com/andrei.lyskov.7
+  linkedin: http://ca.linkedin.com/in/andreilyskov
+  website: www.andreilyskov.com
+- firstname: Keerthana
+  lastname: Menon
+  department: External
+  position: "Campus Ambassador"
+  bio: "Keerthana is an undergraduate student at the University of Toronto Mississauga pursuing a Bachelor of Commerce.  She can be described as optimistic, outgoing and approachable. She loves to travel, experience new things and meet new people. Keerthana currently works for Mosaic Sales Solutions as a Brand Ambassador for Labatt and Diageo where she finds creative ways to provide consumers with a memorable brand experience. As a Community Service Associate at the Rotaract Club, she gives back to the community by engaging in a variety of initiatives. She aspires to be someone whose name in synonymous with innovation and is known to solve challenging problems in the business world. In her spare time, she enjoys swimming, dancing and watching Netflix. Being a part of Nspire has given her the opportunity to explore her passion for innovation and she is excited about the upcoming year."
+  hometown: "Kuwait City, Kuwait & Mississauga, Canada"
+  need: "Chocolate"
+  excitement: "The idea of travelling the world"
+  twitter: 
+  facebook: 
+  linkedin: 
+  website: 
+- firstname: Rohit
+  lastname: Zachariah
+  department: Discovery Series Toronto 
+  position: "Director of Marketing"
+  bio: "Rohit, is a second year Industrial Engineering student at the University of Toronto. When he's not Director of Marketing at Discovery Series Toronto, he's most likely overloading on quality stand-up comedy. Aside from enjoying the wit of Jimmy Carr and Richard Ayoade, he too loves his time on stage; in his first year, he was a cast member on Skule Nite 1T4- U of T Engineering's Sketch Comedy show! On a more serious note, his goal this year as an Nspiree, is to push the boundaries of Marketing within the Discovery Series and keep innovating. "
+  hometown: "Toronto & Dubai"
+  need: "My eclectic music "
+  excitement: "Traveling!"
+  twitter: 
+  facebook: https://www.facebook.com/rohitbz
+  linkedin: 
+  website: 
+- firstname: Alice
+  lastname: Han
+  department: External
+  position: "Online Community Manager"
+  bio: "Alice is an exuberant introvert who is well-versed in content creations, external communications, as well as social media, through her work experiences at Huawei and CBC. She thoroughly enjoyed being a Campus Ambassador last year at Nspire and is, currently, very ecstatic to dabble in both marketing and business development with her current role. In her spare time, you'll find her listening to one of Handel's operas while researching her next travel destination via lonelyplanet.com. Join her to connect over tea, wine, or coffee! "
+  hometown: "&quot;Land of the Dragon&quot; - China "
+  need: "Turkish tea and latte"
+  excitement: "Anyone's amusing travel stories"
+  twitter: https://twitter.com/AliceFannyHan
+  facebook: 
+  linkedin: http://ca.linkedin.com/in/alice1fhan
+  website: 
+- firstname: Jeevan
+  lastname: Sidhu
+  department: DS Waterloo/Laurier
+  position: "Director of Marketing "
+  bio: "Jeevan is a 2nd year student at the University of Waterloo and Wilfrid Laurier University, pursuing a Bachelors in Computer Science and Bachelors in Business Administration. He is an ambitious individual who is always trying to push the limits of his comfort zone for personal growth. With a passion for entrepreneurship and technology, he founded his first startup at the age of 17. Now as a Director of Marketing, Jeevan will be using his creative and analytical skills to develop the overall marketing strategy for Discover Series Waterloo/Laurier. When he is not busy planning his future endeavours, you can find him playing basketball at a court near you. He claims to be a die-hard Toronto Raptors fan but this has yet to be verified. "
+  hometown: "Mississauga, ON"
+  need: "Going on spontaneous adventures!"
+  excitement: "Challenge"
+  twitter: https://twitter.com/Jee_Sidhu
+  facebook: https://www.facebook.com/jeevan.sidhu.75
+  linkedin: http://ca.linkedin.com/in/jeevansidhu/
+  website: www.jeevansidhu.ca
+- firstname: Rocky
+  lastname: Chen
+  department: Design and Graphics
+  position: "VP Branding and Design"
+  bio: "Rocky Chen wants to live in a world where emotions are designed, where concepts are executed, and where every word is perfectly kerned. He’s a second year student in Global Business and Digital Arts at the University of Waterloo and can’t wait to get you Nspired. Originally from Toronto China Town, raised in Markham, and currently in Scarborough, his mission is to bring design methodology into corporate institutions to show how design isn't about making things look pretty - it translates into economic benefit. When he’s not in his second home – the Davis Centre Library – he can be seen drinking a large, less ice and no sugar roasted milk tea with grass jelly as a self-proclaimed connoisseur of Chatime. With 4 national design awards, he plans to utilize his graphic design background and bring order to chaos, that when presented to the user, is invisible. Feel free to say hello!"
+  hometown: "Markham, ON"
+  need: "Chatime"
+  excitement: "Chopsticks and Design"
+  twitter: https://twitter.com/chenrockyyy
+  facebook: www.facebook.com/rocky.h.chen
+  linkedin: www.linkedin.com/in/rockyhchen
+  website: www.rockychen.ca
+- firstname: Prateek
+  lastname: Rao
+  department: External
+  position: "Campus Ambassador"
+  bio: "Prateek is a 2nd year BBA student at the University of Toronto Scarborough.  His interests revolve around entrepreneurship and case competitions. He works with The Hub, the University of Toronto Scarborough’s innovation center, where he is building his start-up; Contestry.  Prateek is a novice skydiver and is training towards obtaining his license. His other hobbies include swimming and traveling."
+  hometown: "Toronto"
+  need: "Contesting "
+  excitement: "Jumping off planes"
+  twitter: 
+  facebook: 
+  linkedin: https://ca.linkedin.com/in/prateekrao
+  website: 
+- firstname: Thomas
+  lastname: Joseph
+  department: DS Waterloo
+  position: "Director of Operations"
+  bio: "I am  a 3rd year Finance and statistics student at University of waterloo. I am very much  passionate about the impact of finance on our daily lives and how technology expedites the process. Born in New Delhi, India moving to Canada has given me the confidence to explore my leadership skills. When not involved with finance, numbers and innovation I look forward to a great workout and playing soccer. My long term goal is to an innovative leader in the mergers and acquistion sector. I hope to create a sizeable impact in DS Waterloo/Laurier leveraging my experience, knowledge and passion."
+  hometown: "New Delhi"
+  need: "TV shows, fitness "
+  excitement: "Travel, Big City Vibe and FRIENDS"
+  twitter: https://twitter.com/t_joseph94
+  facebook: https://www.facebook.com/thomas.joseph.94
+  linkedin: ca.linkedin.com/pub/thomas-joseph/6b/8a7/10b/
+  website: 
 
 
 #################
