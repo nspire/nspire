@@ -123,17 +123,28 @@ $(window).on('scroll', function(){
 
 <section class="ds-timeline" id="cd-timeline" style="display:inline-block">
 	{% for event in site.data.ds-events %}
+
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img">
 				{{ event.location }}
 			</div> <!-- cd-timeline-img -->
 	 
 			<div class="cd-timeline-content">
+					<!--<script type="text/javascript" language="javascript">
+					$(function() {
+					$(this).dotdotdot();});
+					</script>!-->
 				<h2>{{ event.name }}</h2>
-				<p>{{ event.description }}</p>
-				<a href="#0" class="cd-read-more">Read more</a>
+
+				<p>{{ event.description }}
+				</p>
+				<a href="#0" class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');">Read more</a>
 				<span class="cd-date"> {{ event.date }} </span>
+
 			</div> <!-- cd-timeline-content -->
+			<!--<div class="cd-timeline-footer">
+				<a href="#0" class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');">Read more</a>
+			</div>!-->
 		</div> <!-- cd-timeline-block -->
 	{% endfor %}
  
