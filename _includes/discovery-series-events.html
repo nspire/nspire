@@ -141,10 +141,26 @@ $(window).on('scroll', function(){
 				<a href="#0" class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');">Read more</a>
 				<span class="cd-date"> {{ event.date }} </span>
 
-			</div> <!-- cd-timeline-content -->
 			<!--<div class="cd-timeline-footer">
 				<a href="#0" class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');">Read more</a>
 			</div>!-->
+				{% if event.schedule %}
+					<div class="pillar">
+						<p class="lead"><strong>EVENT SCHEDULE:</strong></p>
+						<table>
+							<tbody>
+								{% for section in event.schedule %}
+									<tr>
+										<td> {{ section.time }} </td>
+										<td> {{ section.name }} </td>
+									</tr>
+								{% endfor %}
+							</tbody>
+						</table>
+					</div>
+				{% endif %}
+			</div> <!-- cd-timeline-content -->
+
 		</div> <!-- cd-timeline-block -->
 	{% endfor %}
  
