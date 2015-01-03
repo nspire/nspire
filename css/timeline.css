@@ -226,16 +226,22 @@ Main components
   clear: both;
 }
   .cd-timeline-content.expanded .moreInfo {
-    display: none;
+    display: block;
+  }
+  .cd-timeline-content.expanded .cd-read-more:before {
+    content: 'Show Less'
+  }
+  .cd-timeline-content .cd-read-more:before {
+    content: 'Show More'
   }
   .cd-timeline-content .moreInfo {
-    display: block;
+    display: none;
   }
 
 .cd-timeline-content h2 {
   color: #303e49;
 }
-.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .buyTickets,.cd-timeline-content .cd-date {
   font-size: 13px;
   font-size: 0.8125rem;
 }
@@ -247,6 +253,13 @@ Main components
   line-height: 1.6;
 }
 .cd-timeline-content .cd-read-more {
+  float: right;
+  padding: .8em 1em;
+  background: #acb7c0;
+  color: white;
+  border-radius: 0.25em;
+}
+.cd-timeline-content .buyTickets {
   float: right;
   padding: .8em 1em;
   background: #acb7c0;
@@ -280,7 +293,7 @@ Main components
     font-size: 16px;
     font-size: 1em;
   }
-  .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+  .cd-timeline-content .cd-read-more, .cd-timeline-content .buyTickets, .cd-timeline-content .cd-date {
     font-size: 14px;
     font-size: 0.875rem;
   }
@@ -297,8 +310,8 @@ Main components
     border-color: transparent;
     border-left-color: white;
   }
-  .cd-timeline-content .cd-read-more {
-    float: left;
+  .cd-timeline-content .cd-read-more, .cd-timeline-content .buyTickets {
+  /*  float: left;*/
   }
   .cd-timeline-content .cd-date {
     position: absolute;

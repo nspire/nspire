@@ -134,6 +134,9 @@ $(window).on('scroll', function(){
 					$(function() {
 					$(this).dotdotdot();});
 					</script>!-->
+				{% if event.linkToTickets %}
+					<a class="buyTickets" href= "{{event.linkToTickets}}" >Buy Tickets</a>
+				{% endif %}
 				<h2>{{ event.name }}</h2>
 				<p>{{ event.summary }}
 				</p>
@@ -163,7 +166,7 @@ $(window).on('scroll', function(){
 						</div>
 					{% endif %}
 				</div><!--moreInfo !-->
-				<a href="#0" class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');">Read more</a>
+				<div  class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');"></div>
 
 			</div> <!-- cd-timeline-content -->
 
