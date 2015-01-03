@@ -197,12 +197,11 @@ Main components
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed; }
-  .cd-timeline-content.expanded {
-    height: auto;
+  .cd-timeline-content.expanded .moreInfo {
+    visibility: visible;
   }
-  .cd-timeline-content {
-    height: 100px;
-    overflow: hidden;
+  .cd-timeline-content .moreInfo {
+    visibility: hidden;
   }
   .cd-timeline-content:after {
     content: "";

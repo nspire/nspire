@@ -74,6 +74,7 @@ Main components
   position: relative;
   margin: 2em 0;
 }
+
 .cd-timeline-block:after {
   content: "";
   display: table;
@@ -216,6 +217,13 @@ Main components
   display: table;
   clear: both;
 }
+  .cd-timeline-content.expanded .moreInfo {
+    display: none;
+  }
+  .cd-timeline-content .moreInfo {
+    display: block;
+  }
+
 .cd-timeline-content h2 {
   color: #303e49;
 }
