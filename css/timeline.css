@@ -97,6 +97,14 @@ Main components
   }
 }
 
+.cd-timeline-icon {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
 .cd-timeline-img {
   position: absolute;
   top: 0;
@@ -262,7 +270,7 @@ Main components
   }
   .cd-timeline-content p {
     font-size: 16px;
-    font-size: 1rem;
+    font-size: 1em;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
