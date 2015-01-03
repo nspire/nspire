@@ -146,10 +146,6 @@ $(window).on('scroll', function(){
 					</p>
 					
 					<span class="cd-date"> {{ event.date }} </span>
-
-				<!--<div class="cd-timeline-footer">
-					<a href="#0" class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');">Read more</a>
-				</div>!-->
 					{% if event.schedule %}
 						<div class="pillar">
 							<p class="lead"><strong>EVENT SCHEDULE:</strong></p>
@@ -167,7 +163,6 @@ $(window).on('scroll', function(){
 					{% endif %}
 				</div><!--moreInfo !-->
 				<div  class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');"></div>
-
 			</div> <!-- cd-timeline-content -->
 
 		</div> <!-- cd-timeline-block -->
