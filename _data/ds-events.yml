@@ -2,6 +2,7 @@
   summary: "Discovery Series Toronto is proud to collaborate with Square, for our next event in our TO Tech Series: Discover Impact with Square!<br>Our guest speaker is none other than Gokul Rajaram- Square's Product Engineering Lead. This tech heavyweight has been Product Management Director for AdSense at Google; Founder and CEO of Chai Labs and most recently, Facebook's Product Director, Ads. He's coming to U of T to speak to you, about making your impact in today's business and tech space."
   description: "<a href='https://www.youtube.com/watch?v=WEkY1Q6H2og'>https://www.youtube.com/watch?v=WEkY1Q6H2og</a><br><h2>About Square</h2><br>Square makes commerce easy for everyone. With simple, affordable tools for everything from accepting credit cards to managing a full point of sale and selling online, Square helps businesses start, run, and grow. Square Reader, the free credit card reader for iPhone, iPad, and Android devices, allows businesses to accept credit cards anywhere, anytime, for one low, transparent rate. Square’s suite of business tools includes Square Register, an analytics dashboard, Square Market, and Square Stand. Square also created Square Cash, the easiest way to send and receive money. Founded in 2009 and headquartered in San Francisco, Square is currently available in the United States, Canada, and Japan."
   location: UofT
+  region: GTA
   date: Oct 29th
   linkToTickets: https://www.flickr.com/photos/sergiu_bacioiu/4327564714/
   eventFeatures: ["Keynote Speech: Gokul Rajaram talks engineering challenges and solutions, in creating the world's most influential and innovative products we know of today.", "Take-away: How can we empower Canada's young, vibrant entrepreneurial community", "Square is seeking Skule Engineering talent so be sure to bring your resume!", "Light dinner and networking with Square executives"]
@@ -18,6 +19,7 @@
   summary: "BNOTIONS is one of Canada's leading mobile, data and analytics partner of choice for firms such as American Express, eBay and RBC. Their products have featured in Top 10 Made in Canada (App Store) and they have also won a host of accolades such as Facebook's Innovation Competition 2014 with Gallop Labs. Not only do they want to showcase their brilliant work, they also want to meet and find Skule talent."
   description: "BNOTIONS is one of Canada's leading mobile, data and analytics partner of choice for firms such as American Express, eBay and RBC. Their products have featured in Top 10 Made in Canada (App Store) and they have also won a host of accolades such as Facebook's Innovation Competition 2014 with Gallop Labs. Not only do they want to showcase their brilliant work, they also want to meet and find Skule talent."
   location: UofT
+  region: GTA
   date: Sept 23rd
   linkToTickets: https://www.flickr.com/photos/sergiu_bacioiu/4327564714/
   eventFeatures: []
@@ -37,8 +39,8 @@
   summary: "Build an idea. Build a product. Start a business"
   description: "Build an idea. Build a product. Start a business"
   location: "Communitech Hub, Waterloo"
+  region: KW
   date: Nov 10th
-  eventFeatures: []
   schedule:
   - time: 5:15 - 5:30 pm
     name: EVENT REGISTRATION

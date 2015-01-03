@@ -125,8 +125,8 @@ $(window).on('scroll', function(){
 	{% for event in site.data.ds-events %}
 
 		<div class="cd-timeline-block">
-			<div class="cd-timeline-img">
-				{{ event.location }}
+			<div id="{{event.region}}" class="cd-timeline-img cd-timeline-icon" >
+				{{ event.region }}
 			</div> <!-- cd-timeline-img -->
 	 
 			<div class="cd-timeline-content">
@@ -164,6 +164,7 @@ $(window).on('scroll', function(){
 					{% endif %}
 				</div><!--moreInfo !-->
 				<a href="#0" class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');">Read more</a>
+
 			</div> <!-- cd-timeline-content -->
 
 		</div> <!-- cd-timeline-block -->
@@ -171,3 +172,17 @@ $(window).on('scroll', function(){
  
 </section>
 <div class="clearfix"></div>
+
+
+<!-- color coding bubbles -->
+<script>
+	/*Apply background colors to bubbles*/
+	var colorCodes = {
+		"GTA": "#002F65",
+		"KW": "#000000",
+		"UWO": "#46227C"
+	};
+	$(".cd-timeline-icon").each(function (idx, elem) {
+		$(elem).css("background", colorCodes[elem.id]);
+	});
+</script>
