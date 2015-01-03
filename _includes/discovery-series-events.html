@@ -162,7 +162,7 @@ $(window).on('scroll', function(){
 						</div>
 					{% endif %}
 				</div><!--moreInfo !-->
-				<div  class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');"></div>
+				<!--<div  class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');"></div>-->
 			</div> <!-- cd-timeline-content -->
 
 		</div> <!-- cd-timeline-block -->
@@ -182,5 +182,14 @@ $(window).on('scroll', function(){
 	};
 	$(".cd-timeline-icon").each(function (idx, elem) {
 		$(elem).css("background", colorCodes[elem.id]);
+	});
+
+	$(".cd-timeline-content").each(function (idx, elem) {
+		$(elem).mouseover(function (evt) {
+			$(evt.currentTarget).addClass("expanded");
+		});
+		$(elem).mouseout(function (evt) {
+			$(evt.currentTarget).removeClass("expanded");
+		});
 	});
 </script>

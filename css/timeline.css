@@ -134,6 +134,9 @@ Main components
 .cd-timeline-img.cd-location {
   background: #f0ca45;
 }
+.cd-timeline-content .buyTickets {
+  margin-top: 12px;    
+}
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
