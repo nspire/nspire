@@ -72,7 +72,7 @@ Main components
 
 .cd-timeline-block {
   position: relative;
-  margin: 2em 0;
+  margin: 2em;
 }
 
 .cd-timeline-block:after {
@@ -88,7 +88,7 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-block {
-    margin: 4em 0;
+    margin: 4em;
   }
   .cd-timeline-block:first-child {
     margin-top: 0;
@@ -218,8 +218,8 @@ Main components
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: white;
-  border-radius: 0.25em;
+  background: #F0F8FF;
+  border-radius: 0.8em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
 }
@@ -287,8 +287,8 @@ Main components
   right: 100%;
   height: 0;
   width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid white;
+  border: 10px solid transparent;
+  border-right: 10px solid #F0F8FF;
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
@@ -314,7 +314,7 @@ Main components
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white;
+    border-left-color: #F0F8FF;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .buyTickets {
   /*  float: left;*/
@@ -335,7 +335,7 @@ Main components
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: #F0F8FF;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
