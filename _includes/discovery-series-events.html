@@ -83,13 +83,13 @@ $(window).on('scroll', function(){
 					$(function() {
 					$(this).dotdotdot();});
 					</script>!-->
+
 				{% if event.linkToTickets %}
 					<a class="buyTickets" href= "{{event.linkToTickets}}" >Buy Tickets</a>
 				{% endif %}
+				
 				<p class="lead"><strong>{{ event.name }}</strong></p>
-				<p>{{ event.summary }}
-				</p>
-				<span class="cd-date"> {{ event.date }} </span>
+				<p>{{ event.summary }}</p>
 				<div class="moreInfo">
 					<p class="lead"><strong>EVENT DESCRIPTION</strong></p>
 					<p>{{ event.description }}
@@ -110,6 +110,7 @@ $(window).on('scroll', function(){
 						</div>
 					{% endif %}
 				</div><!--moreInfo !-->
+				<span class="cd-date"> {{ event.date }} </span>
 				<div class="cd-read-more">See more</div>
 			</div> <!-- cd-timeline-content -->
 
