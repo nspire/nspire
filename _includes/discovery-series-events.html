@@ -137,11 +137,11 @@ $(window).on('scroll', function(){
 				{% if event.linkToTickets %}
 					<a class="buyTickets" href= "{{event.linkToTickets}}" >Buy Tickets</a>
 				{% endif %}
-				<h2>{{ event.name }}</h2>
+				<p class="lead"><strong>{{ event.name }}</strong></p>
 				<p>{{ event.summary }}
 				</p>
 				<div class="moreInfo">
-					<h2>EVENT DESCRIPTION</h2>
+					<p class="lead"><strong>EVENT DESCRIPTION</strong></p>
 					<p>{{ event.description }}
 					</p>
 					
@@ -162,7 +162,7 @@ $(window).on('scroll', function(){
 						</div>
 					{% endif %}
 				</div><!--moreInfo !-->
-				<div  class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');"></div>
+				<!--<div  class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');"></div>-->
 			</div> <!-- cd-timeline-content -->
 
 		</div> <!-- cd-timeline-block -->
@@ -182,5 +182,14 @@ $(window).on('scroll', function(){
 	};
 	$(".cd-timeline-icon").each(function (idx, elem) {
 		$(elem).css("background", colorCodes[elem.id]);
+	});
+
+	$(".cd-timeline-content").each(function (idx, elem) {
+		$(elem).mouseover(function (evt) {
+			$(evt.currentTarget).addClass("expanded");
+		});
+		$(elem).mouseout(function (evt) {
+			$(evt.currentTarget).removeClass("expanded");
+		});
 	});
 </script>
