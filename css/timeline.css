@@ -262,9 +262,12 @@ Main components
 .cd-timeline-content .buyTickets {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
+  background: #ff9922;
   color: white;
   border-radius: 0.25em;
+}
+.cd-timeline-content .buyTickets {
+  text-decoration: none;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
   background-color: #bac4cb;
