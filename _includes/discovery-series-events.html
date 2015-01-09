@@ -127,11 +127,11 @@ $(window).on('scroll', function(){
 	{% for event in site.data.ds-events %}
 
 		<div class="cd-timeline-block">
-			<div id="{{event.region}}" class="cd-timeline-img cd-timeline-icon" >
+			<div id="{{event.region}}" class="is-hidden cd-timeline-img cd-timeline-icon" >
 				{{ event.region }}
 			</div> <!-- cd-timeline-img -->
 	 
-			<div class="cd-timeline-content">
+			<div class="cd-timeline-content is-hidden">
 					<!--<script type="text/javascript" language="javascript">
 					$(function() {
 					$(this).dotdotdot();});
