@@ -119,9 +119,11 @@ $(window).on('scroll', function(){
 		}
 	});
 });
+
+
 </script>
 
-<section class="ds-timeline" id="cd-timeline" style="display:inline-block">
+<section class="ds-timeline cssanimations" id="cd-timeline" style="display:inline-block">
 	{% for event in site.data.ds-events %}
 
 		<div class="cd-timeline-block">
@@ -161,8 +163,10 @@ $(window).on('scroll', function(){
 							</table>
 						</div>
 					{% endif %}
-				</div><!--moreInfo !-->
-				<!--<div  class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');"></div>-->
+				</div><!--moreInfo "$(this).parent('.cd-timeline-content').toggleClass('expanded').toggleClass('fadeInDown');"    !-->
+				<div  class="cd-read-more" onClick= "$(this).parent('.cd-timeline-content').find('.moreInfo').addClass('fadeInDown animated expanded').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).parent('.cd-timeline-content').find('.moreInfo').removeClass('animated fadeInDown');
+    });"></div>
 			</div> <!-- cd-timeline-content -->
 
 		</div> <!-- cd-timeline-block -->
@@ -184,12 +188,4 @@ $(window).on('scroll', function(){
 		$(elem).css("background", colorCodes[elem.id]);
 	});
 
-	$(".cd-timeline-content").each(function (idx, elem) {
-		$(elem).mouseover(function (evt) {
-			$(evt.currentTarget).addClass("expanded");
-		});
-		$(elem).mouseout(function (evt) {
-			$(evt.currentTarget).removeClass("expanded");
-		});
-	});
 </script>
