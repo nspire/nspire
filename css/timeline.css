@@ -57,7 +57,7 @@ Main components
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: rgb(255, 153, 34);
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -101,7 +101,7 @@ Main components
 .cd-timeline-icon {
   text-align: center;
   padding-top: 15px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   color: #FFFFFF;
 }
@@ -113,7 +113,7 @@ Main components
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px rgb(52, 134, 199), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
   display: block;
@@ -136,6 +136,9 @@ Main components
 }
 .cd-timeline-content .buyTickets {
   margin-top: 12px;    
+}
+.cd-read-more {
+  cursor: pointer;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -231,12 +234,6 @@ Main components
   .cd-timeline-content.expanded .moreInfo {
     display: block;
   }
-  .cd-timeline-content.expanded .cd-read-more:before {
-    content: 'Show Less'
-  }
-  .cd-timeline-content .cd-read-more:before {
-    content: 'Show More'
-  }
   .cd-timeline-content .moreInfo {
     display: none;
   }
@@ -300,8 +297,8 @@ Main components
     font-size: 1em;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .buyTickets, .cd-timeline-content .cd-date {
-    font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 18px;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -324,8 +321,8 @@ Main components
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 20px;
+    font-size: 1.6rem;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
