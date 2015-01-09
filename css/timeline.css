@@ -297,8 +297,8 @@ Main components
     font-size: 1em;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .buyTickets, .cd-timeline-content .cd-date {
-    font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 18px;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -321,8 +321,8 @@ Main components
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 20px;
+    font-size: 1.6rem;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
