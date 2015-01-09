@@ -162,7 +162,7 @@ $(window).on('scroll', function(){
 						</div>
 					{% endif %}
 				</div><!--moreInfo !-->
-				<!--<div  class="cd-read-more" onClick="$(this).parent('.cd-timeline-content').toggleClass('expanded');"></div>-->
+				<div class="cd-read-more">See more</div>
 			</div> <!-- cd-timeline-content -->
 
 		</div> <!-- cd-timeline-block -->
@@ -182,5 +182,15 @@ $(window).on('scroll', function(){
 	};
 	$(".cd-timeline-icon").each(function (idx, elem) {
 		$(elem).css("background", colorCodes[elem.id]);
+	});
+	$(".cd-read-more").click(function () {
+		var moreInfo = $(this).parent().find(".moreInfo");
+		if (moreInfo.css("display") === "none") {
+			moreInfo.show(300);
+			$(this).text("See less")
+		} else {
+			moreInfo.hide(300);
+			$(this).text("See more");
+		}
 	});
 </script>
