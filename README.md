@@ -64,5 +64,5 @@ Configuration file: /Users/anasant/Documents/repos/nspire/_config.yml
     Server address: http://0.0.0.0:4000
   Server running... press ctrl-c to stop.
 ```
-Now you can go to `localhost:4000` (or `localhost:server_address`) in your browser and should be able to see the Nspire.org page. 
+Now you can go to `localhost:4000` (or `localhost:<server_address_#>`) in your browser and should be able to see the Nspire.org page. 
 
