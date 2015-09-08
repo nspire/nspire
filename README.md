@@ -54,5 +54,15 @@ Once Jekyll is installed, you can run:
 `$ jekyll serve `
 to start Jekyll locally. 
 
-Now you can go to `localhost:4000` in your browser and should be able to see the Nspire.org page. 
+You should see: 
+
+```
+Configuration file: /Users/anasant/Documents/repos/nspire/_config.yml
+            Source: /Users/anasant/Documents/repos/nspire
+       Destination: /Users/anasant/Documents/repos/nspire/_site
+      Generating... done.
+    Server address: http://0.0.0.0:4000
+  Server running... press ctrl-c to stop.
+```
+Now you can go to `localhost:4000`, or localhost:extension_specified_as_server_address in your browser and should be able to see the Nspire.org page. 
 
