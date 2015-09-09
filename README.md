@@ -74,4 +74,4 @@ You can build the site by restarting the server or doing:
 ```
 $ jekyll serve --watch
 ``` 
-when you start the server to watch for changes and automatically rebuild. Otherwise you can do ```jekyll build```
+when you start the server to watch for changes and automatically rebuild. Otherwise you can do ```jekyll build```.
