@@ -66,3 +66,12 @@ Configuration file: /Users/anasant/Documents/repos/nspire/_config.yml
 ```
 Now you can go to `localhost:4000` (or `localhost:<server_address_#>`) in your browser and should be able to see the Nspire.org page. 
 
+## More notes about general development of Nspire site with Jekyll
+
+_site is essentially the build folder. Whenever you build the application the _site folder will be cleaned out and replaced with the newly built files. The _site folder is where the files are served from. You should be changing files in the _include folder, and then rebuild everytime you want to see the changes since the _site folder will be overwritten everytime you build. 
+
+You can build the site by restarting the server or doing: 
+```
+$ jekyll serve --watch
+``` 
+when you start the server to watch for changes and automatically rebuild. Otherwise you can do ```jekyll build```
