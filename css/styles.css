@@ -662,7 +662,7 @@ p {
 }
 
 .row.nbtc-intro {
-	background: url('{{ site.baseurl }}/img/nbtc-landing_bg.jpg') no-repeat center center;
+	background: url('{{ site.baseurl }}/img/nbtc16_landing_page.jpg') no-repeat center center;
 	background-size: 100%;
 	background-size: cover;
 }
