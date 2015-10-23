@@ -1,7 +1,7 @@
 <h2 class="text-center">Past Speakers</h2>
 <div class="col-sm-10 col-sm-offset-1">
 	<div class="speakers">
-		{% for speaker in site.data.nbtc-speakers limit:8 %}
+		{% for speaker in site.data.past-sponsers limit: 6 %}
 		<div class="speaker">
 			<img src="{{ speaker.photo }}" alt="{{ speaker.name }}" width="200" class="img-responsive speaker-photo" data-toggle="modal" data-target="#speaker{{ forloop.index }}">
 			<div class="content">
@@ -16,9 +16,6 @@
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 						<h4 class="modal-title">{{ speaker.name }}</h4>
 					</div>
-					<div class="modal-body">
-						{{ speaker.bio }}
-					</div>
 				</div><!-- /.modal-content -->
 			</div><!-- /.modal-dialog -->
 		</div><!-- /.modal -->
@@ -26,11 +23,4 @@
 	</div>
 </div>
 <script>
-	$(window).load(function(){
-		var $container = $('.speakers');
-		$container.isotope({
-			itemSelector: '.speaker',
-		});
-	});
-</script>
 <div class="clearfix"></div>
