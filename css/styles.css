@@ -662,12 +662,27 @@ p {
 }
 
 .row.nbtc-intro {
+	background: url('{{ site.baseurl }}/img/nbtc-landing_bg.jpg') no-repeat center center;
+	background-size: 100%;
+	background-size: cover;
+}
+
+.row.nbtc-intro-sixteen {
 	background: url('{{ site.baseurl }}/img/nbtc16_landing_page.jpg') no-repeat center center;
 	background-size: 100%;
 	background-size: cover;
 }
 
 .row.nbtc-intro img {
+	position: absolute;
+	width: 30vw;
+	max-width: 28em;
+	left: 50%;
+	margin-left: -15vw;
+	top: 15%;
+}
+
+.row.nbtc-intro-sixteen img {
 	position: absolute;
 	width: 30vw;
 	max-width: 28em;

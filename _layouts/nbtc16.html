@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% include head.html %}
+</head>
+<body>
+	{% include nbtc16-navbar.html %}
+	<div class="container">
+		{{ content }}
+		<div id="footer" class="row footer">
+			{% include footer.html %}
+		</div>
+	</div>
+	{% include centered-masonry.html %}
+	{% include localscroll.html %}
+</body>
+</html>
