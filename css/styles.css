@@ -1601,3 +1601,7 @@ p {
 	text-transform: uppercase;
 	border-radius: 0;
 }
+
+.competition-blurb {
+	margin: 20px;
+}
