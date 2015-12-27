@@ -70,6 +70,6 @@ Now you can go to `localhost:4000` (or `localhost:<server_address_#>`) in your b
 
 _site is essentially the build folder. Whenever you build the application the _site folder will be cleaned out and replaced with the newly built files. The _site folder is where the files are served from. You should be changing files in the _include folder, and then rebuild everytime you want to see the changes since the _site folder will be overwritten everytime you build. 
 
-You can build the site by restarting the server or doing ```jekyll build --watch``` with the server running and this will watch for changes and build automatically.
+With Jekyll 2.5.3 and later, the _site folder rebuilds on every page refresh and evaluates if a change is made. 
 
 More information can be found here: https://jekyllrb.com/docs/usage/
