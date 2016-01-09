@@ -48,4 +48,4 @@ gem 'unicorn'
 gem 'rails_12factor', group: :production
 
 # Specify Ruby version in app
-ruby '2.0.0'
+ruby '2.2.1'
