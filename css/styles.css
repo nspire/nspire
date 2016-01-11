@@ -1600,3 +1600,10 @@ p {
 .competition-blurb {
 	margin: 20px;
 }
+
+video#welcome-video {
+	position: relative; 
+	width: 100%;
+	height: auto%;
+    background-size: cover; 
+}
