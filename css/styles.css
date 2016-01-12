@@ -681,7 +681,7 @@ p {
 }
 
 .row.nbtc-intro-sixteen img {
-	
+
 }
 
 .nbtc-banner {
@@ -1600,13 +1600,30 @@ p {
 }
 
 video#welcome-video {
-	position: relative; 
+	position: relative;
 	width: 100%;
 	height: auto%;
-    background-size: cover; 
+    background-size: cover;
 }
 
 #mc_embed_signup label {
 	float: right;
 	padding: 5px;
+}
+
+.vcontainer {
+	display: table;
+	table-layout: fixed;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.vlogo {
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
 }

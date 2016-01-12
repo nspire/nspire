@@ -4,22 +4,24 @@ title: NBTC’16
 ---
 
 <br/>
-<br/>
-<br/>
 
 <div id="id-community-body" class="row nbtc-community-body">
 <div id="sponsors">
 <h2 class="text-center">Platinum Sponsors</h2>
 <div class="col-sm-10 col-sm-offset-1">
-	<div class="affiliates">
+	<div class="affiliates vcontainer">
 		{% for s in site.data.nbtc16/sponsors/platinum %}
-		<div class="affiliate">
+			<div class="affiliate vcenter">
 			{% if s.logo %}
-			<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="img-thumbnail affiliate-logo">
-			{% else %}
-			<h2>{{ s.name }}</h2>
+				{% if s.name == "Rogers" %}
+					<img src="{{ s.logo }}" alt="{{ s.name }}" width="400" class="affiliate-logo vlogo">
+				{% else %}
+					<img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="affiliate-logo vlogo">
+				{% endif %}
+				{% else %}
+				<h2>{{ s.name }}</h2>
 			{% endif %}
-		</div>
+			</div>
 		{% endfor %}
 	</div>
 </div>
@@ -30,11 +32,11 @@ title: NBTC’16
 
 <h2 class="text-center">Gold Sponsors</h2>
 <div class="col-sm-10 col-sm-offset-1">
-	<div class="affiliates">
+	<div class="affiliates vcontainer">
 		{% for s in site.data.nbtc16/sponsors/gold %}
-		<div class="affiliate">
+		<div class="affiliate vcenter">
 			{% if s.logo %}
-			<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="img-thumbnail affiliate-logo">
+			<img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="affiliate-logo vlogo">
 			{% else %}
 			<h2>{{ s.name }}</h2>
 			{% endif %}
@@ -48,11 +50,11 @@ title: NBTC’16
 
 <h2 class="text-center">Silver Sponsors</h2>
 <div class="col-sm-10 col-sm-offset-1">
-	<div class="affiliates">
+	<div class="affiliates vcontainer">
 		{% for s in site.data.nbtc16/sponsors/silver %}
-		<div class="affiliate">
+		<div class="affiliate vcenter">
 			{% if s.logo %}
-			<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="img-thumbnail affiliate-logo">
+			<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="affiliate-logo vlogo">
 			{% else %}
 			<h2>{{ s.name }}</h2>
 			{% endif %}
@@ -66,13 +68,6 @@ title: NBTC’16
 <div class="clearfix"></div>
 <br>
 
-<script>
-	$(window).load(function(){
-		var $container = $('.affiliates');
-		$container.isotope({
-			itemSelector: '.affiliate',
-		});
-	});
-</script>
+
 <div class="clearfix"></div>
 <br>
