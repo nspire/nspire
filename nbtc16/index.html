@@ -11,104 +11,20 @@ title: NBTC’16
   $("#nbtc-intro").height($(window).height());
 </script>
 <div id="nbtc-about" class="row nbtc-about">
-  <h1 class="text-center">
-    About NBTC
-  </h1>
-  <iframe width="560" height="500" src="https://www.youtube.com/embed/ynKfCOQmNl8" class = "video center-block" frameborder="0" allowfullscreen></iframe>
-  <p class="lead text-center">
-    Over the course of 15 incredible years, The National Business &amp; Technology Conference has grown into Canada’s premiere destination for the next generation of CEOs, founders, and innovators. We are a meeting place for tomorrow’s influencers and today’s changemakers who operate at the intersection of business and technology. Welcome to the stepping stone for the journey to your future.
-  </p>
+  {% include nbtc16/about.html %}
 </div>
 <div id="about" class="row about hidden-xs" style="background :#167AC6;">
-  <h1 class="text-center">
-    Scale New Heights
-  </h1>
-  <div class="col-sm-9 pillar-info">
-    <p class="lead text-center pillar" style="color: white;">
-      <strong>NBTC’16</strong>: We’re back, bigger, and better than ever! For the past 15 years, we’ve brought you face-to-face with world class speakers, industry professionals, and some of the country’s brightest young minds.
-    </p>
-    <p class="lead text-center pillar" style="color: white;">
-      This year, we invite you to learn, connect, and challenge yourself during NBTC’16. Be prepared for the two best days of your life. Join us and:
-    </p>
-  </div>
-  <div class="col-sm-9 pillar-info">
-    <div class="col-sm-3 text-center pillar connect">
-      <img src="{{ site.baseurl }}/img/network.svg" alt="Connect" class="pillar-logo">
-      <h2>Connect</h2>
-      <p>with North America’s most prolific industry leaders, C-Suite executives, and seasoned entrepreneurs during networking opportunities, career fairs, and product expositions. Build lasting relationships with your future mentors and with Canada’s top student talent.</p>
-    </div>
-    <div class="col-sm-3 text-center pillar learn">
-      <img src="{{ site.baseurl }}/img/learn.svg" alt="Empower" class="pillar-logo">
-      <h2>Learn</h2>
-      <p>during captivating workshops, product expositions, and keynote speeches delivered by the nation’s top leaders. </p>
-    </div>
-    <div class="col-sm-3 text-center pillar innovate">
-      <img src="{{ site.baseurl }}/img/innovate.svg" alt="Inspire" class="pillar-logo">
-      <h2>Innovate</h2>
-      <p>as you participate in our prestigious Entrepreneurship Challenge, HealthTech, and FinTech Competitions. Come prepared - past winners such as BufferBox, Voltera, and Tunezy have gone on to be acquired by Google, win Silicon Valley’s world-renowned TechCrunch Disrupt, and be ranked in Forbes Top 30 Under 30.</p>
-    </div>
-    <div class="col-sm-3 text-center pillar connect">
-      <img src="{{ site.baseurl }}/img/enable.svg" alt="Connect" class="pillar-logo">
-      <h2>Enable</h2>
-      <p>yourself to Scale New Heights with us. NBTC'16 - are you <strong>ready</strong>?</p>
-    </div>
-  </div>
+  {% include nbtc16/scale-new-heights.html %}
+</div>
 </div>
 <div id="nbtc-speakers" class="row nbtc-speakers">
-  {% include nbtc16/past-nbtc14-speakers.html %}
+  {% include nbtc16/past-speakers.html %}
 </div>
 
 <div id="id-community-body" class="row nbtc-community-body">
-  <div id="sponsors">
-    {% include nbtc16/nbtc16-sponsors.html %}
-  </div>
+  {% include nbtc16/sponsors.html %}
 </div>
 
 <div style="margin-top: 20px; margin-bottom: 60px; margin-right: 60px; margin-left: 60px;">
-  <div class="row">
-    <h1 class="text-center" style="margin-bottom: 40px" id="competitions">
-      Competitions
-    </h1>
-    <div class="col-md-6">
-      <div class="competition-blurb">
-        <img src="{{ site.baseurl }}/img/competitions_entrepreneurship.svg" alt="Entrepeneurship Challenge" class="center-block img-responsive">
-        <h2 class="text-center">Entrepreneurship Challenge</h2>
-        <p>
-          Our prestigious entrepreneurship competition was established to provide you with unique opportunities to pitch your business and win amazing prizes. Our past winners have gone on to be acquired by Google (BufferBox), win TechCrunch Disrupt (Voltera), and be listed in Forbes 30 Under 30 (Tunezy).
-        </p>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="competition-blurb">
-        <img src="{{ site.baseurl }}/img/competitions_big_data.svg" alt="Entrepeneurship Challenge" class="center-block img-responsive">
-        <h2 class="text-center">Big Data Competition</h2>
-        <p>
-          The world is filled with data. How do we master this complexity? What are its implications?
-
-          Our Big Data competition will provide you with both the tools you need to understand this key trend and a platform that will immerse you in the industry. You will gain practical, real-world experience while solving challenging case-based problems.
-        </p>
-
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <div class="competition-blurb">
-      <img src="{{ site.baseurl }}/img/competitions_health_tech.svg" alt="Entrepeneurship Challenge" class="center-block img-responsive">
-        <h2 class="text-center">Health Tech Competition</h2>
-        <p class="text-center">
-          This unique competition will challenge you to innovate at the intersection of healthcare and technology. You’ll participate in workshops led by industry leaders to give you a feel for the industry. Then, you’ll work off a real-world scenario to innovate and create tangible, feasible ideas for change. Teams will be judged by a panel of industry experts.
-        </p>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="competition-blurb">
-        <img src="{{ site.baseurl }}/img/competitions_financial_tech.svg" alt="Entrepeneurship Challenge" class="center-block img-responsive">
-        <h2 class="text-center">Financial Tech Competition</h2>
-        <p class="text-center">
-          Our case-based FinTech competition is perfect for those interested in analyzing how the finance and technology industries can leverage one another. As a participant, you’ll take part in workshops that will teach you how to effectively tackle your case.
-        </p>
-      </div>
-    </div>
-  </div>
+  {% include nbtc16/competitions.html %}
 </div>
