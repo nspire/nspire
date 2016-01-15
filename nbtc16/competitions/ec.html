@@ -4,67 +4,86 @@ title: NBTC’16
 ---
 
 <br/>
+<br/>
 
 <style>
 
-
+p {
+  font-size: 16px;
+}
 
 </style>
 
-<div class="row nbtc-community-body">
+<div class="row">
 
-  <h2 class="text-center">Entrepreneurship Challenge</h2>
+  <h1 class="text-center">Entrepreneurship Challenge</h1>
 
-  <div class="col-md-5 col-md-offset-1">
+  <h2 class="text-center">Prizes</h2>
+
+  <div class="pillar-info text-center">
+    <div class="col-md-2 col-md-offset-3 text-center">
+      <img src="{{ site.baseurl }}/img/nbtc16-competitions/veteran.svg" alt="Veteran Prize - $4000" class="pillar-logo">
+    </div>
+    <div class="col-md-2 text-center">
+      <img src="{{ site.baseurl }}/img/nbtc16-competitions/newcomer.svg" alt="Newcomer Prize - $2000" class="pillar-logo">
+    </div>
+    <div class="col-md-2 text-center">
+      <img src="{{ site.baseurl }}/img/nbtc16-competitions/sponsor.svg" alt="Sponsor Prize - $6000" class="pillar-logo">
+    </div>
+  </div>
+
+</div>
+<div class="row text-center">
+  <div class="col-md-6 col-md-offset-3">
+    <h3 class="text-center">
+      <strong>
+        <a href="https://docs.google.com/forms/d/19xwzB0e3BWsKS7KDB6CKzngNNq-lBjAuIB_xjC6oNJw/viewform">Application Form</a>
+      </strong>
+    </h3>
+
+    <p>Please fill out the above application to enter yourself into the Entrepeneurship Competition.<br/>
+      <strong>The deadline is January 29, 2016 at 11:59PM</strong>
+    </p>
     <p>This competition is split into 2 tiers - Newcomer &amp; Veteran. The tier in which you compete in is based on your submitted application.
     </p>
 
+  </div>
+</div>
+
+<div class="row">
     <ol>
+      <div class="col-md-5 col-md-offset-1">
       <h4><li>
         Prelimary Round</h4>
         <p>The teams will present their <strong>5 to 10 minute business pitches</strong> to a series of judges.
           Your business plan will be evaluated based on technical feasability, market penetration stragety,
           organizational structure and financial projections</p>
       </li>
+      </div>
+      <div class="col-md-5">
       <h4><li>
         Final Round</h4>
         <p>The <strong>top 2 teams</strong> within each division will be selected to compete in the final round
           in front of all NBTC delegates!</p>
       </li>
+      </div>
     </ol>
   </div>
+</div>
 
-  <div class="col-md-5">
-    <h3 class="text-center">Competition Application</h3>
-
-    <h5 class="text-center">
-      <strong>
-        <a href="https://docs.google.com/forms/d/19xwzB0e3BWsKS7KDB6CKzngNNq-lBjAuIB_xjC6oNJw/viewform">Application Form</a>
-      </strong>
-    </h5>
-
-    <p>Please fill out the above application to enter yourself into the Entrepeneurship Competition.
-      Listed below, for convenience, are the questions in the application
-      (highly recommended to use word and transfer your answers after):</p>
-
-    <ol>
-      <li>Name of the company</li>
-      <li>Name(s) of the team members</li>
-      <li>Email of main contact</li>
-      <li>Phone number of main contact</li>
-      <li>Have you attended NBTC before?</li>
-      <li>How many individuals are involved in your startup?</li>
-      <li>Please pitch your startup to us in one sentence</li>
-      <li>Exntending the last question, tell us why you believe your startup will succeed</li>
-      <li>Who are your largest competitors in the field?</li>
-      <li>What stage of the business cycle are you in or working towards?</li>
-      <li>What makes you stand out from your competition?</li>
-      <li>How much revenue has your company generated (N/A if this doesn't apply)</li>
-      <li>What's your most important value that you bring to the table?</li>
-      <li>Are there any other questions that you have?</li>
-    </ol>
-
-    <p>If you have any pressing questions, feel free to email the Competitions Lead at
-      <a href="mailto:victor.denisov@nspire.org" target="_top">victor.denisov@nspire.org</a>.</p>
-  </div>
+<div class="row nbtc-community-body">
+  <h2 class="text-center">Thank you to our sponsors!</h2>
+  <div class="col-sm-10 col-sm-offset-1">
+		<div class="affiliates vcontainer">
+			{% for s in site.data.nbtc16/sponsors/ec %}
+				<div class="affiliate vcenter">
+				{% if s.logo %}
+						<img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="affiliate-logo vlogo">
+					{% else %}
+					<h2>{{ s.name }}</h2>
+				{% endif %}
+				</div>
+			{% endfor %}
+		</div>
+	</div>
 </div>
