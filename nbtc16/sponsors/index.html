@@ -16,6 +16,8 @@ title: NBTC’16
 				{% if s.logo %}
 					{% if s.name == "Rogers" %}
 						<img src="{{ s.logo }}" alt="{{ s.name }}" width="400" class="affiliate-logo vlogo">
+					{% else if s.name == "MBNA" %}
+						<a href="http://alumni.utoronto.ca/services/financial-services/credit-card/"><img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="affiliate-logo vlogo"></a>
 					{% else %}
 						<img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="affiliate-logo vlogo">
 					{% endif %}
