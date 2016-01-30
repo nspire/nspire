@@ -56,6 +56,24 @@
 			{% endfor %}
 		</div>
 	</div>
+
+	<div class="clearfix"></div>
+	<br>
+
+	<h2 class="text-center">Educational Sponsor</h2>
+	<div class="col-sm-10 col-sm-offset-1">
+		<div class="affiliates vcontainer">
+			{% for s in site.data.nbtc16/sponsors/silver %}
+			<div class="affiliate vcenter">
+				{% if s.logo %}
+				<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="affiliate-logo vlogo">
+				{% else %}
+				<h2>{{ s.name }}</h2>
+				{% endif %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
 </div>
 <div class="clearfix"></div>
 <br>
