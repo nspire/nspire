@@ -71,6 +71,25 @@
 	</div>
 
 	<div class="clearfix"></div>
+
+	<h2 class="text-center">Bronze Sponsors</h2>
+	<div class="col-sm-10 col-sm-offset-1">
+		<div class="affiliates">
+			{% for s in site.data.sponsors/bronze %}
+			<div class="affiliate">
+				<a href="{{ s.website }}" target="_blank">
+					{% if s.logo %}
+					<img src="{{ s.logo }}" alt="{{ s.name }}" width="175" class="img-thumbnail affiliate-logo">
+					{% else %}
+					<h2>{{ s.name }}</h2>
+					{% endif %}
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
 	<br>
 
 	<h2 class="text-center">Educational Sponsors</h2>
