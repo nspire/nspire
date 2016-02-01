@@ -1,16 +1,29 @@
+<style>
+	.img-thumbnail {
+		border: none;
+		box-shadow: none;
+	}
+
+	.thumbnail .img-thumbnail {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+</style>
+
 <div id="sponsors">
 	<h2 class="text-center">Platinum Sponsors</h2>
 	<div class="col-sm-10 col-sm-offset-1">
-		<div class="affiliates vcontainer">
+		<div class="affiliates">
 			{% for s in site.data.sponsors/platinum %}
-			<div class="affiliate vcenter">
+			<div class="affiliate">
 				{% if s.logo %}
 				{% if s.name == "Rogers" %}
-				<img src="{{ s.logo }}" alt="{{ s.name }}" width="400" class="affiliate-logo vlogo">
+				<img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="img-thumbnail affiliate-logo vlogo">
 				{% else if s.name == "MBNA" %}
-				<a href="http://alumni.utoronto.ca/services/financial-services/credit-card/"><img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="affiliate-logo vlogo"></a>
+				<a href="http://alumni.utoronto.ca/services/financial-services/credit-card/"><img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="img-thumbnail affiliate-logo vlogo"></a>
 				{% else %}
-				<img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="affiliate-logo vlogo">
+				<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="img-thumbnail affiliate-logo vlogo">
 				{% endif %}
 				{% else %}
 				<h2>{{ s.name }}</h2>
@@ -26,11 +39,11 @@
 
 	<h2 class="text-center">Gold Sponsors</h2>
 	<div class="col-sm-10 col-sm-offset-1">
-		<div class="affiliates vcontainer">
+		<div class="affiliates">
 			{% for s in site.data.sponsors/gold %}
-			<div class="affiliate vcenter">
+			<div class="affiliate">
 				{% if s.logo %}
-				<img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="affiliate-logo vlogo">
+				<img src="{{ s.logo }}" alt="{{ s.name }}" width="300" class="img-thumbnail affiliate-logo vlogo">
 				{% else %}
 				<h2>{{ s.name }}</h2>
 				{% endif %}
@@ -44,11 +57,11 @@
 
 	<h2 class="text-center">Silver Sponsors</h2>
 	<div class="col-sm-10 col-sm-offset-1">
-		<div class="affiliates vcontainer">
+		<div class="affiliates">
 			{% for s in site.data.sponsors/silver %}
-			<div class="affiliate vcenter">
+			<div class="affiliate">
 				{% if s.logo %}
-				<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="affiliate-logo vlogo">
+				<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="img-thumbnail affiliate-logo vlogo">
 				{% else %}
 				<h2>{{ s.name }}</h2>
 				{% endif %}
@@ -62,11 +75,11 @@
 
 	<h2 class="text-center">Educational Sponsors</h2>
 	<div class="col-sm-10 col-sm-offset-1">
-		<div class="affiliates vcontainer">
+		<div class="affiliates">
 			{% for s in site.data.sponsors/educational %}
-			<div class="affiliate vcenter">
+			<div class="affiliate">
 				{% if s.logo %}
-				<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="affiliate-logo vlogo">
+				<img src="{{ s.logo }}" alt="{{ s.name }}" width="200" class="img-thumbnail affiliate-logo vlogo">
 				{% else %}
 				<h2>{{ s.name }}</h2>
 				{% endif %}
@@ -77,3 +90,12 @@
 </div>
 <div class="clearfix"></div>
 <br>
+
+<script>
+	$(window).load(function(){
+		var $container = $('.affiliates');
+		$container.isotope({
+			itemSelector: '.affiliate',
+		});
+	});
+</script>
