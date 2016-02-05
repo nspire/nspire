@@ -2,6 +2,8 @@
 layout: nbtc16
 title: NBTC’16
 ---
+<script src="http://localhost:35729/livereload.js"></script>
+
 <div id="nbtc-intro" class="row nbtc-intro-sixteen">
 <img style="height: 75%; margin-top: 100px;" src="{{ site.baseurl }}/img/nbtc16_logo_white.svg" alt="Nspire Innovation Network" class="center-block img-responsive">
   <a style="margin-bottom: 5%;" href="https://www.universe.com/events/national-business-and-technology-conference-16-tickets-toronto-T2X9J4" target="_blank" class="btn btn-lg nbtc-intro-tickets">Buy Tickets</a>
@@ -15,6 +17,9 @@ title: NBTC’16
 </div>
 <div id="team" class="row team hidden-xs">
 	{% include nbtc16/team.html %}
+</div>
+<div id="nbtc-schedule" class="row nbtc-schedule">
+  {% include nbtc16/nbtc-schedule.html %}
 </div>
 <div id="about" class="row about hidden-xs" style="background :#167AC6;">
   {% include nbtc16/scale-new-heights.html %}
