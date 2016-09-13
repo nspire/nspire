@@ -77,3 +77,151 @@
   display: inline-block;
   float: right;
 }
+
+/* cover temp */
+
+.cover {
+	height: 516px;
+	background-color: #3688c8; 
+	text-align: center;	
+}
+
+#cover-title {
+	padding: 151px 258px 13px;
+}
+
+#cover-opener {
+	color: #faf7f5;
+	padding-bottom: 88px;
+}
+
+/*about us section */
+
+.about-us {
+	background-color: #f5f7f9;
+	height: 100%;
+	padding: 54px 44px 66px 64px;
+}
+
+.about-us-content {
+	display: inline-flex;
+	align-content: space-between;
+	width: 100%;
+}
+
+.aboutus-description {
+	padding-left: 35px;
+	text-align: justify;	
+}
+
+/* partners section */
+
+.partners {
+	background-color: #ffffff;
+	padding: 54px 77px 66px 56px;
+}
+
+table {
+	width: 100%;
+}
+
+#partners-expand {
+  display:none;	
+}
+
+td {
+	  position: relative;
+	  min-height: 1px;
+	  padding: 50px 30px 50px 30px;
+}
+
+td img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collapsible {
+	text-align: center;
+}
+
+/* benefits section */
+
+.benefits {
+	background-color: #f5f7f9;
+	padding: 66px 44px 58px 44px;
+}
+
+.benefits-content {
+	display: flex;
+	padding: 0 75px;
+}
+
+.benefits-section {
+  position: relative;
+  min-height: 1px;
+  flex: 1;
+}
+
+.benefits p {
+	width: 300px;	
+}
+
+/* bottom panel section */
+
+.bottom-panel {
+	background-color: #3688c8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up {
+	padding: 59px 30px 52px 30px;
+	text-align:center;
+}
+
+.learn-more {
+	padding: 59px 30px 52px 30px;
+	text-align: center;
+}
+
+.vertical-line {
+	border-right: thin solid #faf7f5;
+	margin-bottom: 32px;
+	margin-top: 32px;
+}
+
+.button {
+	display: inline-block;
+	vertical-align:middle;
+	text-align: center;
+	white-space:nowrap;	
+}
+
+#partner-button {
+	width: 184px;
+	height:40px;
+	background-color: #f7941e;
+}
+
+#partner-button:hover {
+	background-color: rgba(247, 148, 30, 0.8);
+}
+
+h5 {
+	font-family:'Lato', Helvetica, sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px; 
+	color: #faf7f5;
+	margin: 12px;
+}
+
+#nspire-info-button {
+	width: 184px;
+	height:40px;
+	border: solid 1px #f5f7f9;	
+}
+
+/* footer */
+
+
