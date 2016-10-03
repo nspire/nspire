@@ -2,12 +2,11 @@
 
 $default-font-size: 16px;
 
-
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size:36px;
-  letter-spacing: 2.5px;
-  color: #f0f2f3;
+	font-family: 'Montserrat', sans-serif;
+	font-size:36px;
+	letter-spacing: 2.5px;
+	color: #f0f2f3;
 }
 
 h2 {
@@ -35,6 +34,7 @@ p {
   line-height: 2;
 }
 
+
 h4 {
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 24px;
@@ -42,9 +42,25 @@ h4 {
   letter-spacing: 1.7px;
 }
 
+h5 {
+	font-family:'Lato', Helvetica, sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px; 
+	color: #faf7f5;
+	margin: 12px;
+}
+
 h6 {
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 16px;
   color: #faf7f5;
   letter-spacing: 1.1px;	  
+}
+
+.nav-bar-element {
+  font-family: 'Avenir', Tahoma, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3688c8;
+  letter-spacing: 1.1px;
 }
