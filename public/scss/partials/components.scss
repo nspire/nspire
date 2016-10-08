@@ -56,6 +56,11 @@
 
 /* navbar */
 
+.Logo-Nspire-Only-blue {
+  width: 98px;
+  height: 40px;
+}
+
 .nav-bar {
   margin-top: 20px;
   margin-bottom: -20px; /* weird white space on top */
@@ -82,6 +87,45 @@
   float: right;
 }
 
+.PartnersLink {
+  width: 69px;
+  height: 22px;
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #3688c8;
+}
+
+.EventsLink {
+  width: 56px;
+  height: 22px;
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #3688c8;
+}
+
+.ContactLink {
+  width: 66px;
+  height: 22px;
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #3688c8;
+}
+
 /* cover temp */
 
 .cover {
@@ -104,9 +148,23 @@
 /*about us section */
 
 .about-us {
-	background-color: $off-white;
-	height: 100%;
+	/*background-color: $off-white;*/
+	background-color: $about-us-back;
+	/*height: 100%;*/
 	padding: 54px 44px 66px 64px;
+}
+
+.about-us-title {
+	width: 639.6px;
+	height: 29px;
+	font-family: Lato;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: 1.7px;
+	text-align: center;
+	color: #4a4a4a;
 }
 
 .about-us-content {
@@ -118,11 +176,21 @@
 .aboutus-description {
 	padding-left: 35px;
 	text-align: justify;	
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2;
+	letter-spacing: 0.8px;
+	text-align: justify;
+	color: #999999;
 }
 
 /* partners section */
 
 .partners {
+	text-align: center;
 	background-color: $white;
 	padding: 54px 77px 66px 56px;
 }
