@@ -61,11 +61,21 @@
   .Logo-Nspire-Only-blue {
     width: 98px;
     height: 40px;
+    margin:0;
+  }
+  .partners-network {
+    width:182px;
+    height:25px;
+    margin:8px;
   }
   .nav-bar-element {
+    &.logo {
+      padding:0;
+      margin:7px;
+    }
     display: inline-block;
     float: left;
-    padding: 7px 16px;
+    padding: 8px 16px;
     font-family: 'Avenir', Tahoma, Verdana, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -75,22 +85,25 @@
   .nav-bar-links {
     display: inline-block;
     float: right;
+    margin-right:2%;
   }
   ul {
+    li {
+      padding:3px;
+      margin:10px;
+    }
     margin:0;
   }
-}
-
-
-#partners-network {
-	padding-top: 3.5px;
-	border-left: solid 1px $light-grey;
 }
 
 
 /* cover temp */
 
 .cover {
+  .overlay {
+    background-image: linear-gradient(to bottom, $blue, rgba(53, 137, 206, 0.12));
+    height:inherit;
+  }
   #cover-title {
     margin-top:0;
     color: $white;
@@ -99,12 +112,14 @@
 
   #cover-opener {
     color: $off-white;
-    padding-bottom: 88px;
+    padding-bottom: 64px;
   }
-	height: 516px;
+  background: url('/public/assets/partners-network-background.jpg');
+  background-position:center center;
+  background-size:cover;
+	height: 500px;
 	text-align: center;	
   letter-spacing:2.5px;
-  background-image: linear-gradient(to bottom, $blue, rgba(53, 137, 206, 0.12));
 }
 
 /*about us section */
@@ -156,54 +171,52 @@
 /* benefits section */
 
 .benefits {
+  .benefits-content {
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0;
+  }
+
+  .benefits-section {
+    position: relative;
+    min-height: 1px;
+    flex: 1;
+    padding:16px;
+    text-align:center !important;
+    flex-basis:200px;
+  }
+  p {
+    max-width: 340px;
+    color:$light-grey;
+    margin-right: auto;
+    margin-left: auto;
+    line-height:1.7;
+  }
 	background-color: $lightest-blue;
-}
-
-.benefits-content {
-	display: flex;
-	padding: 0 75px;
-}
-
-.benefits-section {
-  position: relative;
-  min-height: 1px;
-  flex: 1;
-  text-align:center !important;
-}
-
-.benefits p {
-	width: 300px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#benefits-image {
-	display:block;
-	margin-right: auto;
-	margin-left: auto;
 }
 /* bottom panel section */
 
 .bottom-panel {
-	background-color: $blue;
+  .content {
     display: flex;
     justify-content: space-around;
-}
-
-.sign-up {
-	padding: 59px 30px 52px 30px;
-	text-align:center;
-}
-
-.learn-more {
-	padding: 59px 30px 52px 30px;
-	text-align: center;
-}
-
-.vertical-line {
-	border-right: thin solid $off-white;
-	margin-bottom: 32px;
-	margin-top: 32px;
+    flex-wrap:wrap;
+    margin-bottom:16px;
+  }
+  .half {
+    flex-basis:40%;
+    min-width:400px;
+    flex-grow:1;
+    text-align: center;
+  }
+  .vertical-line {
+    border-right: 2px solid $off-white;
+    margin-bottom: 0px;
+    margin-top: 32px;
+    opacity:0.3;
+  }
+  color:$off-white;
+	background-color: $blue;
 }
 
 .button {
