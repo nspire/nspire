@@ -2,52 +2,49 @@
 
 // components are visible parts of the site, such as panels, icons, buttons, etc
 
-.ecosystem-element {
-  float: left;
-  display: inline-block;
-  padding: 0 16px;
-  line-height: 48px;
-  color: rgba(240,241,243,0.5);
-  font-weight: lighter;
-}
-
-#first-ecosystem-element {
-  float: left;
-  display: inline-block;
-  padding-right: 16px;
-  line-height: 48px;
-  color: rgba(240,241,243,0.5);
-  font-weight: lighter;
-}
-
-#ecosystem-divider {
-  float: left;
-  display: inline-block;
-  padding: 0 16px;
-  line-height: 48px;
-  color: rgba(240,241,243,0.5);
-  font-weight: lighter;
-}
-
-.ecosystem-element:hover, #first-ecosystem-element:hover {
-  font-weight: normal;
-  color: $white;
-}
-
-.ecosystem-element:active, #first-ecosystem-element:active {
-  font-weight: bold;
-  color: $white;
-}
+/* global header */
 
 #header {
   display: block;
   width: 100%;
   height: 48px;
   background-color: $dark-grey;
-  overflow: scroll;
 }
 
 .ecosystem {
+  .ecosystem-element {
+    float: left;
+    display: inline-block;
+    padding: 0 16px;
+    line-height: 48px;
+    color: rgba(240,241,243,0.5);
+    font-weight: lighter;
+  }
+  #first-ecosystem-element {
+    float: left;
+    display: inline-block;
+    padding-right: 16px;
+    line-height: 48px;
+    color: rgba(240,241,243,0.5);
+    font-weight: lighter;
+  }
+  #ecosystem-divider {
+    float: left;
+    display: inline-block;
+    padding: 0 16px;
+    line-height: 48px;
+    color: rgba(240,241,243,0.5);
+    font-weight: lighter;
+    cursor:default;
+  }
+  .ecosystem-element:hover, #first-ecosystem-element:hover {
+    font-weight: normal;
+    color: $white;
+  }
+  .ecosystem-element:active, #first-ecosystem-element:active {
+    font-weight: bold;
+    color: $white;
+  }
   margin: 0 auto;
   width: 760px;
   height: 48px;
@@ -56,174 +53,110 @@
 
 /* navbar */
 
-.Logo-Nspire-Only-blue {
-  width: 98px;
-  height: 40px;
-}
-
 .nav-bar {
-  margin-top: 20px;
-  margin-bottom: -20px; /* weird white space on top */
   width: 100%;
   background-color: $white;
   height: 56px;
   clear: both;
+  .Logo-Nspire-Only-blue {
+    width: 98px;
+    height: 40px;
+  }
+  .nav-bar-element {
+    display: inline-block;
+    float: left;
+    padding: 7px 16px;
+    font-family: 'Avenir', Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3688c8;
+    letter-spacing: 1.1px;
+  }
+  .nav-bar-links {
+    display: inline-block;
+    float: right;
+  }
+  ul {
+    margin:0;
+  }
 }
 
-.nav-bar-element {
-  display: inline-block;
-  float: left;
-  padding: 7px 16px;
-  margin-bottom: 60px;
-}
 
 #partners-network {
 	padding-top: 3.5px;
 	border-left: solid 1px $light-grey;
 }
 
-.nav-bar-links {
-  display: inline-block;
-  float: right;
-}
-
-.PartnersLink {
-  width: 69px;
-  height: 22px;
-  font-family: AvenirNext;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 1.1px;
-  text-align: center;
-  color: #3688c8;
-}
-
-.EventsLink {
-  width: 56px;
-  height: 22px;
-  font-family: AvenirNext;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 1.1px;
-  text-align: center;
-  color: #3688c8;
-}
-
-.ContactLink {
-  width: 66px;
-  height: 22px;
-  font-family: AvenirNext;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 1.1px;
-  text-align: center;
-  color: #3688c8;
-}
 
 /* cover temp */
 
 .cover {
+  #cover-title {
+    margin-top:0;
+    color: $white;
+    padding: 151px 258px 13px;
+  }
+
+  #cover-opener {
+    color: $off-white;
+    padding-bottom: 88px;
+  }
 	height: 516px;
-	background-color: $blue; 
 	text-align: center;	
+  letter-spacing:2.5px;
+  background-image: linear-gradient(to bottom, $blue, rgba(53, 137, 206, 0.12));
 }
-
-#cover-title {
-	padding: 151px 258px 13px;
-}
-
-#cover-opener {
-	color: $off-white;
-	padding-bottom: 88px;
-}
-
-
 
 /*about us section */
 
 .about-us {
-	/*background-color: $off-white;*/
-	background-color: $about-us-back;
-	/*height: 100%;*/
-	padding: 54px 44px 66px 64px;
-}
-
-.about-us-title {
-	width: 639.6px;
-	height: 29px;
-	font-family: Lato;
-	font-size: 24px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	letter-spacing: 1.7px;
-	text-align: center;
-	color: #4a4a4a;
-}
-
-.about-us-content {
-	display: inline-flex;
-	align-content: space-between;
-	width: 100%;
-}
-
-.aboutus-description {
-	padding-left: 35px;
-	text-align: justify;	
-	font-family: Lato;
-	font-size: 16px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 2;
-	letter-spacing: 0.8px;
-	text-align: justify;
-	color: #999999;
+  .about-us-content {
+    display: flex;
+    align-content: space-between;
+    flex-wrap:wrap;
+    width: 100%;
+    padding:24px 0;
+  }
+  video {
+    width:520px;
+    height:293px;
+    flex-grow:1;
+    flex-basis:520px;
+  }
+  .about-us-description {
+    h3 {
+      color: $dark-grey;
+    }
+    padding: 0 35px;
+    text-align: justify;  
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.8px;
+    text-align: justify;
+    color: $light-grey;
+    flex-basis:400px;
+    flex-grow:1;
+  }
+	background-color: $lightest-blue;
 }
 
 /* partners section */
-
 .partners {
+  row.spaced-out > div {
+    padding:32px;
+  }
 	text-align: center;
 	background-color: $white;
-	padding: 54px 77px 66px 56px;
-}
-
-table {
-	width: 100%;
-}
-
-#partners-expand {
-	display:none;	
-}
-
-td {
-	  position: relative;
-	  min-height: 1px;
-	  padding: 50px 30px 50px 30px;
-}
-
-td img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.collapsible {
-	text-align: center;
 }
 
 /* benefits section */
 
 .benefits {
-	background-color: $off-white;
-	padding: 66px 44px 58px 44px;
+	background-color: $lightest-blue;
 }
 
 .benefits-content {
@@ -274,27 +207,22 @@ td img {
 }
 
 .button {
+  &:hover {
+    cursor:pointer;
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+  }
+  &.orange {
+    background-color: $orange;
+  }
+  &.outline {
+    border: solid 2px $off-white; 
+  }
 	display: inline-block;
 	vertical-align:middle;
 	text-align: center;
 	white-space:nowrap;	
-}
-
-#partner-button {
-	width: 184px;
-	height:40px;
-	background-color: $orange;
-}
-
-#partner-button:hover {
-	background-color: $t-orange;
-}
-
-
-#nspire-info-button {
-	width: 184px;
-	height:40px;
-	border: solid 1px $off-white;	
+  padding:0px 8px;
+  color:$white;
 }
 
 /* footer */

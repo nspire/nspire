@@ -1,3 +1,36 @@
 // layouts
 
 // layouts are things such as grids, flexboxes, and containers
+$max-content-width: 1020px;
+
+.content {
+	&.fullwidth {
+		max-width:100%;
+	}
+	max-width:$max-content-width;
+	margin:auto;
+}
+
+.grid {
+	row {
+		div {
+			img {
+				max-height:90px;
+				max-width:150px;
+			}
+			vertical-align: center;
+			flex-grow:1;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		width:100%;
+		overflow:hidden;
+		display:flex;
+		flex-direction:row;
+	}
+}
+
+.section {
+  padding: 24px 5%;
+}
