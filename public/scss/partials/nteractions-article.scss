@@ -1,9 +1,11 @@
-body{
-	background: white;
+body { 
+	background: white; /* TEMPORARY */
 }
 
 .nteractions-article {
 	max-width: 940px;
+	font-size: $default-font-size;
+	color: $dark-grey;
 	
 	/* Article Structure and Content*/
 	.article-title {
@@ -33,27 +35,30 @@ body{
 
     margin-top: 40px;
     margin-bottom: 24px;
-    height: 54px;
+    height: 56px;
 
 		.author-img {
 			width: 56px;
 			height: 56px;
 			flex: 1 100%;
+			border-radius: 50%;
 		}
 		.author-name {
 			flex: 1 auto;
 			font-weight: 600;
-			padding-left: 10px;
+			padding-left: 16px;
+			line-height: 28px;
 		}
+
 		.author-time {
 			flex: 1 auto;
 			color: $light-grey;
-			padding-left: 10px;
+			padding-left: 16px;
+			line-height: 28px;
 		}
 	}
 
 	p {
-		opacity: 0.7;
 		font-size: 1.125em;
 
 		&:first-of-type::first-letter {
@@ -61,12 +66,73 @@ body{
 			line-height: 1em;
 			text-transform: uppercase;
 		}
+		&:last-of-type {
+			margin-bottom: 3em;
+		}
 	}
 
 	.article-share {
-		hr {
-			margin: 16px 0;
+		color: $dark-grey;
+		font-size: 1.25em;
+
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+		-webkit-align-content: flex-start;
+    align-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+
+    .social-media-button {
+    	height: 1.3em;
+    	width: 1.3em;
+    	margin-left: 1em;
+    }
+
+    .nspire-button {
+    	color: white;
+    	background-color: $cool-green;
+    	margin-left: auto;
+    	padding: 4px 10px;
+    }
+
+	}
+
+	.related-articles-title {
+		margin-top: 56px;
+		font-weight: 600;
+		font-size: 1.75em;
+		text-align: center;
+	}
+
+	.article-related {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+		-webkit-align-content: flex-start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+
+    margin-top: 24px;
+    margin-bottom: 66px;
+
+		.suggested-article {
+			flex: 1 30%;
+			height: 300px;
 		}
+	}
+
+	hr {
+		margin: 22px 0;
+		height: 0px;
+		background-color: $light-grey;
 	}
 
 	/* Media */
@@ -79,11 +145,11 @@ body{
 		}	
 
 		&.img-half {
-			margin-left: 0.5%;
-			margin-right: 0.5%;
-			width: 48%;
+			width: 49%;
 			height: 300px; /* PLACEHOLDER */
 			margin-bottom: 1em;
+
+			&.right { margin-left: 1%; }
 		}
 	}
 
@@ -95,9 +161,8 @@ body{
 		font-style: italic;
 		text-align: center;
 		font-size: 1.2em;
-
 		padding: 48px 84px;
-
+		line-height: 1.67;
 	}
 
 }
