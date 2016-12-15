@@ -1,0 +1,51 @@
+<div>
+
+  <!-- Page Content -->
+	<div class="container">
+	  <div class="row">
+
+		  <!-- START-UPS -->
+		  <div class="row"></div>
+		  <div class="row"></div>
+	  	<div class="col s12 center">
+		  	<h5><strong>{{category}}</strong></h5>
+	  	<div class="divider"></div>
+	  	</div>
+	  	<div class="row"></div>
+
+	  	<!-- Cards -->
+	  	<!-- Use first card as master template -->
+{{#each articles}}
+	<div class="col s10 offset-s1 m6 l4">
+      <div class="card large hoverable">
+        <div class="card-image">
+          <img src="{{img}}">
+        </div>
+        <div class="card-content">
+            <div class="col s6" style="padding: 0;">
+            	<p class="truncate left left-align">{{author}}</p>
+            </div>
+            <div class="col s6" style="padding: 0;">
+            	<p class="truncate right right-align">Just Now</p>
+            </div>
+        	<span class="card-title">{{title}}</span>
+        	<p>subtitle goes here</p>
+        </div>
+        <div class="card-action">
+          <a href="/article/{{_id}}" style="color: #31b46a;">7 MIN<i class="material-icons right">chevron_right</i></a>
+        </div>
+      </div>
+    </div>
+{{/each}} 
+    <div class="row"></div>
+    <div class="row">
+        <div class="center col s12">
+  				<a class="waves-effect waves-light btn" style="background-color: #31b46a;"><i class="material-icons left">chevron_left</i>PREV</a>
+					<a class="waves-effect waves-light btn" style="background-color: #31b46a;"><i class="material-icons right">chevron_right</i>NEXT</a>
+				</div>
+			</div>
+    
+<!-- End -->
+		</div>
+	</div>
+</div>

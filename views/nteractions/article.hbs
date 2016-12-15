@@ -1,0 +1,67 @@
+<div class="nteractions-article content">
+	{{#article}}
+	<div class="article-title">
+		{{title}}
+	</div>	
+	<div class="article-subtitle">
+		{{subtitle}}
+	</div>
+
+	<div class="article-details">
+		<img class="author-img" src="http://www.american.edu/uploads/profiles/large/chris_palmer_profile_11.jpg">
+		<div class="author-name"><span>{{author}}</span></div>
+		<div class="author-time"><span>{{updated}} &bull; {{minutes}} Minute Read</span></div>
+	</div>
+
+	<img class="article-img img-full" src="{{img}}">
+	{{#each content}}
+		{{#ifEqual type "text"}}
+			{{#each content}}
+				<p>{{this}}</p>
+			{{/each}}
+		{{/ifEqual}}
+		{{#ifEqual type "img"}}
+			{{#each content}}
+				<img class="article-img img-half" src="{{this}}">
+			{{/each}}
+		{{/ifEqual}}
+	{{/each}}
+
+	<div class="article-quote">
+		“The next step is to cut away any additional fins that the fish may have. Do this by cutting into the fish in a circular motion around the fins.”
+	</div>
+
+{{!-- 	<img class="article-img img-half left">
+	<img class="article-img img-half right"> --}}
+
+	<hr>
+	<div class="article-share">
+		<span>Share This Article</span>
+		<img class="social-media-button twitter" src="/public/assets/twitter.svg">
+		<img class="social-media-button facebook" src="/public/assets/facebook.svg">
+		<span class="nspire-button">Nspire</span>
+	</div>
+	<hr>
+
+{{!-- 	<div class="related-articles-title">
+		RELATED ARTICLES
+	</div>
+	<div class="article-related">
+		<div class="suggested-article">
+			<div class="author"></div>
+			<div class="date"></div>
+			<div class="title"></div>
+		</div>
+		<div class="suggested-article">
+			<div class="author"></div>
+			<div class="date"></div>
+			<div class="title"></div>
+		</div>
+		<div class="suggested-article">
+			<div class="author"></div>
+			<div class="date"></div>
+			<div class="title"></div>
+		</div>
+	</div> --}}
+	{{/article}}
+</div>

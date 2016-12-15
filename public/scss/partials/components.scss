@@ -37,12 +37,8 @@
     font-weight: lighter;
     cursor:default;
   }
-  .ecosystem-element:hover, #first-ecosystem-element:hover {
+  .ecosystem-element:hover {
     font-weight: normal;
-    color: $white;
-  }
-  .ecosystem-element:active, #first-ecosystem-element:active {
-    font-weight: bold;
     color: $white;
   }
   margin: 0 auto;

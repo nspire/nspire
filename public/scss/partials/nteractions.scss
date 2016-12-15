@@ -2,6 +2,11 @@ body {
 	background: white; /* TEMPORARY */
 }
 
+nav {
+	.nav-wrapper {
+		padding:0 24px;
+	}
+}
 .nteractions-article {
 	max-width: 940px;
 	font-size: $default-font-size;
