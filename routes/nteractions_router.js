@@ -6,16 +6,18 @@ const article = require('../models/article.js')
 
 var respond = (success, data) => { return { "success": success, "data": data }}
 
-// home page
-router.get('/', function(req, res, next) {
-  res.render('nteractions/categories', { layout: 'nteractions'})
-})
-
 // articles JSON
 router.get('/articles', function(req,res,next) {
 	article.find({}, (err, articles) => {
 		if(err) res.json(respond(false, err))
 		res.json(respond(true, articles))
+	})
+})
+
+router.get('/', function(req,res,next) {
+	article.find({}, (err, articles) => {
+		if(err) res.render('nteractions/home', { layout: 'nteractions'})
+		res.render('nteractions/home', { layout: 'nteractions', articles: articles})
 	})
 })
 

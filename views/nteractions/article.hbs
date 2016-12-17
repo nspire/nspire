@@ -17,19 +17,25 @@
 	{{#each content}}
 		{{#ifEqual type "text"}}
 			{{#each content}}
-				<p>{{this}}</p>
+				<p>{{this.content}}</p>
+			{{/each}}
+		{{/ifEqual}}
+		{{#ifEqual type "quote"}}
+			{{#each content}}
+				<div class="article-quote">"{{this.content}}"</div>
 			{{/each}}
 		{{/ifEqual}}
 		{{#ifEqual type "img"}}
 			{{#each content}}
-				<img class="article-img img-half" src="{{this}}">
+				<img class="article-img img-full" src="{{this.content}}">
+			{{/each}}
+		{{/ifEqual}}
+		{{#ifEqual type "img-half"}}
+			{{#each content}}
+				<img class="article-img img-half" src="{{this.content}}">
 			{{/each}}
 		{{/ifEqual}}
 	{{/each}}
-
-	<div class="article-quote">
-		“The next step is to cut away any additional fins that the fish may have. Do this by cutting into the fish in a circular motion around the fins.”
-	</div>
 
 {{!-- 	<img class="article-img img-half left">
 	<img class="article-img img-half right"> --}}
