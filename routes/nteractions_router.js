@@ -29,7 +29,7 @@ router.get('/category/:category', function(req,res,next) {
 })
 
 router.get('/article/:id', function(req, res, next) {
-	article.find({ "_id": req.params.id }, (err, article) => {
+	article.findOne({ "_id": req.params.id }, (err, article) => {
 		if(err) return res.render('nteractions/article', { layout: 'nteractions'})
 		res.render('nteractions/article', { layout: 'nteractions', article: article})
 	})
