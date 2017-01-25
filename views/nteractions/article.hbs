@@ -20,6 +20,11 @@
 				<p>{{this.content}}</p>
 			{{/each}}
 		{{/ifEqual}}
+		{{#ifEqual type "title"}}
+			{{#each content}}
+				<h3>{{this.content}}</h3>
+			{{/each}}
+		{{/ifEqual}}
 		{{#ifEqual type "quote"}}
 			{{#each content}}
 				<div class="article-quote">"{{this.content}}"</div>

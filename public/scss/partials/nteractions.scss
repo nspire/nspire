@@ -25,7 +25,9 @@ nav {
 	max-width: 940px;
 	font-size: $default-font-size;
 	color: $dark-grey;
-	
+	h3 {
+		font-weight:bold;
+	}
 	/* Article Structure and Content*/
 	.article-title {
 		width: 100%;
