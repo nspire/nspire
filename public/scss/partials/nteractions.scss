@@ -189,16 +189,14 @@ nav {
 
 //need to convert the following css for splash page to scss
 
-*cover*/
-
 .cover {
 	height: 600px;
-	background-image: url("rain.jpg"); 
+	//background-image: url("rain.jpg"); 
 	text-align: center;	
 }
 
 #cover-title {
-	padding: 151px 0px 13px;
+  padding: 151px 10% 13px;
   line-height: 1.36;
   font-family: 'Montserrat', sans-serif;
   font-size:44px;
