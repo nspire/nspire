@@ -1,18 +1,33 @@
 <div>
+<div class = "cover">
+  <div class="overlay">
+    <div class="content">
+    <p id="cover-title">3 Ideas Worth Exchanging | IDX Toronto</p>
+      <div class="tags">
+          <p id="topic"> NSPIRE </p>
+          <p id="dot"> • </p>
+          <p id="read-time"> 6 MIN READ </p>
+      </div>
+{{!--       <div class="button-green">
+        <button id="read-now"> Read Now </button>
+      </div> --}}
+    </div>
+  </div>
+</div>
 
   <!-- Page Content -->
 	<div class="container">
     <div class="row"></div>
     <div class="row"></div>
 	  <div class="row">
-
+<!-- Need Avenir Next Demi Bold font -->
 	  	<!-- Cards -->
 	  	<!-- Use first card as master template -->
 {{#each articles}}
 	<div class="col s10 offset-s1 m6 l4">
-      <div class="article card large hoverable" onclick="window.location = '/article/{{_id}}';">
-        <div class="card-image">
-          <img src="{{img}}">
+      <div class="article card large hoverable z-depth-3" onclick="window.location = '/article/{{_id}}';">
+        <div class="card-image" style="min-height: 40%; max-height: 40%;overflow: hidden;">
+          <img align="middle" src="{{img}}" >
         </div>
         <div class="card-content">
             <div class="col s6" style="padding: 0;">
@@ -31,12 +46,13 @@
     </div>
 {{/each}} 
     <div class="row"></div>
-    <div class="row">
+
+{{!--     <div class="row">
         <div class="center col s12">
   				<a class="waves-effect waves-light btn" style="background-color: #31b46a;"><i class="material-icons left">chevron_left</i>PREV</a>
 					<a class="waves-effect waves-light btn" style="background-color: #31b46a;"><i class="material-icons right">chevron_right</i>NEXT</a>
 				</div>
-			</div>
+			</div> --}}
     
 <!-- End -->
 		</div>

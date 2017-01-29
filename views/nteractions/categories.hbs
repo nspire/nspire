@@ -17,7 +17,7 @@
 	  	<!-- Use first card as master template -->
 {{#each articles}}
 	<div class="col s10 offset-s1 m6 l4">
-      <div class="article card large hoverable" onclick="window.location = '/article/{{_id}}';">
+      <div class="article card large hoverable z-depth-3" onclick="window.location = '/article/{{_id}}';">
         <div class="card-image">
           <img src="{{img}}">
         </div>
@@ -38,7 +38,7 @@
     </div>
 {{/each}} 
     <div class="row"></div>
-    <div class="row">
+    <div class="row" style="display:none">
         <div class="center col s12">
   				<a class="waves-effect waves-light btn" style="background-color: #31b46a;"><i class="material-icons left">chevron_left</i>PREV</a>
 					<a class="waves-effect waves-light btn" style="background-color: #31b46a;"><i class="material-icons right">chevron_right</i>NEXT</a>

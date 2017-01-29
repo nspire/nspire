@@ -8,9 +8,9 @@
 	</div>
 
 	<div class="article-details">
-		<img class="author-img" src="http://www.american.edu/uploads/profiles/large/chris_palmer_profile_11.jpg">
+		{{!-- <img class="author-img" src="http://www.american.edu/uploads/profiles/large/chris_palmer_profile_11.jpg"> --}}
 		<div class="author-name"><span>{{author}}</span></div>
-		<div class="author-time"><span>{{updated}} &bull; {{minutes}} Minute Read</span></div>
+		<div class="author-time"><span>{{formatDate updated}} &bull; {{minutes}} Minute Read</span></div>
 	</div>
 
 	<img class="article-img img-full" src="{{img}}">
@@ -18,6 +18,11 @@
 		{{#ifEqual type "text"}}
 			{{#each content}}
 				<p>{{this.content}}</p>
+			{{/each}}
+		{{/ifEqual}}
+		{{#ifEqual type "title"}}
+			{{#each content}}
+				<h3>{{this.content}}</h3>
 			{{/each}}
 		{{/ifEqual}}
 		{{#ifEqual type "quote"}}
@@ -42,10 +47,10 @@
 
 	<hr>
 	<div class="article-share">
-		<span>Share This Article</span>
+{{!-- 		<span>Share This Article</span>
 		<img class="social-media-button twitter" src="/public/assets/twitter.svg">
-		<img class="social-media-button facebook" src="/public/assets/facebook.svg">
-		<span class="nspire-button">Nspire</span>
+		<img class="social-media-button facebook" src="/public/assets/facebook.svg"> --}}
+		<span class="nspire-button">{{category}}</span>
 	</div>
 	<hr>
 

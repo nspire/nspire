@@ -29,7 +29,10 @@ var hbs = handlebars.create({
 				return opts.fn(this);
 			else
 				return opts.inverse(this);
-			}
+			},
+        formatDate: function(d){
+            return d.toDateString()
+        }
     },
     defaultLayout: 'single', 
     extname: '.hbs'
