@@ -1,0 +1,41 @@
+<div class="nteractions-admin">
+<h1>Nteractions Publishing</h1>
+<form action="/article" method="POST" name="create_article">
+<div class="row">
+	<div class="input-field col s6">
+		<input id="title" type="text"></input>
+		<label for="title">Title</label>
+	</div>
+    <div class="input-field col s6">
+      <input id="subtitle" type="text">
+      <label for="subtitle">Subtitle</label>
+    </div>
+</div>
+<div class="row">
+    <div class="input-field col s6">
+      <input id="author" type="text">
+      <label for="author">Author</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="img_url" type="text">
+      <label for="img_url">Image URL</label>
+    </div>
+</div>
+<div class="row">
+  <div class="input-field col s6">
+    <select>
+      <option value="" disabled selected>Choose your option</option>
+      <option value="Alumni-Stories">Alumni Stories</option>
+      <option value="Technology">Technology</option>
+      <option value="Nspire">Nspire</option>
+      <option value="Start-Ups">Start-Ups</option>
+    </select>
+    <label>Materialize Select</label>
+  </div>
+    <div class="input-field col s6">
+      <input id="read_time" type="text">
+      <label for="read_time">Read Time (minutes)</label>
+    </div>
+</div>
+</form>
+</div>
