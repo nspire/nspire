@@ -39,6 +39,14 @@ router.get('/article/:id', function(req, res, next) {
 	})
 })
 
+router.put('/article/:id', function(req, res, next) {
+	
+})
+
+router.delete('/article/:id', function(req, res, next) {
+
+})
+
 router.post('/clear', function(req,res,next) {
 	if(req.body.secret == "nspire2017n") {
 		article.remove({}, function (err, result) {
