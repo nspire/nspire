@@ -21,6 +21,10 @@ router.get('/', function(req,res,next) {
 	})
 })
 
+router.get('/admin', function(req, res, next) {
+	res.render('nteractions/admin', { layout: 'nteractions-admin'})
+})
+
 router.get('/category/:category', function(req,res,next) {
 	article.find({ "category": req.params.category }, (err, articles) => {
 		if(err) return res.render('nteractions/categories', { layout: 'nteractions'})
