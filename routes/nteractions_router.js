@@ -40,11 +40,25 @@ router.get('/article/:id', function(req, res, next) {
 })
 
 router.put('/article/:id', function(req, res, next) {
-	
+	if(req.body.secret == "nspire2017n") {
+		article.findOneAndUpdate({ "_id": req.params.id }, req.body, function(err, article){
+			if(err) res.json(respond(false, err))
+			res.json(respond(true, article))
+		})
+	} else {
+		res.json("permission denied")
+	}
 })
 
 router.delete('/article/:id', function(req, res, next) {
-
+	if(req.body.secret == "nspire2017n") {
+		article.findOneAndRemove({ "_id": req.params.id }, function(err, article){
+			if(err) res.json(respond(false, err))
+			res.json(respond(true, article))
+		})
+	} else {
+		res.json("permission denied")
+	}
 })
 
 router.post('/clear', function(req,res,next) {
