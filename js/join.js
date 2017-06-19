@@ -32,11 +32,13 @@ $(document).ready(function() {
   });
 
   // Space out nav links on smaller screens
-  if ($(window).width() <= 991) {
-    $('.nav-item').toggleClass('my-2');
-  }
+  $(window).width().change(function(){
+    if ($(window).width() <= 991) {
+      $('.nav-item').toggleClass('my-2');
+    }
+  });
 
-  // Really dumb manual scrollspy implementation because Bootstrap's is being fucking useless
+  /* Really dumb manual scrollspy implementation because Bootstrap's is being fucking useless
   function isScrolledIntoView(elem) {
       var docViewTop = $(window).scrollTop();
       var docViewBottom = docViewTop + $(window).height();
@@ -65,5 +67,6 @@ $(document).ready(function() {
       $('#navVideo').removeClass(navHighlightClass);
     }
   }, 300);
+  */
 
 });
