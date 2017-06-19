@@ -20,6 +20,10 @@ a:hover {
     color: white;
 }
 
+a:visited, a:active {
+    color: white;
+}
+
 @media screen and (min-width: 992px) {
     .card {
         min-height: 290px;
