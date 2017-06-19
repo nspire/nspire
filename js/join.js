@@ -32,11 +32,9 @@ $(document).ready(function() {
   });
 
   // Space out nav links on smaller screens
-  $(window).width().change(function(){
-    if ($(window).width() <= 991) {
-      $('.nav-item').toggleClass('my-2');
-    }
-  });
+  if ($(window).width() <= 991) {
+    $('.nav-item').toggleClass('my-2');
+  }
 
   /* Really dumb manual scrollspy implementation because Bootstrap's is being fucking useless
   function isScrolledIntoView(elem) {
