@@ -62,7 +62,7 @@ a:hover {
 }
 
 .jumbotron {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/group.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/group3.jpg'), url('../img/group2.jpg');
     background-size: cover;
     background-position: center;
 }
