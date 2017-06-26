@@ -18,14 +18,14 @@ $(document).ready(function() {
   var vid = document.getElementById("video");
 
   vid.addEventListener('ended', function(event) {
-    $('#myModal').modal('hide')
+    $('#video-modal').modal('hide')
   }, false);
 
-  $('#myModal').on('shown.bs.modal', function(event) {
+  $('#video-modal').on('shown.bs.modal', function(event) {
     vid.play();
   })
 
-  $('#myModal').on('hidden.bs.modal', function(event) {
+  $('#video-modal').on('hidden.bs.modal', function(event) {
     vid.pause();
   })
 

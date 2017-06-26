@@ -27,10 +27,12 @@
                 <ul class="collapse navbar-collapse mb-0" id="navbarNav">
                     <a class="navbar-brand mt-2 p-0" href="http://nspire.org"><img src="img/nspire_logo.png" style="max-height:2.0rem"></a>
                     <!--a class="nav-item nav-link mt-1" id="navWelcome" href="#welcome">Welcome</a>
-                    <a class="nav-item nav-link mt-1" id="navVideo" href="#video">Video</a>
                     <a class="nav-item nav-link mt-1" id="navThisYear" href="#thisyear">This Year</a-->
                     <div class="ml-auto">
-                        <a class="nav-item btn btn-outline-primary btn-lg text-white px-2 py-1" style="height: 51px; border-color: rgb(204, 204, 204)" href="https://www.facebook.com/NspireNetwork/"><i class="fa fa-facebook-official fa-2x" aria-disabled="true"></i></a>                       
+                        <a class="nav-item btn btn-outline-primary btn-lg text-white px-2 pt-0" style="height: 51px; width: 56px; border: none" href="mailto:info@nspire.org"><i class="fa fa-envelope fa-2x mt-1" aria-disabled="true"></i></a>                        
+                        <a class="nav-item btn btn-outline-primary btn-lg text-white px-2 pt-0" style="height: 51px; width: 56px; border: none" href="https://www.facebook.com/NspireNetwork/"><i class="fa fa-facebook-square fa-2x mt-1" aria-disabled="true"></i></a>
+                        <a class="nav-item btn btn-outline-primary btn-lg text-white px-2 pt-0" style="height: 51px; width: 56px; border: none" href="https://www.twitter.com/NspireNetwork/"><i class="fa fa-twitter-square fa-2x mt-1" aria-disabled="true"></i></a>
+                        <a class="nav-item btn btn-outline-primary btn-lg text-white px-2 pt-0" style="height: 51px; width: 56px; border: none" href="https://www.linkedin.com/company-beta/1086556"><i class="fa fa-linkedin-square fa-2x mt-1" aria-disabled="true"></i></a>
                         <a class="nav-item btn btn-inverse btn-outline-secondary btn-lg text-white" href="http://nbtc.nspire.org/">NBTC '17</a>
                         <a class="nav-item btn btn-inverse btn-outline-secondary btn-lg text-white" href="http://bit.ly/2tYmQLP">JOIN US</a>
                     </div>
@@ -44,16 +46,14 @@
                     <div class="card-block">
                         <h1 class="mb-1 display-4"><b>WELCOME TO</b></h1>
                         <img src="img/nspire_logo_white.svg" style="max-height: 16vh; max-width: 75vw">
-                        <h3 class="mb-4">THE FUTURE OF CANADIAN BIZTECH</h3>
-                        <div class="row">
+                        <div class="row rounded">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <h4 class="text-white">Talent doesn't develop itself, nor does innovative technology in Canada. We know; we've been bringing the two together for 17 years.</h4>
                                 <h5 class="text-white">Nspire is Canada's largest student-run non-profit in the business and technology space, empowering tomorrow's leaders via amazing experiences.</h5>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
-                        <a href="#thisyear" onclick="$('#myModal').modal()" class="btn text-white btn-transparent btn-lg mt-5"><h2 class="m-0">Watch the video <br><i class="fa fa-play fa-3x"></i></h2></a>
+                        <a href="#thisyear" onclick="$('#video-modal').modal()" class="btn text-white btn-transparent btn-lg mt-5"><h2 class="m-0">Watch the video <br><i class="fa fa-play fa-3x"></i></h2></a>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@
             </div>
         </div>
         <!--Video Modal-->
-        <div class="modal fade mt-5" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade mt-5" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" style="background-color: black">
                     <div class="row modal-body">
