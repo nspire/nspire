@@ -15,7 +15,11 @@ $(document).ready(function() {
   });
   
   // Video and modal config
-  var vid = document.getElementById("video"); 
+  var vid = document.getElementById("video");
+
+  vid.addEventListener('ended', function(event) {
+    $('#myModal').modal('hide')
+  }, false);
 
   $('#myModal').on('shown.bs.modal', function(event) {
     vid.play();
