@@ -1,19 +1,4 @@
 $(document).ready(function() {
-  
-  // Add smooth scrolling on # links
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
-    }
-  });
-  
   // Video and modal config
   var vid = document.getElementById("video");
   vid.play();
@@ -30,6 +15,21 @@ $(document).ready(function() {
   $('#video-modal').on('hidden.bs.modal', function(event) {
     vid.pause();
   })
+  
+  // Add smooth scrolling on # links
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+  
 
   // Link highlighting
   $('a').hover(function(event) { 
