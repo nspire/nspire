@@ -16,6 +16,8 @@ $(document).ready(function() {
   
   // Video and modal config
   var vid = document.getElementById("video");
+  vid.play();
+  vid.pause();
 
   vid.addEventListener('ended', function(event) {
     $('#video-modal').modal('hide')
