@@ -1,6 +1,6 @@
-###Nspire.org
+## Nspire.org ##
 
-#####Installation
+### Installation ###
 1. Install NodeJS and update npm using `npm install -g npm`
 2. Install project dependencies with `npm install`
 3. If you receive a dependency error for node_modules/mongodb/bson, go into the node_modules/mongodb directory and run `npm install`
