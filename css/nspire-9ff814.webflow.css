@@ -518,8 +518,8 @@ body {
     text-align: center;
   }
   .hero.nbtc {
-    background-image: -webkit-linear-gradient(0deg, rgba(106, 17, 203, .5), rgba(110, 0, 230, .5)), url('../images/arrchana-bw-quote-feathered.png'), -webkit-linear-gradient(315deg, #6a11cb, #6e00e6);
-    background-image: linear-gradient(90deg, rgba(106, 17, 203, .5), rgba(110, 0, 230, .5)), url('../images/arrchana-bw-quote-feathered.png'), linear-gradient(135deg, #6a11cb, #6e00e6);
+    background-image: -webkit-linear-gradient(0deg, rgba(106, 17, 203, .5), rgba(110, 0, 230, .7)), url('../images/arrchana-bw-quote-feathered.png'), -webkit-linear-gradient(315deg, #6a11cb, #6e00e6);
+    background-image: linear-gradient(90deg, rgba(106, 17, 203, .5), rgba(110, 0, 230, .7)), url('../images/arrchana-bw-quote-feathered.png'), linear-gradient(135deg, #6a11cb, #6e00e6);
     background-position: 0px 0px, 97% 100%, 0px 0px;
     background-size: auto, 277px, auto;
     background-repeat: repeat, no-repeat, repeat;
