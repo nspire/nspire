@@ -106,11 +106,17 @@ body {
 .local-nav-link {
   display: inline-block;
   margin-right: 15px;
+  margin-bottom: 0px;
   margin-left: 15px;
-  padding: 30px 5px;
+  padding: 30px 5px 15px;
   color: #fff;
   font-size: 18px;
   text-decoration: none;
+}
+
+.local-nav-link:hover {
+  margin-bottom: -4px;
+  border-bottom: 3px solid #fff;
 }
 
 .div-block {
