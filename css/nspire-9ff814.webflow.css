@@ -81,6 +81,15 @@ body {
   background-attachment: scroll, scroll;
 }
 
+.hero.nbtc {
+  background-image: url('../images/arrchana-bw-quote-feathered.png'), -webkit-linear-gradient(315deg, #6a11cb, #6e00e6);
+  background-image: url('../images/arrchana-bw-quote-feathered.png'), linear-gradient(135deg, #6a11cb, #6e00e6);
+  background-position: 97% 100%, 0px 0px;
+  background-size: 277px, auto;
+  background-repeat: no-repeat, repeat;
+  background-attachment: scroll, scroll;
+}
+
 .local-nav {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -95,7 +104,7 @@ body {
 }
 
 .local-nav-link {
-  display: none;
+  display: inline-block;
   margin-right: 15px;
   margin-left: 15px;
   padding: 30px 5px;
@@ -105,6 +114,7 @@ body {
 }
 
 .div-block {
+  display: none;
   margin-top: 20px;
   float: right;
   -webkit-box-orient: vertical;
@@ -118,8 +128,12 @@ body {
   align-items: center;
 }
 
+.div-block.nbtc {
+  display: block;
+}
+
 .logo-pipe {
-  display: inline-block;
+  display: none;
   width: 1px;
   height: 34px;
   margin-right: 20px;
@@ -129,7 +143,7 @@ body {
 }
 
 .text-block-2 {
-  display: inline-block;
+  display: none;
   font-size: 18px;
 }
 
@@ -143,7 +157,7 @@ body {
 
 .hero-text {
   position: relative;
-  bottom: -215px;
+  bottom: -160px;
   display: inline-block;
   margin-left: 100px;
   -webkit-box-align: stretch;
@@ -152,7 +166,12 @@ body {
   align-items: stretch;
 }
 
+.hero-text.nspire-org {
+  bottom: -215px;
+}
+
 .text-block-3 {
+  width: 855px;
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 48px;
@@ -224,6 +243,7 @@ body {
 }
 
 .text-applications {
+  display: block;
   margin-top: 40px;
   font-size: 18px;
   line-height: 48px;
@@ -232,6 +252,7 @@ body {
 }
 
 .text-applications.due-date {
+  display: none;
   margin-top: 10px;
   font-weight: 700;
 }
@@ -331,6 +352,119 @@ body {
   float: right;
 }
 
+.heading-2 {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.position-area {
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.position-title {
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.position-description {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.position-block {
+  margin-bottom: 80px;
+}
+
+.link-2 {
+  display: block;
+  color: #4a90e2;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: right;
+  text-decoration: none;
+}
+
+.text-block-7 {
+  color: #4a90e2;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.link-3 {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.link-3:hover {
+  text-decoration: underline;
+}
+
+.other-opportunities {
+  display: none;
+  margin-bottom: 20px;
+  background-image: -webkit-linear-gradient(180deg, #6a11cb, #2575fc);
+  background-image: linear-gradient(270deg, #6a11cb, #2575fc);
+  font-weight: 400;
+}
+
+.other-opportunities.home {
+  margin-top: 40px;
+  background-image: -webkit-linear-gradient(180deg, #6a11cb, #6e00e6);
+  background-image: linear-gradient(270deg, #6a11cb, #6e00e6);
+}
+
+.text-block-8 {
+  position: relative;
+  top: 50%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.div-block-5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-block-9 {
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.button-3 {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.button-3:hover {
+  background-color: #fff;
+  color: #6a11cb;
+}
+
 @media (max-width: 991px) {
   .nspire-global-navigation {
     -webkit-box-orient: horizontal;
@@ -375,6 +509,7 @@ body {
   }
   .hero {
     position: relative;
+    height: auto;
     background-image: -webkit-linear-gradient(315deg, rgba(37, 117, 252, .5), #6a11cb), url('../images/arrchana-bw-quote-feathered.png'), -webkit-linear-gradient(315deg, #2575fc, #6a11cb);
     background-image: linear-gradient(135deg, rgba(37, 117, 252, .5), #6a11cb), url('../images/arrchana-bw-quote-feathered.png'), linear-gradient(135deg, #2575fc, #6a11cb);
     background-position: 0px 0px, 100% 100%, 0px 0px;
@@ -411,15 +546,19 @@ body {
     font-size: 48px;
   }
   .hero-text {
-    top: 50%;
+    position: relative;
+    bottom: 100px;
+    display: block;
+    margin-top: 200px;
     margin-right: 20px;
     margin-left: 20px;
-    -webkit-transform: translate(0px, -50%);
-    -ms-transform: translate(0px, -50%);
-    transform: translate(0px, -50%);
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
     text-align: center;
   }
   .text-block-3 {
+    width: auto;
     font-size: 18px;
     line-height: 30px;
   }
@@ -442,19 +581,12 @@ body {
     -ms-flex: 1;
     flex: 1;
   }
-  .row-a {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
   .row-a.row-b {
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   .div-block-2 {
     margin-right: 40px;
@@ -512,6 +644,11 @@ body {
   .reason-icon.high-five {
     width: 187px;
   }
+  .text-block-9 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -522,6 +659,20 @@ body {
     padding-right: 20px;
     padding-left: 20px;
   }
+  .row-a {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .row-a.row-b {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
   .div-block-3 {
     margin-bottom: 80px;
   }
@@ -530,6 +681,18 @@ body {
     margin-top: 10px;
     margin-left: 20px;
     float: none;
+  }
+  .position-area {
+    text-align: left;
+  }
+  .position-description {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .text-block-9 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
 }
 
@@ -583,6 +746,9 @@ body {
   .text-applications {
     font-size: 16px;
   }
+  .text-applications.due-date {
+    line-height: 32px;
+  }
   .button {
     padding: 15px 30px;
     font-size: 16px;
@@ -608,5 +774,28 @@ body {
   }
   .reason-icon.high-five {
     width: 120px;
+  }
+  .position-area {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .position-title {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .position-description {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .link-3 {
+    font-size: 16px;
+  }
+  .text-block-9 {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .button-3 {
+    font-size: 16px;
+    line-height: 32px;
   }
 }
