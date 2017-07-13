@@ -667,8 +667,14 @@ body {
   .reason-icon.guy {
     width: 92px;
   }
+  .reason-icon.guy.nbtc {
+    width: auto;
+  }
   .reason-icon.high-five {
     width: 187px;
+  }
+  .reason-icon.nbtc {
+    width: auto;
   }
   .text-block-9 {
     margin-right: 20px;
@@ -801,8 +807,14 @@ body {
   .reason-icon.guy {
     width: 70px;
   }
+  .reason-icon.guy.nbtc {
+    width: 120px;
+  }
   .reason-icon.high-five {
     width: 120px;
+  }
+  .reason-icon.nbtc {
+    width: 150px;
   }
   .position-area {
     font-size: 16px;
