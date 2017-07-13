@@ -517,11 +517,22 @@ body {
     background-repeat: repeat, no-repeat, repeat;
     text-align: center;
   }
+  .hero.nbtc {
+    background-image: -webkit-linear-gradient(0deg, rgba(106, 17, 203, .5), rgba(110, 0, 230, .5)), url('../images/arrchana-bw-quote-feathered.png'), -webkit-linear-gradient(315deg, #6a11cb, #6e00e6);
+    background-image: linear-gradient(90deg, rgba(106, 17, 203, .5), rgba(110, 0, 230, .5)), url('../images/arrchana-bw-quote-feathered.png'), linear-gradient(135deg, #6a11cb, #6e00e6);
+    background-position: 0px 0px, 97% 100%, 0px 0px;
+    background-size: auto, 277px, auto;
+    background-repeat: repeat, no-repeat, repeat;
+    background-attachment: scroll, scroll, scroll;
+  }
   .local-nav {
     position: relative;
     z-index: 1;
     display: block;
     text-align: center;
+  }
+  .local-nav.nbtc {
+    display: none;
   }
   .logo {
     margin-left: 0px;
@@ -531,7 +542,11 @@ body {
     margin-top: 0px;
     float: none;
   }
+  .div-block.nbtc {
+    display: none;
+  }
   .logo-pipe.mobile {
+    display: none;
     height: 24px;
     margin-bottom: -9px;
   }
@@ -539,6 +554,7 @@ body {
     color: #fff;
   }
   .text-block-2.mobile {
+    display: none;
     font-size: 14px;
   }
   .heading {
@@ -556,6 +572,10 @@ body {
     -ms-transform: none;
     transform: none;
     text-align: center;
+  }
+  .hero-text.nspire-org {
+    bottom: 120px;
+    display: block;
   }
   .text-block-3 {
     width: auto;
@@ -600,9 +620,6 @@ body {
     margin-right: 20px;
     margin-left: 20px;
   }
-  .button-2.home {
-    display: inline-block;
-  }
   .div-block-4 {
     margin-right: 20px;
     margin-left: 20px;
@@ -621,15 +638,24 @@ body {
     background-color: transparent;
     color: #fff;
   }
+  .container-2.nbtc {
+    display: block;
+  }
   .brand {
     padding-top: 10px;
   }
   .menu-button.w--open {
     background-color: #2575fc;
   }
+  .menu-button.nbtc.w--open {
+    background-color: #4b0a92;
+  }
   .nav-menu {
     background-color: #2575fc;
     color: #fff;
+  }
+  .nav-menu.nbtc {
+    background-color: #4b0a92;
   }
   .nav-link {
     color: #fff;
@@ -704,6 +730,9 @@ body {
   }
   .image-3 {
     width: 100px;
+  }
+  .image-3.nbtc {
+    width: 140px;
   }
   .logo-pipe {
     display: none;
