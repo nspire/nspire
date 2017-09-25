@@ -263,10 +263,6 @@ body {
   font-weight: 700;
 }
 
-.text-applications.due-date.nbtc {
-  display: block;
-}
-
 .button {
   display: inline-block;
   width: 250px;
