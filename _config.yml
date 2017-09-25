@@ -1,6 +1,6 @@
 name: Nspire
 safe: true
-permalink: pretty
+pygments: true
 exclude: [README.md, LICENSE.md, CNAME, Gemfile, Gemfile.lock]
 baseurl: ''
 markdown: redcarpet
