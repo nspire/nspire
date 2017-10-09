@@ -1,248 +1,39 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link rel="shortcut icon" href="img/nspire_logo_square.png">
-        
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <script src="https://use.fontawesome.com/22916ab5b2.js"></script>
+---
+layout: default
+title: Nspire
+---
+	<video id="welcome-video" muted poster="img/welcome_to_nspire.png" controls>
+		<source src="img/nspire_info_video.mp4" type="video/webm" >
+		<source src="img/nspire_info_video.mp4" type="video/mpeg">
+	</video>
+<script>
+	$("#intro").height($(window).height());
+</script>
+<div id="what-is-nspire" class="row what-is-nspire">
+	{% include what-is-nspire.html %}
+</div>
+<div id="newsletter" class="row newsletter">
+	{% include newsletter.html %}
+</div>
+<div id="about" class="row about hidden-xs">
+	{% include about.html %}
+</div>
+<div id="initiatives" class="row initiatives">
+	{% include initiatives.html %}
+</div>
+<!-- <div id="events" class="row events">
+	{% include events.html %}
+</div> -->
+<div id="team" class="row team hidden-xs">
+	{% include team.html %}
+</div>
+<div id="in-the-media" class="row in-the-media hidden-xs">
+	{% include in-the-media.html %}
+</div>
+<div id="partners" class="row partners hidden-xs">
+	{% include partners.html %}
+</div>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        
-        <link href="css/index.css" rel="stylesheet">
-        <script type="text/javascript" src="js/index.js"></script>
-                
-        
-        <title>Join Nspire</title>        
-    </head>
-    <body>
-        <nav class="navbar navbar-toggleable-sm navbar-inverse fixed-top">
-            <div class="w-100" id="nav">
-                <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon text-white"></span>
-                </button>
-                <ul class="collapse navbar-collapse mb-0" id="navbarNav">
-                    <a class="navbar-brand mt-2 p-0" href="/"><img src="img/nspire_logo.png" style="max-height:2.0rem"></a>
-                    <!--a class="nav-item nav-link mt-1" id="navWelcome" href="#welcome">Welcome</a>
-                    <a class="nav-item nav-link mt-1" id="navThisYear" href="#thisyear">This Year</a-->
-                    <div class="ml-auto">
-                        <a class="nav-item btn btn-outline-primary btn-lg text-white px-2 pt-0" style="height: 51px; width: 56px; border: none" href="mailto:info@nspire.org" target="_blank"><i class="fa fa-envelope fa-2x mt-1" aria-disabled="true"></i></a>                        
-                        <a class="nav-item btn btn-outline-primary btn-lg text-white px-2 pt-0" style="height: 51px; width: 56px; border: none" href="https://www.facebook.com/NspireNetwork/" target="_blank"><i class="fa fa-facebook-square fa-2x mt-1" aria-disabled="true"></i></a>
-                        <a class="nav-item btn btn-outline-primary btn-lg text-white px-2 pt-0" style="height: 51px; width: 56px; border: none" href="https://www.twitter.com/NspireNetwork/" target="_blank"><i class="fa fa-twitter-square fa-2x mt-1" aria-disabled="true"></i></a>
-                        <a class="nav-item btn btn-outline-primary btn-lg text-white px-2 pt-0" style="height: 51px; width: 56px; border: none" href="https://www.linkedin.com/company-beta/1086556" target="_blank"><i class="fa fa-linkedin-square fa-2x mt-1" aria-disabled="true"></i></a>
-                        <a class="nav-item btn btn-inverse btn-outline-secondary btn-lg text-white" href="http://nbtc.nspire.org/">NBTC '17</a>
-                        <a class="nav-item btn btn-inverse btn-outline-secondary btn-lg text-white" href="http://bit.ly/2tYmQLP" target="_blank">JOIN US</a>
-                    </div>
-                </ul>
-            </div>
-        </nav>
-        <div class="container-fluid" id="content">
-            <!--Landing-->
-            <div class="row d-flex align-items-center pt-5 pb-0 jumbotron" id="welcome">
-                <div class="col-12 text-center">
-                    <div class="card-block">
-                        <h1 class="mb-1 display-4"><b>WELCOME TO</b></h1>
-                        <img src="img/nspire_logo_white.svg" style="max-height: 16vh; max-width: 75vw">
-                        <div class="row rounded">
-                            <div class="col-md-3"></div>
-                            <div class="col-md-6">
-                                <h5 class="text-white">Canada's largest student-run non-profit in the business and technology space</h5>
-                            </div>
-                            <div class="col-md-3"></div>
-                        </div>
-                        <a href="#thisyear" onclick="$('#video-modal').modal()" class="btn text-white btn-transparent btn-lg mt-5"><h2 class="m-0">Watch the video <br><i class="fa fa-play fa-3x"></i></h2></a>
-                    </div>
-                </div>
-                <div class="w-100" style="height: 62px; position: relative; bottom: 0; margin-bottom: -77px" id="thisyear"></div>
-            </div>
-            <!--This Year-->
-            <div class="container">
-                <div class="row d-flex align-items-center">
-                    <div class="col-12 text-center">
-                        <div class="row mb-5">
-                            <div class="col-12">
-                                <h1 class="text-primary">WHAT WE'RE UP TO THIS YEAR</h1>
-                                <h3>A snapshot of our teams and what they create</h3>
-                            </div>
-                        </div>
-                        <div class="row text-left">
-                            <div class="col-lg-4 px-2 mb-3">
-                                <div class="card bg-black border-sp-right">
-                                    <div class="card-block">
-                                        <h3 class="card-title text-primary">WESTERN</h3>
-                                        <p class="card-text">Empower exceptional students to access the business-technology space through interactive industry-specific discussions, skills-based workshops, and competitions.</p>
-                                        <h3 class="card-title text-primary">WATERLOO</h3>
-                                        <p class="card-text">"[Create unique, bold, completely reimagined projects that marry technology and the arts to produce meaningful experiences] that make our heart[s] sing."<br> — Steve Jobs</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 px-2 mb-3">
-                                <div class="card bg-black">
-                                    <div class="card-block">
-                                        <h3 class="card-title text-primary">NBTC</h3>
-                                        <p class="card-text">For the past 17 years, the National Business and Technology Conference has been Canada's premiere destination for emerging professionals in the business and technology industry.</p>
-                                        <h3 class="card-title text-primary">TORONTO</h3>
-                                        <p class="card-text">Activate action-hungry students by leveraging Toronto's booming tech scene through intensive, well thought-out experiences.</p>
-                                    </div>                            
-                                </div>
-                            </div>
-                            <div class="col-lg-4 px-2 mb-3">
-                                <div class="card bg-black border-sp-left">
-                                    <div class="card-block">
-                                        <h3 class="card-title text-primary">DIGITAL</h3>
-                                        <p class="card-text">Design and develop compelling digital experiences, working in a tight-knit team to turn ideas into pixels and vision into reality.</p>
-                                        <h3 class="card-title text-primary">ALUMNI RELATIONS</h3>
-                                        <p class="card-text">Cultivate a dialogue and fostering a supportive environment between newcomers and Nspire alumni who work in the business and technology industry.</p>
-                                    </div>                              
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <h5 class="my-3">The quality of our product reflects the quality of our people. We're looking for curious, persistent self-starters to lead the charge and make great things happen.</h5>
-                                <a href="Nspire-2017-2018-Open-Positions.pdf" target="_blank" class="my-5"><h3 id="vision">Check out our open positions here</h3></a>
-                                <a href="http://bit.ly/2tYmQLP" target="_blank" class="my-3 btn btn-inverse btn-outline-secondary text-white btn-lg"><h2 class="m-0">JOIN US <i class="fa fa-rocket"></i></h2></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Sponsor List-->
-            <div class="container text-center px-5">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="text-primary">OUR SPONSORS</h1>
-                    </div>
-                    <div class="col-12">
-                        <h3 class="h3">Diamond Sponsors</h3>
-                        <div class="row mb-5">
-                            <div class="my-2 col-md-4">
-                                <img class="our-logo" sizes="(max-width: 479px) 100vw, (max-width: 767px) 230px, (max-width: 991px) 216px, 230px" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880edb5937929b9560516b3_sanofi.png" srcset="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880edb5937929b9560516b3_sanofi-p-500x63.png 500w, https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880edb5937929b9560516b3_sanofi.png 676w" width="230">
-                            </div>
-                            <div class="my-2 col-md-4">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5886d2c8d4e36d6717ae9e6c_Rogers_tm_Logo.png" width="160">
-                            </div>
-                            <div class="my-2 col-md-4">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880ee5aaa421b115feb0e82_mbna.png" width="105">
-                            </div>
-                        </div>
-                        <h3 class="h3">Platinum Sponsors</h3>
-                        <div class="row mb-5">
-                            <div class="my-2 col-md-4">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f314833df0ad2305fdce_CIBC_logo.svg" width="60">
-                            </div>
-                            <div class="my-2 col-md-4">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f326ff87cca93e035877_lassonde.svg" width="180">
-                            </div>
-                            <div class="my-2 col-md-4">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/589a5e9245b617860bd97566_Tata_Consultancy.svg" width="120">
-                            </div>
-                        </div>
-                        <h3 class="h3">Gold Sponsors</h3>
-                        <div class="row mb-5">
-                            <div class="my-2 col-md-3">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f4fd8b2e85c654eab7c6_cpa.svg" width="70">
-                            </div>
-                            <div class="my-2 col-md-3">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f50aaa421b115feb23e0_Accenture.svg" width="130">
-                            </div>
-                            <div class="my-2 col-md-3">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f512833df0ad230601ae_telus.svg" width="130">
-                            </div>
-                            <div class="my-2 col-md-3">
-                                <img class="our-logo" sizes="80px" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58be15eb2baff49e53488050_MSc%20-%20Social%20Media%20Logo.png" srcset="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58be15eb2baff49e53488050_MSc%20-%20Social%20Media%20Logo-p-500x500.png 500w, https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58be15eb2baff49e53488050_MSc%20-%20Social%20Media%20Logo.png 600w" width="80">
-                            </div>
-                        </div>
-                        <h3 class="h3">Silver Sponsors</h3>
-                        <div class="row mb-5">
-                            <div class="my-2 col-md-2">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f5cb937929b9560525d9_IBM_logo.svg" width="75">
-                            </div>
-                            <div class="my-2 col-md-2">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f5d25d7058f133bc5f90_bdc.png" width="70">
-                            </div>
-                            <div class="my-2 col-md-2">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f5f3ff87cca93e0359a3_synaptive.png" width="140">
-                            </div>
-                            <div class="my-2 col-md-3">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f65b18a8ea0434cd1975_McKinsey_and_Company_Logo_1.svg" width="160">
-                            </div>
-                            <div class="my-2 col-md-3">
-                                <img class="our-logo" sizes="(max-width: 479px) 100vw, (max-width: 767px) 210px, (max-width: 991px) 157px, 210px" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58868059d626a91a082118a7_ubc_sauder_school.png" srcset="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58868059d626a91a082118a7_ubc_sauder_school-p-500x56.png 500w, https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58868059d626a91a082118a7_ubc_sauder_school-p-800x90.png 800w, https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58868059d626a91a082118a7_ubc_sauder_school-p-1080x121.png 1080w, https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58868059d626a91a082118a7_ubc_sauder_school.png 1417w" width="210">
-                            </div>
-                        </div>
-                        <h3 class="h3">Bronze Sponsors</h3>
-                        <div class="row mb-5">
-                            <div class="my-2 col-md-2">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f68de6003680124274c0_cfa-institute.svg" width="160">
-                            </div>
-                            <div class="my-2 col-md-2">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/5880f69f8b2e85c654eabd54_koho.svg" width="100">
-                            </div>
-                            <div class="my-2 col-md-2">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58993e403f88e87c0ec86aad_Queens%20MEI.svg" width="180">
-                            </div>
-                            <div class="my-2 col-md-2">
-                                <img class="our-logo" sizes="(max-width: 479px) 100vw, (max-width: 767px) 180px, (max-width: 991px) 98px, 133.328125px" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/589a5f6ff6084f3d7b65b1ee_logo-diagram%402x.png" srcset="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/589a5f6ff6084f3d7b65b1ee_logo-diagram%402x-p-500x63.png 500w, https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/589a5f6ff6084f3d7b65b1ee_logo-diagram%402x.png 658w" width="180">
-                            </div>
-                            <div class="my-2 col-md-2">
-                                <img class="our-logo" sizes="(max-width: 479px) 100vw, (max-width: 767px) 140px, (max-width: 991px) 98px, 133.328125px" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/589a5fda866615ba07f341cf_logo-dialogue%402x.png" srcset="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/589a5fda866615ba07f341cf_logo-dialogue%402x-p-500x111.png 500w, https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/589a5fda866615ba07f341cf_logo-dialogue%402x.png 606w" width="140">
-                            </div>
-                            <div class="my-2 col-md-2">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/589a6006f6084f3d7b65b25f_logo-collage%402x.png" width="100">
-                            </div>
-                        </div>
-                        <div class="row mb-5">
-                            <div class="my-2 col-md-6">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/589a613c6a4403807b0be2ab_logo-7678a909.svg" width="120">
-                            </div>
-                            <div class="my-2 col-md-6">
-                                <img class="our-logo" sizes="(max-width: 479px) 100vw, 120px" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58b3922e670102252ef0299e_sabetaip-logo-l.png" srcset="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58b3922e670102252ef0299e_sabetaip-logo-l-p-500x154.png 500w, https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58b3922e670102252ef0299e_sabetaip-logo-l.png 650w" width="120">
-                            </div>
-                        </div>
-                        <h3 class="h3">In-kind Sponsors</h3>
-                        <div class="row mb-5">
-                            <div class="my-2 col-md-4">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58818aed4b40ca894f8b8f6d_teabot.png" width="100">
-                            </div>
-                            <div class="my-2 col-md-4">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58818ba0081df4784fd30e5c_EventMobi_White.svg" width="120">
-                            </div>
-                            <div class="my-2 col-md-4">
-                                <img class="our-logo" sizes="110px" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58818c75dd4726982f1c35d4_interaxon.png" srcset="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58818c75dd4726982f1c35d4_interaxon-p-500x78.png 500w, https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58818c75dd4726982f1c35d4_interaxon.png 557w" width="110">
-                            </div>
-                        </div>
-                        <h3 class="h3">Affiliates</h3>
-                        <div class="row mb-5">
-                            <div class="my-2 col-md-6">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/589941d8c89e814a07fafc6b_FC%20Logo%20copy.png" width="90">
-                            </div>
-                            <div class="my-2 col-md-6">
-                                <img class="our-logo" src="https://daks2k3a4ib2z.cloudfront.net/57eb1510eaa002fa3bf12e04/58b39302f3dbd88e3cf8c2a2_gourmet_settings.png" width="120">
-                            </div>
-                        </div>
-                        <br><small class="text-muted my-5">&copy Nspire 2017</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Video Modal-->
-        <div class="modal fade mt-5" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content" style="background-color: black">
-                    <div class="row modal-body">
-                        <div class="col-12 text-center">
-                            <video id="video" class="w-100" poster="img/welcome_to_nspire.png" controls>
-                                <source src="img/nspire_info_video.mp4" type="video/webm">
-                                <source src="img/nspire_info_video.mp4" type="video/mpeg">
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+<script>
+	setTimeout(function(){ document.getElementById("welcome-video").play(); }, 5200);
+</script>
