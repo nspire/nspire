@@ -807,6 +807,10 @@ textarea.w-select {
   min-height: 100%;
   z-index: -100;
 }
+.w-background-video > video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
 .w-slider {
   position: relative;
   height: 300px;
@@ -1210,6 +1214,10 @@ textarea.w-select {
  * 1. All IE versions add extra space at the bottom without this.
  */
 .w-lightbox-strip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   padding: 0 1vh;
   line-height: 0;
   /* 1 */
@@ -1348,6 +1356,10 @@ textarea.w-select {
 }
 .w-richtext:after {
   clear: both;
+}
+.w-richtext[contenteditable="true"]:before,
+.w-richtext[contenteditable="true"]:after {
+  white-space: initial;
 }
 .w-richtext ol,
 .w-richtext ul {
