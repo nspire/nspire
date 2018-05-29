@@ -4,7 +4,7 @@
   "description": "New one-pager for nspire.org",
   "main": "js/index.js",
   "scripts": {
-    "sass": "sass scss/custom.scss css/style.css",
+    "sass": "sass scss/custom.scss scss/dist/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ilya Motamedi/Nspire",
