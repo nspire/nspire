@@ -8,7 +8,7 @@ $(document).ready(() => {
   });
 
   // collapse nav on anchor selection
-  $('.nav-link').click(() => {
+  $('.pow').click(() => {
     $('#navbarNav').collapse('hide');
     $('#menu-toggle').removeClass('is-active');
   });
