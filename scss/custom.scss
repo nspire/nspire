@@ -3,6 +3,7 @@ $enable-gradients: true;
 @import "bootstrap/scss/bootstrap";
 
 body {
+  font-family: 'Lato', sans-serif;
   position: relative;
   scroll-snap-type: mandatory;
   /* older spec implementation */
@@ -25,6 +26,10 @@ body {
 
   button:focus {
     outline: none;
+  }
+
+  a.dropdown-item:hover {
+    background-color: #64c2e7;
   }
 }
 

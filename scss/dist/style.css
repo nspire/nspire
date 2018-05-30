@@ -9450,6 +9450,7 @@ h3 {
   }
 }
 body {
+  font-family: "Lato", sans-serif;
   position: relative;
   scroll-snap-type: mandatory;
   /* older spec implementation */
@@ -9470,6 +9471,9 @@ body {
 }
 .navbar button:focus {
   outline: none;
+}
+.navbar a.dropdown-item:hover {
+  background-color: #64c2e7;
 }
 
 section {
