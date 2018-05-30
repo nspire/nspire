@@ -1,5 +1,5 @@
 # Static Nspire.org
-Nspire.org website written in HTML5/SCSS
+Served at http://nspire.org
 
 ### Deployment
 1. Execute `npm run sass` in project folder.
