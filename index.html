@@ -41,6 +41,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark pt-2 pb-1">
       <div class="container d-flex flex-row justify-content-between">
         <a class="navbar-brand" href="/"><img src="assets/img/Nspire-Logo-White.svg" alt=""></a>
+        <a class="btn btn-outline-warning ml-auto pow" href="#join-1">We're Hiring!</a>
         <button id="menu-toggle" class="hamburger hamburger--collapse pt-1 navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="hamburger-box">
               <span class="hamburger-inner"></span>
@@ -129,7 +130,7 @@
               <small>And many more...</small>
             </div>
           </div>
-          <button class="btn btn-outline-light" id="show-more-sponsors" type="button" data-toggle="collapse" data-target="#more-sponsors" aria-expanded="false" aria-controls="more-logos"><i id="show-more-sponsors-inner" class="fas fa-2x fa-chevron-down"></i></button>
+          <button class="btn btn-outline-light border-0" id="show-more-sponsors" type="button" data-toggle="collapse" data-target="#more-sponsors" aria-expanded="false" aria-controls="more-logos"><i id="show-more-sponsors-inner" class="fas fa-2x fa-chevron-down"></i></button>
         </div>
       </section>
     </div>
@@ -189,19 +190,19 @@
                   <td>Our video production team geared toward creating quality content to promote and augment events. Nspire TV has been consolidated into the core of each chapter.</td>
                 </tr>
                 <tr>
-                  <th scope="row">Nteractions</th>
+                  <th scope="row" id="join-1">Nteractions</th>
                   <td>An in-house publication focused on business and technology.</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-        <hr class="mt-1 mb-3" id="join-1">        
+        <hr class="mt-1 mb-3">      
         <div class="row">
           <div class="col-12">
             <h3>Want to contribute?</h3>
             <p>We're always excited to expand our horizons and deliver more fantastic experiences. If you'd like to explore starting a new chapter with us, or would like to play a supporting role, click below!</p>
-            <a href="https://goo.gl/forms/q9zdxA0LjE1qxwH03" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">Join Us!</a>
+            <button class="btn btn-outline-primary" data-toggle="modal" data-target="#join-modal">Join Us!</button>
           </div>
         </div>
       </div>
@@ -222,7 +223,7 @@
           <table class="table table-borderless">
             <thead>
               <tr>
-                <th class="w-auto" scope="col" style="min-width: 210px">Directors</th>
+                <th class="w-auto" scope="col" style="min-width: 210px">Board of Directors</th>
                 <th class="w-auto" scope="col" style="min-width: 210px">Digital</th>
                 <th class="w-auto" scope="col" style="min-width: 210px">Western</th>
                 <th class="w-auto" scope="col" style="min-width: 210px">Toronto</th>
@@ -231,7 +232,7 @@
             </thead>
             <tbody>
               <tr>
-                <td>Ilya Motamedi</td>
+                <td>Cheryl Lin</td>
                 <td>Ilya Motamedi</td>
                 <td>Erica Yarmol-Matusiak</td>
                 <td>Ilya Kreynin</td>
@@ -245,7 +246,7 @@
                 <td>Rishabh Bahri</td>
               </tr>
               <tr>
-                <td>Cheryl Lin</td>
+                <td>Ilya Motamedi</td>
                 <td></td>
                 <td>Margarita Rojkova</td>
                 <td>Saba Mirabolghasemi</td>
@@ -265,7 +266,7 @@
           <div class="col-12">
             <h3>Want to contribute?</h3>
             <p>We're always excited to expand our horizons and deliver more fantastic experiences. If you'd like to explore starting a new chapter with us, or would like to play a supporting role, click below!</p>
-            <a href="https://goo.gl/forms/q9zdxA0LjE1qxwH03" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">Join Us!</a>
+            <button class="btn btn-outline-primary" data-toggle="modal" data-target="#join-modal">Join Us!</button>
           </div>
         </div>
       </div>
@@ -288,5 +289,28 @@
       </div>
     </footer>
     <!-- End Footer -->
+    <!-- Begin Join Us Modal -->
+    <div class="modal fade" id="join-modal" tabindex="-1" role="dialog" aria-labelledby="join-modal-title" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <strong class="modal-title" id="join-modal-title">Join Us</strong>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Thank you for your interest in joining the Nspire team! Depending on how (and where) you'd like to help out, you'll have to fill out a separate form. Please click below for the appropriate form.</p>
+            <p class="text-danger">All applications are due by 11:59pm on June 15 EST.</p>
+            <div class="d-flex flex-column flex-lg-row justify-contents-center align-items-center">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdwqubZo3wAwymAPwbWLvMIi5ce9oWsjLsVucol-0wR8V2xpA/viewform" class="btn btn-outline-primary mx-lg-2 my-2 my-lg-0 w-100" rel="noopener noreferrer" target="_blank"> Apply to <strong>Nspire Western</strong></a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7IGOI1JAxvNA38y7NwcjF-AR2ITK4qm8QaQdqadAj0zdn2w/viewform" class="btn btn-outline-primary mx-lg-2 my-2 my-lg-0 w-100" rel="noopener noreferrer" target="_blank"> Apply to <strong>Nspire Digital</strong></a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeLc0_0elkG2LajAopeKT-xfl8ud_2GLZ0SuDAv2S93ft5ag/viewform" class="btn btn-outline-primary mx-lg-2 my-2 my-lg-0 w-100" rel="noopener noreferrer" target="_blank"> Apply to <strong>start a new chapter</strong></a>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Join Us Modal -->
   </body>
 </html>
